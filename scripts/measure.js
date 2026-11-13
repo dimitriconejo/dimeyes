@@ -1,4 +1,4 @@
-// dimeyes · rendered-layout measurement.
+// Dimeyes · rendered-layout measurement.
 // Paste the whole file into the browser JavaScript tool; the last expression is the result (JSON).
 // Returns header, sections with vertical rhythm, grids, alignment axes, spacing tally,
 // the design's own base unit, type, radii and colours.

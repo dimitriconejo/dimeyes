@@ -1,5 +1,5 @@
 /**
- * dimeyes Tailwind preset (v3): Dimitri Conejo Sanz's system, from the Cathopic
+ * Dimeyes Tailwind preset (v3): Dimitri Conejo Sanz's system, from the Cathopic
  * production config and Christicons. Values mirror tokens.css; keep them in sync.
  *
  *   // tailwind.config.js

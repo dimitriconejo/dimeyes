@@ -76,11 +76,11 @@ His 18 A/B decisions from a test with near-identical design pairs, his three wri
 - **Contrast:** judged by eye. Flag text when it's genuinely hard to read.
 - **Holydemia** is old work. It isn't a reference for his current judgment.
 
-## His review of dimeyes' corrections (12 November 2026)
+## His review of Dimeyes' corrections (12 November 2026)
 
 These are his reactions to four specific designs, kept as evidence. The general rules drawn from them live in `eye.md` and in SKILL.md. Never apply a case-specific remark literally to another design: apply the principle behind it.
 
-He reviewed four corrections made with dimeyes. His verdict: they "improve quite a lot" (*se mejora bastante*). What he would still change:
+He reviewed four corrections made with Dimeyes. His verdict: they "improve quite a lot" (*se mejora bastante*). What he would still change:
 
 - **Pricing landing.**
   - The "new, now integrated" badge ended up too subtle for a feature: *"lo veo un poco como que sutil. No llama la atención y creo que es un feature, por tanto tendría que ir un pelín más destacado."*
@@ -94,7 +94,7 @@ He reviewed four corrections made with dimeyes. His verdict: they "improve quite
 - **Advent post.**
   - He likes it, but almost every text was white: *"apenas hay jerarquía de color. O de transparencia, me gusta a veces jugar con transparencia."*
   - The date, place and entry lines were "very monotonous and very cramped". He'd separate them a bit more and make them more visual, with icons: *"me gusta tirar de iconos cuando hace falta… pueden quedar muy bien y sumar."*
-- **Pixelito.** It "is still Pixelito" and dimeyes improved it. The style isn't his taste, "but that's a matter of taste". Respecting another brand's language was right.
+- **Pixelito.** It "is still Pixelito" and Dimeyes improved it. The style isn't his taste, "but that's a matter of taste". Respecting another brand's language was right.
 - **General.** He usually applies negative letter-spacing to headings, following web and app conventions: *"suelo aplicar interletrado negativo en los headings."*
 
 The rules from this review live in `eye.md` (§3.1, §3.2, §3.4, §3.6, §3.7, §4, §5, §6) and in SKILL.md's principles.

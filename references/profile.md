@@ -1,6 +1,6 @@
 # Dimitri's design profile
 
-Reference for the dimeyes skill: his signature, his words, his calibration choices and how he solves each component.
+Reference for the Dimeyes skill: his signature, his words, his calibration choices and how he solves each component.
 
 > **Scope: his style, not a template.** This file documents how Dimitri's own work looks and is built. Use it to design for him, for his own products (Cathopic, Christicons, dimconex and the Catholic network apps he designs) or "like him", and to recognise his signature when reviewing his own work. A Catholic or parish subject is not his product. Never use it to push another design toward his look: other designs are judged in their own language with `eye.md` (see "Two layers" in SKILL.md). When a design has no system, fill the gap with his eye, not his look: his spacing scale, a short type ladder, concentric radii and colour roles built from the design's own palette, type and shapes; say which values were added.
 

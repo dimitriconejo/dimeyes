@@ -26,7 +26,7 @@ How Dimitri critiques, with his real material. He dictated the critiques below b
 - **Group:** "all the labels are different from each other" (*todos los labels son diferentes entre sí*), not one finding per label.
 - **Think of the person using the interface:** "the user will need to aim carefully with their finger" (*el usuario va a necesitar apuntar bien con el dedo*).
 - **Vocabulary:** over the top (*exagerado*), too flashy (*cantoso*), saturates (*satura*), cramped (*comprimido*), flat (*plano*), unreadable (*no se lee*), doesn't work (*no funciona*), elegant (*elegante*), without overdoing it (*sin exagerar*).
-- **Precision:** in written critiques he names the problem, but when he reviews in Figma he gives exact values ("two pixels missing here" (*aquí faltan dos píxeles*), "the radius should be 8 instead of 12" (*el radio debería ser 8 en vez de 12*)). dimeyes does both: first the diagnosis in his voice, then the corrections with values.
+- **Precision:** in written critiques he names the problem, but when he reviews in Figma he gives exact values ("two pixels missing here" (*aquí faltan dos píxeles*), "the radius should be 8 instead of 12" (*el radio debería ser 8 en vez de 12*)). Dimeyes does both: first the diagnosis in his voice, then the corrections with values.
 
 ## His short phrases (A/B test answers)
 
@@ -50,20 +50,20 @@ How Dimitri critiques, with his real material. He dictated the critiques below b
 
 His calibrating words: "a touch" (*un pelín*), "a bit" (*un poco*). Small adjustments are named as small; keep that proportion in the corrections.
 
-## Spanish output labels
+## Output labels in Spanish
 
-When answering in Spanish, use these labels in place of the English ones:
+The labels follow the language of the answer (the full English and Spanish sets are in SKILL.md, Response format). In Spanish:
 
 - **Review:** Veredicto · Diagnóstico · Correcciones (columns: # · Gravedad · Dónde · Qué falla · Corrección; severities: Crítico · Importante · Detalle) · Lo que funciona · Versión corregida.
 - **Audit:** Veredicto · Evaluación por dimensión (columns: Dimensión · Estado · Evidencia; states: Bien · Mejorable · Mal) · Qué mejorar · Lo que funciona.
 
 ## Full output example
 
-Input: the account settings screen above (values measured in its code). The example is in English here; dimeyes answers in the language of the request (usually Spanish from Spain). It shows his eye working inside the screen's own language: its blue, its zinc gray ramp, its 12 radius and its 4-px base stay; only the excess and the strays go.
+Input: the account settings screen above (values measured in its code). The example is in English here; Dimeyes answers in the language of the request, with every label in that language. It shows his eye working inside the screen's own language: its blue, its zinc gray ramp, its 12 radius and its 4-px base stay; only the excess and the strays go.
 
 ---
 
-**Verdict:** No lo firmaría (I wouldn't sign it). The blue is everywhere and hides what matters; there's no hierarchy.
+**Verdict:** I wouldn't sign it. The blue is everywhere and hides what matters; there's no hierarchy.
 
 **Diagnosis**
 - **Color.** The blue accent appears seven times: breadcrumb, eyebrow, photo button, help text, toggle, "Guardar y salir" and "Restablecer". On top of that, the PRO badge has a violet-pink gradient that has nothing to do with the rest. Keep the blue for a single action.
