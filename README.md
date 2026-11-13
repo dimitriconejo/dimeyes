@@ -1,6 +1,8 @@
 # dimeyes
 
-A Claude skill that reviews, audits, corrects and designs with the eye of Dimitri Conejo Sanz, a strict, detail-obsessed UX/UI designer in Madrid whose north star is harmony.
+An agent skill that reviews, audits, corrects and designs with the eye of Dimitri Conejo Sanz, a strict, detail-obsessed UX/UI designer in Madrid whose north star is harmony.
+
+It follows the open `SKILL.md` standard, so it works in Claude, Codex and any agent that reads skills.
 
 Skill page: [skills.dimitriconejo.com/dimeyes](https://skills.dimitriconejo.com/dimeyes)
 
@@ -33,7 +35,7 @@ In correct mode, an editable file in your workspace (HTML, CSS, JSX…) is edite
 
 ### skills CLI
 
-Uses the [`skills`](https://github.com/vercel-labs/skills) CLI, which finds the `SKILL.md` at the root of this repository.
+Uses the [`skills`](https://github.com/vercel-labs/skills) CLI, which finds the `SKILL.md` at the root of this repository and installs it for the agents you choose: Claude Code, Codex, Cursor and others.
 
 ```bash
 npx skills add dimitriconejo/dimeyes
@@ -57,6 +59,20 @@ mkdir -p ~/.claude/skills
 ln -s "$PWD/dimeyes" ~/.claude/skills/dimeyes
 ```
 
+### Codex
+
+Codex reads personal skills from `~/.agents/skills`:
+
+```bash
+git clone https://github.com/dimitriconejo/dimeyes.git ~/.agents/skills/dimeyes
+```
+
+Mention it with `$dimeyes`, or let Codex pick it when your task matches.
+
+### Other agents
+
+Any agent that supports the `SKILL.md` standard can load the folder as it is. Clone or unzip it into that agent's skills folder.
+
 ### Claude.ai and Claude desktop
 
 1. Download [dimeyes.zip](https://github.com/dimitriconejo/dimeyes/releases/latest/download/dimeyes.zip) from the latest release.
@@ -66,7 +82,7 @@ Skills on Claude.ai and Claude desktop need code execution turned on.
 
 ## Usage
 
-It triggers on its own when you ask for a review, a correction or a design; in Claude Code you can also call it with `/dimeyes`. It works on screenshots, mockups, Figma files, websites, UI code, templates and graphic pieces.
+It triggers on its own when you ask for a review, a correction or a design. You can also call it by name: `/dimeyes` in Claude Code, `$dimeyes` in Codex. It works on screenshots, mockups, Figma files, websites, UI code, templates and graphic pieces.
 
 ```text
 Review this checkout screen.                      (attach a screenshot)
@@ -151,10 +167,11 @@ skills CLI:
 npx skills update dimeyes
 ```
 
-Claude Code, if you cloned or linked the repository:
+Claude Code or Codex, if you cloned or linked the repository:
 
 ```bash
 git -C ~/.claude/skills/dimeyes pull
+git -C ~/.agents/skills/dimeyes pull
 ```
 
 Claude.ai and Claude desktop: download the latest [dimeyes.zip](https://github.com/dimitriconejo/dimeyes/releases/latest/download/dimeyes.zip) and upload it again in place of the previous version.
