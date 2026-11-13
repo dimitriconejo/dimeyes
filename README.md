@@ -178,5 +178,6 @@ Claude.ai and Claude desktop: download the latest [dimeyes.zip](https://github.c
 
 ## Changelog
 
-- **1.0.1** (13 November 2026): public release: README, license, release ZIP. Labels follow the language of the answer; the skill is named Dimeyes in prose.
+- **1.0.2** (13 November 2026): labels and verdicts follow the language of the answer; the skill is named Dimeyes in prose.
+- **1.0.1** (13 November 2026): public release: README, license, release ZIP. Skill behaviour unchanged.
 - **1.0** (13 November 2026): first version, built from Dimitri's sites, boards, two calibration tests and seven rounds of corrections with an independent judge.
