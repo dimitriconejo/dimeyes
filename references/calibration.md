@@ -140,3 +140,7 @@ After a second round repeated the parish's name in one post and made its top wor
 | Savings note colour (UI) | Success green | Positive in green; negative in red or muted |
 | Icon container in a 64 row (UI) | 36 | *"me gusta cómo está"* |
 | Header icon group gaps (UI) | 16, equal box to box | Equal gaps, enough to tap |
+
+## The catalogue templates test (13 November 2026)
+
+Five random Cathopic catalogue templates corrected with Dimeyes came back with pixel nudges only (2 to 12 px), all with "with changes", while the outlined ovals, a hairline that separated nothing, a line under every data row and an unchanged composition stayed. His reaction: *"los ajustes que hizo son mínimos… mejora, sí, pero no soluciona todo y no piensa del todo como yo."* The brief had told it to judge the templates "in their own language, not his style". The general rules drawn from this are in SKILL.md: ownership decides the style, not how hard the eye works; what ships in his products reaches his bar; language is not noise; composition first; and the verdict and bar check.

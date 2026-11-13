@@ -91,7 +91,7 @@ Look in this order, but **report by impact**: whatever most breaks harmony or th
 - Patterns stay the same across screens: the header, the back action, how a primary action looks, how errors appear.
 - No duplicates: two "Save" buttons, two names for the same destination, one label or one icon used for two different things.
 - **Fewer typefaces without losing the voice.** Cutting families is about removing noise, not character. An expressive piece (a poster, an invitation, a celebration) can keep one accent face for one role, like a hook or a display word, if that face carries the tone. When you cut, check that the piece still sounds like itself: warm stays warm, devotional stays devotional.
-- **Brand traits stay:** open tracking on uppercase labels, a signature colour, a particular corner. They are the design's language, not noise.
+- **Brand traits stay, clutter goes:** open tracking on uppercase labels, a signature colour, a particular corner are the design's language. A decoration that carries no information (an outlined oval around a label, a hairline that separates nothing, a line on every row) is not a trait, even when the brand repeats it: it is noise.
 - The tone of the copy is consistent, and so is its casing.
 
 ### 3.5 Legibility

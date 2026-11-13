@@ -22,7 +22,9 @@ So:
 - **Never** ask a design to become his style. Don't push pills, tinted neutrals, serif + sans, eyebrows, a single accent, his tokens or his patterns onto a design that has its own language. A square-cornered, multi-colour or dense design can be harmonious.
 - **Do** apply his eye to it, as hard as he would. Judge whether its own system is coherent and consistent, and also whether that system delivers hierarchy, air, legibility and use. Consistently bad is still bad.
 - **Use his style only** when designing for him or his own products, or when asked to design "like him". A Catholic, parish or devotional subject is not his product; judge or design it in its own language.
-- **Ownership comes from who made it, not from the brand.** A screen under one of his brands (Cathopic, Christicons) that he says was made with AI or by someone else is someone else's design. Judge it in its own language and don't read `profile.md` as if it were his. When it isn't clear who made it, ask.
+- **Ownership decides whose style applies, never how hard the eye works.** A screen under one of his brands (Cathopic, Christicons) that he says was made with AI or by someone else is someone else's design: don't read `profile.md` as if it were his, and don't turn it into his style. When it isn't clear who made it, ask.
+- **What ships in his products must reach his bar.** Catalogue templates, product screens and campaigns that go out under his products, whoever made them, get his whole eye: remove, recompose and resize where the piece needs it, as he would before signing it. Keep the piece's identity (its palette, type families, signature shape and concept); everything else is open.
+- **Language is not noise.** Respecting a design's language means keeping its identity, not its clutter. Decorative devices that carry no information are noise in any language and go: a thin outlined oval or pill around a label, a hairline that separates nothing, a line under every row of a short list, information said twice, stickers and badges that only decorate.
 - **When a design has no system**, fill the gap with his eye, never his look:
   - his spacing scale;
   - a short type ladder with clear steps;
@@ -125,12 +127,25 @@ Run `references/eye.md` §1 and keep the counts:
 These counts are the evidence in the audit table and in the Space, Coherence and Detail findings. The verdict sentence names what makes or breaks the harmony.
 
 ### 4. Judge and correct with values
+**Composition first, pixels last.** Before any value, answer his questions about the whole piece:
+1. What would he remove? Every element has to earn its place.
+2. Does the rhythm work: equal distances between blocks, groups clearly apart?
+3. Is the hierarchy his: one focus, a clear reading order, the funnel where it applies?
+4. Do image and type talk to each other: crop, size, the relation of shapes?
+5. Is the practical information clear, grouped and in the right weight?
+
+The fixes to these come first, and they may move, resize or remove blocks. Only then align, nudge and match values.
+
 For each finding:
 - **what fails** and exactly where;
 - **why it matters**, in his terms: hierarchy, noise, grouping, legibility, focus, harmony;
 - **the exact correction**, with a value from the design's own system ("24 → 32", "radius 12 → 8"). If the design has none, use his scale and say so.
 
-### 5. Grade the severity
+### 5. Grade the severity and the verdict
+- **I'd sign it:** he would publish it as it is, or with nudges he wouldn't even mention.
+- **I'd sign it with changes:** the corrected version is one he would sign. The changes fix everything that matters, composition included.
+- **I wouldn't sign it:** the structure, the composition or the colour fails, or problems would remain after small fixes. Never use "with changes" for a piece whose real problems your corrections leave untouched.
+
 - **Critical:** breaks hierarchy, legibility or use. Colour chaos, no structure, illegible text, controls that can't be tapped, a task that can't be completed.
 - **Important:** inconsistency, compression, broken rhythm, superfluous elements, missing states.
 - **Detail:** pixels, radii, alignments, microcopy.
@@ -161,6 +176,7 @@ On the render, not the code:
    - Line breaks are clean: no widow and no conjunction left at the end of a line.
    - Nothing overflows with longer content.
 6. **Worse than before?** Compare your version, area by area, with the original and with any version the person already approved. Any area that lost quality goes back.
+   - **Bar check:** if every correction is a nudge of a few pixels (under about 12) and nothing was removed or recomposed, you haven't corrected the composition yet. Go back to the composition questions in Process §4. A piece that only needed nudges is a "I'd sign it", not a "with changes".
    - Key information (the date, the price, the practical data) never ends up harder to read than in the original. Measure the rendered letters, not the font-size: changing the typeface can eat an increase. This doesn't protect secondary text: a tagline, an old price or a note still steps below what it qualifies, as long as it reads at real size.
    - A crop never leaves a head or a face touching the edge. When the photo doesn't fit, it yields first: adjust or crop it to keep the composition, even losing part of the image.
    - When you rebuild a design from a capture, first match the capture: the same type weights, the same icon set and stroke, the same sizes. Compare every area you didn't mean to change against the original; any difference there is a regression, or an approximation you name in the report.
