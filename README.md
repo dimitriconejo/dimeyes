@@ -1,4 +1,4 @@
-# dimeyes
+# Dimeyes
 
 An agent skill that reviews, audits, corrects and designs with the eye of Dimitri Conejo Sanz, a strict, detail-obsessed UX/UI designer in Madrid whose north star is harmony.
 
@@ -8,7 +8,7 @@ Skill page: [skills.dimitriconejo.com/dimeyes](https://skills.dimitriconejo.com/
 
 ## What it does
 
-dimeyes looks at a design the way Dimitri looks at it and reviews it as hard as he would: down to the detail, without beating around the bush. Every correction comes with an exact value from the design's own system, such as "24 → 32" or "radius 12 → 8".
+Dimeyes looks at a design the way Dimitri looks at it and reviews it as hard as he would: down to the detail, without beating around the bush. Every correction comes with an exact value from the design's own system, such as "24 → 32" or "radius 12 → 8".
 
 **His eye, not his style.** The skill keeps two layers apart. His eye is how he sees and judges design, and it applies to every design, whatever its style, brand or medium. His style is how his own work looks; it is documented as a reference, never a template, and it is only used when designing for him, for his own products, or when asked to design "like him". A colourful kids' app, a brutalist poster or a corporate dashboard is never pushed towards his look.
 
@@ -96,17 +96,13 @@ Diseña como yo una pantalla de ajustes.
 
 A narrow question about one value or one component gets a short answer, under about 100 words: the answer, the reason and the exception if there is one. A whole screen, page or piece gets the full review.
 
-If other design skills are installed, dimeyes owns the process, the order and the output format while it is active, and consults them only for technical checks it doesn't cover, such as accessibility specifics, performance or motion code.
+If other design skills are installed, Dimeyes owns the process, the order and the output format while it is active, and consults them only for technical checks it doesn't cover, such as accessibility specifics, performance or motion code.
 
 ## What you get back
 
 It answers in the language you write in, in the first person and in his voice: direct, short sentences and concrete values. Hard on the design, never on the person.
 
-**Verdict.** One of three, with one sentence on what makes or breaks the harmony:
-
-- *Lo firmaría*: I'd sign it.
-- *Lo firmaría con cambios*: I'd sign it with changes.
-- *No lo firmaría*: I wouldn't sign it.
+**Verdict.** One of three, in the language of your request, with one sentence on what makes or breaks the harmony: *I'd sign it*, *I'd sign it with changes* or *I wouldn't sign it*.
 
 **Diagnosis.** Three to six points ordered by impact, not by list position. What repeats is grouped into one finding.
 
@@ -132,7 +128,7 @@ Measured on v1.0 over 14 cases and 85 checks.
 
 | Run | Checks passed | Score |
 |---|---|---|
-| With dimeyes | 79 / 85 | 92.9 % |
+| With Dimeyes | 79 / 85 | 92.9 % |
 | Without the skill | 56 / 85 | 65.8 % |
 
 The skill runs used a copy of the skill without the verbatim critiques of the test screens. The test cases are kept in a separate private repository so the skill stays lean. Version 1.0.1 doesn't change the skill's behaviour.
@@ -182,5 +178,5 @@ Claude.ai and Claude desktop: download the latest [dimeyes.zip](https://github.c
 
 ## Changelog
 
-- **1.0.1** (13 November 2026): public release: README, license, release ZIP. Skill behaviour unchanged.
+- **1.0.1** (13 November 2026): public release: README, license, release ZIP. Labels follow the language of the answer; the skill is named Dimeyes in prose.
 - **1.0** (13 November 2026): first version, built from Dimitri's sites, boards, two calibration tests and seven rounds of corrections with an independent judge.
