@@ -1,0 +1,303 @@
+/* ==========================================================================
+   dimeyes tokens: Dimitri Conejo Sanz's design system as CSS custom properties.
+   Source: the CANON. Cathopic production (cathopic.com, compiled Tailwind config
+   and measured pages) and Christicons (christicons.com :root).
+   Mater Coeli and Paulable are weak sources; no value here comes from them.
+   Mirrors references/system.md §4 (Tokens); keep the three files in sync.
+   Goal: harmony. A few scale values repeated, one type voice, one accent.
+
+   Usage: @import "tokens.css"; then var(--space-24), var(--text-base) ...
+   The :root block is the product register (Cathopic).
+   [data-register="quiet"] switches to the quiet register (Christicons).
+   ========================================================================== */
+
+:root {
+  /* ---------- Spacing -------------------------------------------------------
+     His scale: 2 4 6 8 12 16 20 24 32 40 48 56 64 72 80 96 112 128 144 160,
+     then +16 (176, 192 ...). Names are the px value.
+     10 is his: use it when 8 is too tight and 12 too loose (button icon gap,
+     chip gap with icon, hit-area insets). Not a deviation.
+     6 and 36 are tolerated (mosaic gaps, separators, 36 px controls).
+     Avoid 28 and 14 as spacing (Cathopic's unvalidated 7.5 and 3.5 keys).
+     44 and 52 are control heights, not spacing (see Control heights). */
+  --space-0: 0px;
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-6: 6px;     /* tolerated */
+  --space-8: 8px;
+  --space-10: 10px;   /* his value for when 8 and 12 don't work */
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-36: 36px;   /* tolerated */
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-72: 72px;
+  --space-80: 80px;
+  --space-96: 96px;
+  --space-112: 112px;
+  --space-128: 128px;
+  --space-144: 144px;
+  --space-160: 160px;
+  --space-176: 176px;
+  --space-192: 192px;   /* photo hero py, light footer pt */
+  --space-208: 208px;
+  --space-240: 240px;   /* Flodesk landing section rhythm */
+
+  /* Section rhythm (Cathopic): md 72 -> 80, lg 72 -> 112 at >=768, xl 144 -> 160 */
+  --section-md: var(--space-80);
+  --section-lg: var(--space-112);
+  --section-xl: var(--space-160);
+
+  /* Layout */
+  --container-max: 1440px;
+  --container-gutter: var(--space-64);        /* desktop */
+  --container-gutter-mobile: var(--space-16);
+  --content-max: 1000px;                      /* Christicons content width */
+  --prose-max: 600px;                         /* ledes and section intros (550-600) */
+
+  /* Control heights: fixed-height pills */
+  --control-xs: 40px;
+  --control-sm: 44px;
+  --control-md: 52px;   /* 48 on mobile */
+  --control-lg: 56px;   /* 60 at >=640: section CTAs, pricing */
+
+  /* ---------- Type ----------------------------------------------------------
+     Size keys are his Cathopic keys (md = 20, lg = 24, not Tailwind's).
+     Product register leading: 1.55 for text up to 18, 1.15 for headings,
+     1.0 for the hero display.
+     Type also uses 14 and 18 (and 10 for micro labels). Round 11, 13, 15,
+     17, 22 and 44 to the ladder (system.md 2.2). */
+  --text-2xs: 10px;       --leading-2xs: 1;      /* micro labels, version tags */
+  --text-xs: 12px;        --leading-xs: 1.5;     /* captions, overlines, badges */
+  --text-sm: 14px;       --leading-sm: 1.55;    /* mobile body, chips, helper text */
+  --text-base: 16px;      --leading-base: 1.55;  /* desktop body (16/24.8) */
+  --text-base-plus: 18px; --leading-base-plus: 1.55;
+  --text-md: 20px;        --leading-md: 1.15;    /* card titles */
+  --text-lg: 24px;        --leading-lg: 1.15;
+  --text-xl: 28px;        --leading-xl: 1.15;
+  --text-2xl: 32px;       --leading-2xl: 1.15;
+  --text-3xl: 36px;       --leading-3xl: 1.15;
+  --text-4xl: 40px;       --leading-4xl: 1.15;   /* section title at >=1300 */
+  --text-5xl: 48px;       --leading-5xl: 1.15;   /* page title */
+  --text-7xl: 64px;       --leading-7xl: 1;      /* hero display 64/64 */
+
+  --leading-body: 1.55;
+  --leading-heading: 1.15;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-ui: 550;        /* buttons, nav, chips (variable Inter) */
+  --weight-semibold: 600;
+  --weight-heading: 630;   /* headings (variable Inter) */
+
+  --tracking-display: -0.044em;  /* headings */
+  --tracking-title: -0.035em;    /* small headings 16-20, card titles */
+  --tracking-normal: 0;
+  --tracking-caps: 0.05em;       /* uppercase code badges */
+
+  /* Inter features he turns on: body, then headings add cv11 */
+  --font-features: "calt", "cv01", "liga", "ss03";
+  --font-features-heading: "calt", "cv01", "liga", "ss03", "cv11";
+
+  --font-sans: "Inter", "Inter var", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-brand: "Basier Square", "Inter", ui-sans-serif, system-ui, sans-serif; /* option (Christicons) */
+  --font-mono: "Basier Square Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-display: "Instrument Serif", "Instrument Serif Fallback", Georgia, serif; /* weight 400 only; -1px at 64, -0.5px at 48; leading 1.0-1.25 (portfolio) */
+  --font-serif: "Source Serif 4", Georgia, serif; /* reading serif of the Tiempos / Source Serif type (app boards) */
+
+  --tracking-display-serif: -0.5px;   /* at 48; -1px at 64 */
+  --leading-display-serif: 1.25;      /* portfolio 64/80 */
+
+  /* ---------- Radius --------------------------------------------------------
+     Pills for every button, chip, input in the header, tab and toggle.
+     Cards 16 / 20 / 24 / 32. Media tiles 0. Keep radii concentric:
+     inner radius = outer radius - padding. */
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius: 4px;
+  --radius-md: 8px;      /* menu items in dropdowns, hover plates, small tiles */
+  --radius-10: 10px;     /* menu-item, semi-rounded buttons on mobile */
+  --radius-lg: 12px;     /* inputs, dropdowns, semi-rounded buttons, image tiles */
+  --radius-2xl: 16px;    /* cards, accordion items, Christicons controls */
+  --radius-3xl: 20px;    /* feature cards, side panels */
+  --radius-4xl: 24px;    /* collection and pricing cards, dialogs */
+  --radius-5xl: 32px;    /* large dark bands */
+  --radius-full: 9999px;
+
+  /* ---------- Shadow --------------------------------------------------------
+     Low opacity, offset + blur. Only for things that float (popovers, menus,
+     drawers) or are selected (segment, card at rest on grey). Flat elsewhere. */
+  --shadow-xs: 0 1px 2px rgb(0 0 0 / 0.05);           /* selected segment, pricing card */
+  --shadow-card: 0 3px 6px rgb(0 0 0 / 0.03);         /* cards on a grey band */
+  --shadow-popover: 0 10px 30px rgb(0 0 0 / 0.12);    /* search panel */
+  --shadow-dropdown: 0 10px 50px rgb(0 0 0 / 0.15);   /* menus */
+  --shadow-overlay: 0 15px 60px rgb(0 0 0 / 0.18);    /* drawer */
+  --shadow-btn: 0 1px 2px rgb(20 24 25 / 0.045), 0 1px 1px rgb(20 24 25 / 0.025), inset 0 1px 0 rgb(255 255 255 / 0.1);
+  --shadow-btn-filled: 0 1px 2px rgb(20 24 25 / 0.07), 0 2px 8px rgb(20 24 25 / 0.05), inset 0 1px 0 rgb(255 255 255 / 0.1);
+  --shadow-btn-hover: 0 4px 10px rgb(20 24 25 / 0.085), 0 1px 3px rgb(20 24 25 / 0.05);
+  --shadow-btn-active: inset 0 1px 2px rgb(20 24 25 / 0.1);
+  --btn-sheen: linear-gradient(rgb(255 255 255 / 0.06), rgb(0 0 0 / 0.016));
+
+  /* Focus. His inputs use an inset 2 px ink ring (clearly visible).
+     Production buttons use a 3 px teal at 10%, which is too faint: use the
+     2 px ink ring at offset 2 below instead (Christicons tiles). */
+  --focus-ring-inset: inset 0 0 0 2px var(--gray-900);
+  --focus-ring: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--gray-900);
+
+  /* ---------- Colour --------------------------------------------------------
+     Recipe (system.md 2.5):
+     1. One brand colour per product, chosen from its context, with a ramp
+        (50 for pale fills, 500 default action, 600 hover, 700 pressed).
+     2. Neutrals are a ramp tinted with the brand (or the product's
+        temperature) in steps of 50. Ink is never pure black.
+        Roles: 900 ink, 700 strong secondary, 600 secondary text, 500
+        placeholder and counts beside 16 px labels, 200 hairlines,
+        100 surfaces. Small text (<=14) stays at 600 or darker.
+     3. Semantic ramps consistent with the brand, each with a pale 50
+        background and a dark text step (Cathopic badges: success and
+        danger 500, info 600, warning 800).
+     4. Colour budget: the brand hue goes on the single primary action of
+        each block and on eyebrows, nowhere else. Ink is the second voice.
+        Hierarchy comes from tone (900/600/500), not from new hues.
+        An emoji is colour too: one meaningful emoji is fine and counts in
+        the budget; decorative or repeated ones are colour noise.
+     Example below: Cathopic (cool, teal). */
+
+  /* Neutrals, teal-tinted (Cathopic) */
+  --gray-50: #FBFDFD;
+  --gray-100: #F4F7F7;
+  --gray-200: #E3E8E8;
+  --gray-250: #ECF0F0;   /* input and search fill, between 100 and 200 */
+  --gray-300: #CED6D6;
+  --gray-400: #ABB6B7;   /* 2.1:1 on white: counts, meta, decorative only */
+  --gray-500: #838F91;   /* 3.3:1: placeholders, large text */
+  --gray-600: #636D6F;   /* 5.3:1: secondary text */
+  --gray-700: #434B4D;
+  --gray-800: #272D2F;
+  --gray-850: #1F2526;
+  --gray-900: #141819;   /* ink */
+  --gray-950: #0B0E0F;
+
+  /* Brand, teal (Cathopic) */
+  --primary-50: #E6F7F7;
+  --primary-100: #CDF0F1;
+  --primary-200: #A3E1E5;
+  --primary-300: #74CCD3;
+  --primary-400: #45B2BD;
+  --primary-500: #007D8C;  /* 4.9:1 on white */
+  --primary-600: #006C7A;  /* hover */
+  --primary-700: #005A67;  /* pressed, split-button divider */
+  --primary-900: #003D47;  /* production has no 800 */
+
+  /* Semantic (Cathopic) */
+  --success-50: #E9FAED;
+  --success-500: #088E4D;  /* status-pill text on success-50 */
+  --success-600: #00783E;  /* savings-pill text; 5.2:1 on success-50 */
+  --info-50: #E8F8FF;
+  --info-500: #0396C6;     /* verified badge */
+  --info-600: #007DA7;     /* status-pill text on info-50 (the blue Follow button is a flaw) */
+  --info-800: #004C69;
+  --warning-50: #FFF8E2;
+  --warning-500: #F2BD00;
+  --warning-700: #A68000;
+  --warning-800: #7F6200;  /* text on warning-50 */
+  --danger-50: #FFEFEE;
+  --danger-500: #E22D45;   /* status-pill text on danger-50 */
+  --danger-700: #97182A;   /* hover */
+
+  /* Roles */
+  --color-bg: #FFFFFF;
+  --color-surface: var(--gray-100);
+  --color-fill: var(--gray-250);
+  --color-border: var(--gray-200);
+  --color-border-dark: rgb(67 75 77 / 0.5);   /* hairlines on ink surfaces */
+  --color-text: var(--gray-900);
+  --color-text-secondary: var(--gray-600);
+  --color-text-placeholder: var(--gray-500);
+  --color-text-meta: var(--gray-500);   /* counts beside a 16 label; never text <=14 */
+  --color-accent: var(--primary-500);
+  --color-accent-hover: var(--primary-600);
+  --color-scrim: rgb(20 24 25 / 0.6);
+
+  /* Christicons example (warm, not active). Same recipe, warm neutrals,
+     a muted teal used only for overlines and the credit hover.
+     Its primary button is ink (gray-800), not the accent.
+  --gray-100: #F6F5F2;
+  --gray-200: #EFEDE8;
+  --gray-300: #E8E5DF;
+  --gray-400: #D7D2C9;
+  --gray-500: #978F84;
+  --gray-600: #756E64;
+  --gray-700: #524C43;
+  --gray-800: #0B0A08;   (ink)
+  --primary-500: #2D6970;
+  --success-500: #4A7C59;
+  --info-500: #3D6E9B;
+  --warning-500: #C79C38;
+  --danger-500: #A1443C;
+  --shadow-popover: 0 20px 60px rgb(11 10 8 / 0.14);   (warm-tinted shadow)
+  --radius-control: 16px; --radius-control-sm: 14px;
+  */
+
+  /* ---------- Motion --------------------------------------------------------
+     Fast and quiet. House curve: ease-out (expo-out). Hover is gated to
+     (hover: hover) and (pointer: fine). Press = scale(.97). */
+  --dur-press: 140ms;
+  --dur-color: 150ms;     /* link and text colour */
+  --dur-exit: 160ms;
+  --dur-hover: 180ms;
+  --dur-popover: 180ms;
+  --dur-modal: 220ms;
+  --dur-expand: 220ms;    /* accordions, sliding indicators, panel height */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);  /* indicators, accordions */
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);   /* drawers (production uses an ease-in here by mistake) */
+  --press-scale: 0.97;
+}
+
+/* Quiet register (Christicons): Basier Square, weights 400/500, tracking 0,
+   leading 1.45 body / 1.2 titles. Same spacing scale. */
+[data-register="quiet"] {
+  --font-sans: var(--font-brand);
+  --font-features: normal;
+  --font-features-heading: normal;
+  --leading-body: 1.45;
+  --leading-heading: 1.2;
+  --leading-xs: 1.5;
+  --leading-sm: 1.45;
+  --leading-base: 1.45;
+  --leading-base-plus: 1.2;
+  --leading-md: 1.2;
+  --leading-lg: 1.2;
+  --leading-xl: 1.2;
+  --leading-2xl: 1.2;
+  --leading-3xl: 1.2;
+  --leading-4xl: 1.2;
+  --leading-5xl: 1.2;
+  --leading-7xl: 1.2;
+  --weight-ui: 500;
+  --weight-semibold: 500;
+  --weight-heading: 500;
+  --tracking-display: 0;
+  --tracking-title: 0;
+  --radius-control: 16px;
+  --radius-control-sm: 14px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-press: 0.01ms;
+    --dur-color: 0.01ms;
+    --dur-exit: 0.01ms;
+    --dur-hover: 0.01ms;
+    --dur-popover: 0.01ms;
+    --dur-modal: 0.01ms;
+    --dur-expand: 0.01ms;
+    --press-scale: 1;
+  }
+}

@@ -1,0 +1,45 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag to release, e.g. v1.0.1"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      TAG: ${{ inputs.tag || github.ref_name }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ env.TAG }}
+
+      # git archive honours export-ignore, so the ZIP holds only the skill, under dimeyes/.
+      - name: Build dist/dimeyes.zip
+        run: |
+          mkdir -p dist
+          git archive --format=zip --prefix=dimeyes/ -o dist/dimeyes.zip HEAD
+          unzip -l dist/dimeyes.zip
+
+      - name: Create or update the release
+        run: |
+          version="${TAG#v}"
+          # Notes come from the README changelog line "- **X.Y.Z** (date): ...".
+          notes="$(grep -F -e "- **${version}** " README.md | head -n 1 | sed 's/^- //')"
+          [ -n "$notes" ] || notes="dimeyes ${TAG}. See the changelog in the README."
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            gh release upload "$TAG" dist/dimeyes.zip --clobber
+            gh release edit "$TAG" --title "dimeyes $TAG" --notes "$notes"
+          else
+            gh release create "$TAG" dist/dimeyes.zip --verify-tag --title "dimeyes $TAG" --notes "$notes"
+          fi

@@ -1,0 +1,4 @@
+# Keep repo plumbing out of GitHub's "Download ZIP", git archive and the release ZIP.
+/.github export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore
