@@ -23,14 +23,15 @@ So:
 - **Do** apply his eye to it, as hard as he would. Judge whether its own system is coherent and consistent, and also whether that system delivers hierarchy, air, legibility and use. Consistently bad is still bad.
 - **Use his style only** when designing for him or his own products, or when asked to design "like him". A Catholic, parish or devotional subject is not his product; judge or design it in its own language.
 - **Ownership decides whose style applies, never how hard the eye works.** A screen under one of his brands (Cathopic, Christicons) that he says was made with AI or by someone else is someone else's design: don't read `profile.md` as if it were his, and don't turn it into his style. When it isn't clear who made it, ask.
-- **What ships in his products must reach his bar.** Catalogue templates, product screens and campaigns that go out under his products, whoever made them, get his whole eye: remove, recompose, resize or redo where the piece needs it, as he would before signing it (see How deep to go).
-- **Whose identity is protected.** A client's real brand keeps its logo, brand colours and brand typefaces; the fix is in how they are used. A post made for a business or an organisation with its own logo has a brand behind it even when it was made once in Canva: its logo and the logo's colours stay, while the rest of its palette and typefaces (template colours, a stock script) are choices. A piece with no brand behind it (a catalogue template, a draft) has no identity to protect: its palette, typefaces, devices and even its concept are choices, and a redo may change any of them when the result is clearly better. In his words: *"intento respetar todo, pero hago todos los cambios que me da la gana"*. What always stays: every piece of content (except the merges and drops the redo process names), the purpose, the photos, the call to action's weight, a logo slot (its place moves with the composition, except inside a series) and, in a template, its editable slots.
+- **What ships in his products must reach his bar.** Catalogue templates, product screens and campaigns that go out under his products, whoever made them, get his whole eye: a polish that removes, resizes and re-anchors until he would sign it, and a recomposition only when the structure fails (see How he corrects).
+- **Whose identity is protected.** A client's real brand keeps its logo, brand colours and brand typefaces; the fix is in how they are used. A post made for a business or an organisation with its own logo has a brand behind it even when it was made once in Canva: its logo and the logo's colours stay, while the rest of its palette and typefaces are its voice: a polish keeps them, and a redo changes them only when the result is clearly better. A piece with no brand behind it (a catalogue template, a draft) has no identity to protect: its palette, typefaces, devices and even its concept are choices, and a redo may change any of them when the result is clearly better. In his words: *"intento respetar todo, pero hago todos los cambios que me da la gana"*. What always stays: every piece of content (except the merges and drops the redo process names), the purpose, the photos, the call to action's weight, a logo slot (its place moves with the composition, except inside a series) and, in a template, its editable slots.
 - **Language is not noise.** Respecting a design's language means keeping what carries meaning, not its clutter. Decorative devices that carry no information are noise in any language and go, even when they are the template's signature:
   - a thin outlined oval or pill around a label;
   - a hairline that separates nothing, or a line under every row of a short list that needs no structure (rules that structure a list of items may stay, at full width with equal gaps);
   - an inner frame line, or a stack of cards behind a photo;
   - information said twice;
-  - stickers and badges that only decorate, including a round sticker holding a price or an offer: the price becomes type, at the hook's scale when it was the hook (*"ese círculo con solo 290 euros dentro… es feísimo"*).
+  - stickers and badges that only decorate: a seal that repeats a line already set as type, a "new" on nothing new, or a swarm of stickers each holding one line (their text joins the type). One calm badge (a flat circle or a pill) that carries the offer or the price is content: keep it, its angle included, and fix its execution: the text optically centred with no stray air inside, clear of faces and neighbours, inside the safe area, never smaller than before. A starburst, a scalloped seal or an explosion shape is noise even when it holds the offer: its figure becomes type at the hook's scale, keeping its colour and weight. In his blind picks the bakery and the sports-shop sale lost with the starburst kept, and the bike workshop won with its flat circle kept (`references/calibration.md`, His seventh blind check). His complaint was about execution: *"ese círculo con solo 290 euros dentro, dejando aires por arriba del círculo, o sea, dentro del texto, etcétera, es feísimo"*.
+  - partner and sponsor logos are other brands' marks: keep each one, give them one size and one treatment, and don't count their lettering among the piece's typefaces.
 
   **Noise is not the same as a graphic that says something.** Before removing any graphic, ask what it tells the reader. A waveform says "audio", a stack of books says "bookshop", two tablets say "commandments", a highlighted row says "this one is special", and a stamp-edged card can be the whole concept of a piece. Those carry meaning: keep them and execute them well (one consistent edge, one full width, a colour with a visible meaning). His own process looks for text that a graphic could replace (*"ver qué cosas de texto se pueden sustituir por algún elemento gráfico"*), so stripping meaningful graphics goes against him. A redo may replace such a graphic only with one that says the same thing at least as well, never with nothing.
 - **When a design has no system**, fill the gap with his eye, never his look:
@@ -69,45 +70,56 @@ His philosophy: **simplicity and clarity, the fewest elements possible (only the
 
 When in doubt, review and offer to correct. Editing without being asked breaks trust: someone who asks for an opinion wants to decide what changes.
 
-## How deep to go: polish, rebuild parts or redo
+## How he corrects: respect the piece, make it work
 
-Some designs only need a polish; others need redefining, and then he does it, not a timid polish. He doesn't decide the depth before seeing results. In his depth test he judged six of twelve templates as polish jobs at first sight, then picked the redone version for half of those once he saw it. Overall he chose the redo for six, a partial rebuild for two and the polish for four. The result decides: which version is more beautiful and harmonious with all the content kept, never how much it changed.
+In his words, on the corrections that came closest: *"me ha gustado que se intente, en la medida de lo posible, conservar el estilo original pero haciéndolo bien, y en los casos que no, que haya mejorado el diseño"*.
 
-A redo has to earn it. In his blind check of the skill's own choices, he preferred a plain polish in six of ten pieces where the skill had delivered a redo. The redos lost when they shrank the piece's hook (a giant number became a small one), squeezed the photo into a narrow strip, or ended less elegant and with tighter spacing than the polish (*"no lo veo atractivo"*, *"está todo muy unido"*).
+He first reads what the piece is and what gives it its voice. Then he keeps that voice and makes the piece work. Where the original style works, the result is the same piece, recognisable at a glance, finished to his bar. Where it doesn't (colour chaos, a pile of effects, no hierarchy at all), he improves the design and keeps what carries the identity. This is a polish, the default delivery.
 
-**Signals that the piece needs redoing**, any one of them:
-- **Noise without meaning**, his trigger: *"cuando veo mucho ruido sin sentido… esto hay que rehacerlo y definirlo bien"*. Devices, lines, frames and text styles that carry no information.
-- **Information badly categorised:** too many things at one level, no clear groups.
-- **No hierarchy**, often as a stack of bands: two masses of similar weight compete, sibling texts sit at nearly one size and every gap between the bands is alike, so there is no leader, no group and no path (equal distances inside one compact group are fine).
-- **A good concept badly executed:** inconsistent, incoherent.
-- **Flat, boring, insipid**, even when correct (*"aburrido"*, *"insípido"*).
+**What stays: the voice.**
+- The piece's identity: its concept, its image, its voice. It stays recognisable.
+- The image. Crop it, enlarge it when it is the protagonist, move it when the composition needs it, and either bleed it to the edges it reaches or fit it to the safe area, never stopping in between.
+- The hook: the one element that gives the piece its impact (a display figure, a date block, a display word, the offer of a sales post). It keeps its face, colour and weight and stays a display element. A second headline, price or date that competes with the leader is not the hook.
+- The colour pair, when it works: the two colours that carry the identity (a ground and its accent, or an ink and its accent). Extra accents, glows and neon are not part of the pair.
+- The typefaces, as a rule including the face that carries the voice (a script kicker, a display italic, a condensed headline), even when that makes three, used once and well in a role of its own.
+  - The voice is the face and how its letters are drawn. An outline, a glow, a drop shadow, an extrusion or a multicolour fill added on top is execution: fix it below, and never cut the face because its effect is loud.
+  - A face whose mood goes against the piece's tone (an ornate script in a grave or plain piece) is not its voice.
+  - One title is still one face (*"no usaría font combination en un mismo título"*). When the original splits a title across two faces, set the whole title in one of them, and keep the other only where it has a role of its own, such as a kicker on its own line.
+- The concept graphics, and every piece of content.
 
-**Signals that a polish is enough:** the structure and the hierarchy work. What fails is spacing, leading, sizes, the number of text styles or one misplaced element.
+**What he fixes: the execution.** This is where he is not timid.
+- **Noise without meaning goes.** A hairline that separates nothing, an inner frame, a duplicated datum, stickers that only decorate, a photo cut into a bordered circle (the photo stays, cropped clean), glows and heavy shadows, on type too (*"elegante, sin exagerar"*). "Dated" is never a reason on its own: an element that carries something (a price, a hook, a voice face) keeps its job and gets a clean execution.
+- **Composition.** Blocks move, resize and re-anchor wherever the piece needs it: the practical information off a busy photo onto a calm field, a foot set into categorised columns, the logo into its slot. What a polish doesn't do is invent a new layout.
+- **One clear hierarchy.** One leader and a clear second level, read in a clear order. When two masses compete, the leader grows where there is room. Where there isn't, the other steps down until it clearly reads second, keeping its face, colour and weight, and never shrinks into a subline or the body. The key datum is never smaller or weaker than in the original.
+- **Emphasis rare enough to work.** The accent goes where the eye must go first. When colour saturates, the polish keeps the pair and removes the extra hues (*"demasiado cantoso"*).
+- **Every space defined to the pixel** (*"me faltan pulidos de espacios"*). Each change of role has a visible gap, groups are clearly told apart, and the same relationship takes the same distance everywhere. Measure it on the render.
+- **The data the reader acts on** (prices and sizes, dates and times, the place, how to book) reads at a glance as a level of its own, categorised, with its figures big: never a uniform small block (*"categoriza mejor la información"*, *"no aparece todo tan comprimido"*). Only the conditions are small print.
+- **A post is not a flyer.** When the practical text overloads a one-off post, keep on it what the reader needs to act (what, when, where, how to book or contact) and move the rest (extra services, a second contact, long conditions) to the post's caption. List each moved line in the answer, so nothing is lost (*"saturación de información"*). A template keeps its slots.
+- **Order.** A few alignment axes, practical information categorised, every colour with a role.
+- **The frame.** Every text inside the safe area and readable at phone size, and the logo in its slot.
 
-**His polish is not timid.** It removes the noise he would remove (a line that separates nothing, an inner frame, a third typeface), cuts the text styles down, fixes the title and places the logo. A polish that leaves those isn't finished.
+**A correction that is cleaner but poorer than the original is worse:** a smaller hook, the voice face cut, two roles merged into one style. In his blind picks the versions that did that lost. The one with fewer text styles won 10 of 27, and when a third typeface carried the voice, the version that kept it won 7 of 9 (`references/calibration.md`, His sixth blind check). Too many styles in a small space is still one of his complaints (*"no usaría tantos estilos de textos diferentes en tan poco espacio… muy cantoso, muy muy poco elegante"*). Bring the count down by removing the styles that repeat a role or mean nothing, never by merging two roles or cutting the voice.
 
-**In correct and design modes:**
-1. Diagnose with the signals above.
-2. Unless the piece is already an "I'd sign it", make the polish and at least one recomposition built from the content with his redo process (below). When the signals point to a redo, make two recompositions that differ in concept, not in detail: three versions in all. A recomposition may rebuild only the part that fails (the title block, the data) and keep the rest; that is a Rebuild parts.
-3. Put them side by side with the original and choose with his eye: harmony, hierarchy, the image's protagonism and life. A redo that is only different is not better. A polish that is correct but flat loses to a redo that works. A redo wins only when all of these hold:
-   - it is clearly more elegant;
-   - its spacing is at least as well defined as the polish's;
-   - it keeps the piece's hook and its concept graphic, or replaces them with stronger ones.
+**Recompose only when the structure fails:**
+- the content can't fit the safe area and the logo slot in this structure, even after the sizes and gaps are fixed;
+- a polish can't give it a protagonist or a reading order;
+- the person asks for a redo ("rehazlo", "dale una vuelta", "rediséñalo").
 
-   When in doubt, the polish wins. When one version solves one area better and another solves another (a better header in one, better-categorised data in the other), combine them into the delivered version, on one grid and one palette, within two typefaces and the text-style limit of Process §6: that is how he would finish it (*"haría la parte de arriba de la opción B y la parte de abajo de la opción A"*).
-4. Finish the winner with the full sweep (Process §6) and deliver it. When a recomposition lost by little, or the call was close, render it beside the delivered version as an alternative, so he decides by seeing both. Say in one line which depth you recommend and why.
+Then use his redo process (below), keeping the hook, the photo, the palette and the voice unless they are what fails. When only one part fails (the title block, the data group), rebuild that part and keep the rest: that is Rebuild parts. A recomposition you find tempting on a piece whose structure works can go beside the polish, labelled as an alternative. It is never delivered instead of the polish.
 
-**In review and audit modes,** say which depth the piece needs and why, in one line after the verdict.
+Say in one line which depth you delivered and why. In review and audit modes, say which depth the piece needs, in one line after the verdict.
 
-**In an interface** (a screen, a page, a flow) the logic is the same, but a redo keeps the task, the content, the platform conventions and the brand. It recomposes the layout and the hierarchy, and makes a second version only when the structure fails.
+**In an interface** (a screen, a page, a flow) the logic is the same. A polish keeps the task, the content, the platform conventions, the brand and the layout. A redo recomposes the layout and the hierarchy, and only when the structure fails.
+
+**Designing a new piece** has no original to keep: his redo process is how he composes it.
 
 ### His redo process
 
-In his words: *"comienzo a reordenar la información, cambiar tamaños… probar hasta lograr una jerarquía y una composición que me hace sentir belleza y armonía en los ojos"*.
+When the structure fails, when he asks for a redo, or when designing from scratch. In his words: *"comienzo a reordenar la información, cambiar tamaños… probar hasta lograr una jerarquía y una composición que me hace sentir belleza y armonía en los ojos"*.
 
 1. **Order the content.** List every piece of content, line by line, and sort it: what it is (title, message), when and where, how to act, who signs. This list is a contract: every item reaches the final piece.
    - Merge only what says exactly the same thing twice.
-   - Drop a line only when it is pure platform noise, such as hashtags that belong in the caption, or a "tap the link" that repeats the call to action. Name each dropped line in the answer.
+   - Drop a line only when it is pure platform noise, such as hashtags that belong in the caption, or a "tap the link" that repeats the call to action. Move a line to the caption only when it overloads a one-off post (What he fixes, A post is not a flyer). Name each dropped or moved line in the answer.
    - Add no words of your own ("Episode", "Join us") unless a datum can't be understood without them, and say so.
 2. **Redefine or remove.** Every device carries information or the concept, or it goes. Where a label could become a simple graphic element whose meaning it fully carries (a "Fecha:" before a date, a "Tel." before a number), and that is minimal and adds harmony, try it; a phrase with information of its own stays as text.
 3. **Choose the protagonist.** One protagonist, the photo, the title or one lockup of both; the next mass carries at most about half its weight. When the photo and the title are both big, fuse them (the title on a calm area of the photo, never over a face or a busy detail; across a cut-out; or matched to the image's width) instead of stacking them as two competing bands. A strong photo earns a big field: a large crop that bleeds to an edge, not a small framed thumbnail with decoration around it. The call to action stays the clear second level after the message: it may lose its button if it keeps its weight, but it never becomes one more line of text.
@@ -150,8 +162,9 @@ He gives exact values: "2 px missing here" (*aquí faltan 2 px*), "the radius sh
 - **Graphic piece** (post, story, poster, print, slide, logo):
   - Use the canvas's own units at export size: px on a 1080×1350 post, mm or pt for print.
   - Find its spacing system: the outer margin (on a feed post about 9 % of the width, 96 on 1080) and the gaps the piece repeats. Correct strays to the values the piece already repeats.
-  - Mark the platform's safe area and the logo slot before anything else (`references/eye.md` §4). Both are part of the composition even when the preview shows nothing there: text, logo and key content stay inside the safe area, and the logo slot is designed in, never treated as free space.
+  - Mark the platform's safe area and the logo slot before anything else (`references/eye.md` §4). Both are part of the composition even when the preview shows nothing there: text, logo and key content stay inside the safe area, and the logo slot is designed in, never treated as free space. In a catalogue template, the logo slot is defined in the template's source: read it before laying out.
   - Judge legibility at real size: a story at phone size, a poster from a few metres away.
+  - When the piece is HTML, or you rebuild it as HTML, measure it: `python3 scripts/measure-graphic.py file.html --size 1080x1350` (add `--safe top,right,bottom,left` for a product's own safe area), or paste `scripts/measure-graphic.js` into the browser's JavaScript tool. It reports the text margins, the gaps between the bodies of the letters, the text styles and typefaces, the alignment axes, the safe area and the logo, with FAIL and WARN flags from `references/eye.md` §4.
 - **Flow or several screens:**
   - List the screens in task order and walk the main task end to end.
   - Count steps, fields, decisions and taps.
@@ -188,13 +201,14 @@ These counts are the evidence in the audit table and in the Space, Coherence and
 
 ### 4. Judge and correct with values
 **Composition first, pixels last.** Before any value, answer his questions about the whole piece:
-1. What would he remove? Every element has to earn its place.
+0. What is this piece, and what gives it its voice: its faces, its hook, its colour pair, its concept graphic? That stays (How he corrects).
+1. What would he remove? Every element has to earn its place; the voice has already earned it.
 2. Does the rhythm work: one compact group with equal distances inside it, or separate groups clearly apart? Never a chain of bands at similar gaps.
 3. Is the hierarchy his: one protagonist that clearly wins, a clear reading order, the funnel where it applies?
 4. Do image and type talk to each other: crop, size, the relation of shapes?
 5. Is the practical information clear, grouped and in the right weight, with when, where and the conditions each on its own line or group, never fused into one uniform small block?
 
-The fixes to these come first, and they may move, resize or remove blocks, or call for a redo (How deep to go). Only then align, nudge and match values.
+The fixes to these come first: they may move, resize or realign blocks and remove noise, or, when the structure fails, call for a redo (How he corrects). Only then align, nudge and match values.
 
 For each finding:
 - **what fails** and exactly where;
@@ -206,7 +220,7 @@ For each finding:
 The verdict judges the piece as it came in.
 
 - **I'd sign it with changes:** a polish or a partial rebuild makes it one he would sign. The changes fix everything that matters, composition included.
-- **I wouldn't sign it:** the structure, the composition or the colour fails, so it needs a redo, or problems would remain after small fixes. Never use "with changes" for a piece whose real problems your corrections leave untouched.
+- **I wouldn't sign it:** the structure, the composition or the colour fails, or problems would remain after small fixes. Never use "with changes" for a piece whose real problems your corrections leave untouched.
 
 - **Critical:** breaks hierarchy, legibility or use. Colour chaos, no structure, illegible text, controls that can't be tapped, a task that can't be completed.
 - **Important:** inconsistency, compression, broken rhythm, superfluous elements, missing states.
@@ -221,17 +235,17 @@ A correction can fix the findings and still introduce new mistakes: a repeated p
 On the render, not the code:
 1. **Content, word by word.**
    - Nothing is said twice: no place, date, name or price repeated in two spots, and no heading that repeats the eyebrow.
-   - Nothing from the original is lost, no data is invented, and no copy changed without a finding that says why. Tick the content list from the redo process line by line against the render; the merges and drops it names are not losses.
+   - Nothing from the original is lost, no data is invented, and no copy changed without a finding that says why. Tick the content list from the redo process line by line against the render; the merges, drops and lines moved to the caption it names are not losses.
    - Every meaningful graphic (Language is not noise) is still there or replaced by one that says the same, and the call to action still reads as the second level.
 2. **Harmony test again** (`references/eye.md` §1): squint, rhythm, axes, type count, colour roles, odd one out, breathing.
 3. **Hierarchy:** what is read first, second and third. Check that the emphasis that must survive still pulls the eye: the feature, the recommended option, the primary action, the date.
-   - List every text role with its rendered size. In an interface, two adjacent levels need a visible jump: at least a step and a half on the scale (14 → 18), or a change of tone or weight in the same direction (bigger is also darker or heavier, never lighter); a 2 px step is not a level. In a graphic piece, keep the relations of `references/eye.md` §4: two or three sizes (four only when it carries a lot of practical information), with the title, or the hook figure when there is one, alone at the largest; separate blocks can sit just a touch apart (a programme at 48 over data at 44) to keep the order without turning loud, but two neighbouring lines of one typeface less than about 1.4× apart fuse; the key datum leads by weight.
+   - List every text role with its rendered size. In an interface, two adjacent levels need a visible jump: at least a step and a half on the scale (14 → 18), or a change of tone or weight in the same direction (bigger is also darker or heavier, never lighter); a 2 px step is not a level. In a graphic piece, one text is alone at the largest: the title, or the hook when the original sets it bigger, never shrunk to obey this; separate blocks can sit just a touch apart (a programme at 48 over data at 44) to keep the order without turning loud; two neighbouring lines that read almost alike are told apart by the gap, weight or tone, or by enlarging the more important one, never merged and never by adding a face; the key datum leads by weight.
    - Siblings keep one size: a word in place of a figure in a row of figures keeps the figures' size.
-   - **Text styles:** count them. A style is one mix of typeface, size, weight, case, tracking and italic; the same style at a lower opacity is not a new one. A graphic piece takes two or three, from two typefaces at most; four only when it carries a lot of practical information. Too many styles in little space is *"muy cantoso, muy poco elegante"*. The small tier is one style: the body at a lower opacity or tiny spaced capitals, never both, and no new italic on top (the key datum may take one weight step of it). When you are over the limit, merge roles first: the description and the data can share one style, and a caps meta line can become the body style.
+   - **Text styles:** each role has one style and each style has one role. A style is one mix of typeface, size, weight, case, tracking and italic; the same style at a lower opacity is not a new one. Too many styles in a small piece is, in his words, *"muy cantoso, muy muy poco elegante"*: remove the styles that repeat a role or mean nothing, and add no new italic or caps style to the small tier. The title, the hook or offer, a label or credits line, the key datum and the small print each keep a style that tells them apart. Never merge two roles into one style to reach a number.
    - **One unit, one style:** a title, a quote or a reference ("Mark 10:14") is set in one typeface at one size. Splitting it into two faces or two sizes reads as two messages.
    - **Spacing inside blocks:** every change of role inside a text block has a visible gap (at least half the smaller text's size between small lines, the smaller text's full size under a display title), and no two neighbouring lines fuse (`references/eye.md` §4).
-   - **Groups:** in a graphic piece split into separate groups, the gaps between them are at least 3× the largest gap inside a group, and the small information is anchored to the frame or hangs under what it qualifies, never a band floating mid-canvas. One compact group keeps equal distances between its blocks instead.
-   - **The title** is clearly the biggest text, alone at its size, unless the hook is a display figure or a date block: then the hook keeps the largest size and the title follows it. Never shrink the hook to obey this. It has tight leading (about 1.0–1.1 at display sizes, down to 0.85–0.95 for a very large display title when nothing collides) and balanced lines: two lines beat three when it fits.
+   - **Groups:** in a graphic piece, groups are clearly told apart, and the small information is anchored to the frame or hangs under what it qualifies, never a band floating mid-canvas. One compact group keeps equal distances between its blocks instead. Separate the groups with space, never by shrinking their type.
+   - **The title** is clearly the biggest text, alone at its size, unless the original sets the hook bigger (a figure, a date block, an offer, a display or script word): then the hook keeps the largest size and the title is the largest text after it. Never shrink the hook to obey this. It has tight leading (about 1.0–1.1 at display sizes, down to 0.85–0.95 for a very large display title when nothing collides) and balanced lines: two lines beat three when it fits.
 4. **Consistency:**
    - Siblings share one structure.
    - Icons in a group have one optical size.
@@ -242,18 +256,20 @@ On the render, not the code:
    - **In a graphic piece:**
      - The logo sits in its slot. It is never on the same line as the title or the call to action, as if they were peers.
      - Every image either bleeds to the edge or sits inside the safe area, never stops in between.
-     - A scrim behind text is dark, never a grey wash.
+     - Behind text on a photo, a dark scrim or a clean light card, never a grey wash.
 5. **Detail:**
    - Everything aligns to the axes, and every spacing value is on the system.
    - Headings and display figures have negative tracking, except uppercase, which stays at 0 or open, system fonts, which track themselves, and a brand's deliberate open tracking.
    - Line breaks are clean: no widow and no conjunction left at the end of a line.
    - Nothing overflows with longer content.
 6. **Worse than before?** Compare your version, area by area, with the original and with any version the person already approved. Any area that lost quality goes back.
-   - **Bar check:** if every correction is a nudge of a few pixels (under about 12) and nothing was removed or recomposed, you haven't corrected the composition yet. Go back to the composition questions in Process §4. A piece whose only faults are nudges of a few pixels is an "I'd sign it", with the nudges listed as Details, not a "with changes". If the piece wasn't an "I'd sign it" and you didn't compare your polish with a recomposition, go back to How deep to go. The exception is an interface whose structure works, which gets one version.
-   - **Life:** a version that is correct but flat or boring isn't finished. Look for the protagonist that clearly wins and for movement (type on a calm area of the image or across a cut-out, a crop of an image by the canvas edge, a diagonal, an asymmetric mass with its counterweight, a staggered path, stacked or rotated type), or a reduced static piece (one axis, two sizes, about five elements, a large calm field). Count the devices only to diagnose flatness, never as a quota: a calm version that won the comparison keeps its calm and the sweep adds nothing to it.
-   - **The hook keeps its force.** The big element that gave the piece its impact (a giant number, a date block, a display word, a waveform) keeps its scale or takes a stronger role. Shrinking it into the body to make room for something else is a regression, unless a stronger hook replaced it.
+   - **Bar check:** a piece whose only faults are nudges of a few pixels is an "I'd sign it", with the nudges listed as Details; don't invent composition changes for it. Otherwise, if every correction is a nudge of a few pixels (under about 12) and nothing was removed, moved, resized or re-anchored, you haven't corrected the composition yet: go back to the composition questions in Process §4.
+   - **Voice check:** put your version beside the original. It still sounds like itself: the same faces (less any with no role, against the tone or only splitting a title), including the one that carries the voice, the same colour pair, the same concept graphic. No role lost the style that told it apart, and no line of content got smaller than its role needs. If yours is tidier but poorer, give back what carried the character and fix how it is used instead.
+   - **Structure check:** on the render, check the structural failures of How he corrects; if one holds, recompose.
+   - **Life:** correct but flat is a flaw he names (*"no cosas planas o insípidas"*). In a polish, find the life inside the structure: a protagonist that clearly wins by size, the image cropped by or bled to the canvas edges it already reaches, groups clearly apart with the small information anchored to the frame, the hook at full force.
+   - **The hook keeps its force.** The big element that gave the piece its impact (a giant number, a date block, a display word, a waveform) keeps its face, colour and weight and stays a display element. Its size steps down only when it competes with the leader, and never into the body. Shrinking it into the body to make room for something else is a regression, unless a stronger hook replaced it.
    - **No leftover voids.** Squint and name every empty area. Each one is a margin, the gap between blocks or groups, the intended empty middle between a top block and a bottom block, or the calm field of a reduced static piece or around a small protagonist. Any other void, such as half a column left blank or a text block pushed up against a photo with empty space below, gets rebalanced.
-   - Key information (the date, the price, the practical data) never ends up harder to read than in the original. Measure the rendered letters, not the font-size: changing the typeface can eat an increase. This doesn't protect secondary text: a tagline, an old price or a note still steps below what it qualifies, as long as it reads at real size.
+   - Key information (the date, the price, the practical data) never ends up harder to read than in the original. Measure the rendered letters, not the font-size: changing the typeface can eat an increase. This doesn't protect secondary text: an old price or a note still steps below what it qualifies, as long as it reads at real size. A line that carries the voice or the offer keeps its weight.
    - A crop never leaves a head or a face touching the edge. When the photo doesn't fit, it yields first: adjust or crop it to keep the composition, even losing part of the image.
    - When you rebuild a design from a capture, first match the capture: the same type weights, the same icon set and stroke, the same sizes. Compare every area you didn't mean to change against the original; any difference there is a regression, or an approximation you name in the report.
    - A fix made to one element applies to every element of the same kind: states for all the interactive elements, an icon fix for the whole set.
@@ -263,12 +279,14 @@ On the render, not the code:
    - The sweep never undoes a decision the person already accepted, and never inverts a hierarchy rule while fixing something else.
 7. **Iterations:** when the person gave adjustments to a version you delivered, check that you changed that version and only what they asked. Don't regenerate it from the original.
 
-Fix everything the sweep finds in one batch, render again and confirm once.
+**Measure the render** (graphic pieces in HTML). Run `scripts/measure-graphic.py` on your corrected file, with the canvas size and the product's safe area when it has one. It measures space: the gaps between the bodies of the letters, lines that fuse or collide, the rhythm between blocks, the axes, the safe area and the logo. Fix every FAIL. Fix every WARN too, or keep it only for a reason you can name in a few words (a display lockup, an optical nudge on a round letter). Eyeballed spacing is what he still corrects most (*"me faltan pulidos de espacios"*), so the numbers decide the spacing. They never decide the voice: the typefaces and styles it lists are information, not faults.
+
+Fix everything the sweep finds in one batch, render again, measure again and confirm once.
 
 **The report gets the same sweep.**
 - If the sweep changed a value, update the corrections table and the corrected-version section so the report matches the delivered file.
 - Say each value once: the corrected-version section lists only what isn't already in the table.
-- Add one line, and only one, for what the sweep caught. In a graphic piece, that line also gives the counts: typefaces, text styles and lines of content kept (for example "2 tipografías, 4 estilos, 11 de 11 líneas").
+- Add one line, and only one, for what the sweep caught. In a graphic piece, that line also gives the lines of content kept and the measure's result (for example "11 de 11 líneas, 0 FAIL, 1 WARN: bloque del título").
 - A report that repeats itself or contradicts the file is the same mistake as a design that does.
 
 ## Response format
@@ -292,7 +310,7 @@ The English template:
 
 ```
 **Verdict:** I'd sign it · I'd sign it with changes · I wouldn't sign it — one sentence with the main reason (what makes or breaks the harmony).
-**Depth:** Polish · Rebuild parts · Redo — one sentence: why, and in correct or design mode which version won the comparison.
+**Depth:** Polish · Rebuild parts · Redo — one sentence: why, and when a recomposition was made, why the delivered version won.
 
 **Diagnosis**
 3–6 points ordered by impact, one or two sentences each.
@@ -406,13 +424,13 @@ Before your first critique in a session, read `references/voice.md`: his real cr
 From his own words and calibration choices, applied in each design's own language:
 
 - **Proximity:** spacing inside a group is smaller than between groups. A label sits close to its field and fields sit further apart (around 8 and 24 on his scale). Meta information sits tight to the text it belongs to.
-- **Separation:** one subtle divider between sections is welcome. A line under every row of a short list that needs no structure saturates; rules that structure a list of items may stay, at full width with equal gaps. In interfaces and long documents, hairlines go under section headers, between groups and where they help scan a data table. In a graphic piece, a rule under the header or the sender's name is noise. Platform-standard inset separators (iOS grouped lists) are not "a line on every row".
+- **Separation:** one subtle divider between sections is welcome. A line under every row of a short list that needs no structure saturates; rules that structure a list of items may stay, at full width with equal gaps. In interfaces and long documents, hairlines go under section headers, between groups and where they help scan a data table. In a graphic piece, a rule that only underlines a single line that space already separates (a sender's or parish name) is noise; a rule that divides two groups, opens or closes a table, or is the line other elements stand on is structure and stays. Test it by removing it: if a group or an axis falls apart, it was structure. Platform-standard inset separators (iOS grouped lists) are not "a line on every row".
 - **Rhythm and scale:** a few repeated spacing values, not arbitrary ones.
   - His scale is 2, 4, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 56, 64, 72, 80, 96, 112, 128, 144, 160, then +16.
   - 6 is a regular step.
   - 10 is his for small-component distances where 8 is tight and 12 loose (*"a veces lo necesito, porque no me convence el 8 ni el 12"*). Never use it for section, card or layout gaps. As a small-component distance, never flag it; as a layout gap, or as a stray in a design built on a base of 4 or 8, the normal rules apply.
   - 36 is tolerated.
-- **Typefaces and styles:** two typefaces at most, any script or accent face included (*"como mucho se usan dos"*), the second owning one role. Few text styles, and one style per unit: no title set in two faces.
+- **Typefaces and styles:** each face and each style owns a role. Two typefaces at most is his stated rule (*"como mucho se usan dos"*): keep to it when you pick the faces yourself (a new piece, or a redo that replaces them). In someone else's piece, a third face that carries the voice usually stays, used once and well: the version that kept it won 7 of 9 of his blind picks. Cut a face that has no role of its own, goes against the piece's tone, only splits a title, or fights the title for the lead, never only to reach a number. One style per unit: no title set in two faces.
 - **Type steps:** clear jumps, not 13/14/15/16. Few weights. Consistent line heights.
   - Secondary text (a tagline, an old price, a note) sits a step below the content it qualifies: smaller, or in a graphic piece the same style at a lower opacity. A subtitle and a feature list at the same size read flat.
   - Headings take negative tracking by size, following the typeface's and platform's conventions (about −0.01em at 20–24 up to −0.03em at display sizes for a grotesk; system fonts already track themselves). Body at 0; uppercase never negative.
@@ -423,7 +441,7 @@ From his own words and calibration choices, applied in each design's own languag
   - Colour is judged as a pair: a palette that works stays in a polish (a mustard ground with a deep blue title beat the same piece in all blue), and a redo changes it only for a clearly more beautiful pair. A new dark field (not a brand colour) is near-black or a clean deep tone, never a muddy brown. A client's brand colour keeps its exact value; only its area changes.
 - **Buttons:** horizontal padding twice the vertical (8/16, 12/24, 16/32), so they never look square. Icon-only buttons are the exception.
 - **Icons:** one size and optical weight per group (header actions, a toolbar, list rows). In a list row the icon supports the text, it doesn't lead. Icons are welcome when they make stacked information scannable (date, place, price), in one set, one size, one colour and one opacity for the whole set; an inline line inside one category takes middle dots and no icons.
-- **Graphic pieces** (posters, posts): one protagonist that clearly wins, fused with the image when both are big; two or three groups, with the small information anchored to the frame; movement, or a reduced static piece. Inside one compact group his rhythm is equal distances between consecutive blocks, a little more (about 1.2×) where an image meets text, equal distances from the message to the practical data, and a hairline when it evens the rhythm out; separate groups sit far apart instead. A centred stack can read as a funnel, from big to small: the display title narrower than the image or frame above it and wider than every line below (unless title and image are fused by width). Size elements by their relation to the shapes around them. In a tall piece, an empty middle is valid when the content splits by type (what it is on top, how to act on it at the bottom) and the image breathes in between. A strong photo gets protagonism, and a scrim behind text is dark. Details in `references/eye.md` §4.
+- **Graphic pieces** (posters, posts): one protagonist that clearly wins, fused with the image when both are big (in a polish, one leads by size; the fusion is a recomposition); groups clearly told apart, with the small information anchored to the frame; life, from movement or from a calm, reduced piece. Inside one compact group his rhythm is equal distances between consecutive blocks, a little more (about 1.2×) where an image meets text, equal distances from the message to the practical data, and a hairline when it evens the rhythm out; separate groups sit far apart instead. A centred stack can read as a funnel, from big to small: the display title narrower than the image or frame above it and wider than every line below (unless title and image are fused by width). Size elements by their relation to the shapes around them. In a tall piece, an empty middle is valid when the content splits by type (what it is on top, how to act on it at the bottom) and the image breathes in between. A strong photo gets protagonism, and a scrim behind text is dark, or the text sits on a clean light card. Details in `references/eye.md` §4.
 - **Real content:** every slot survives longer content: one more digit, a long name, a translation. Amounts never wrap or clip; names truncate first.
 - **Containers:** cards when they group consistently. No card inside a card of the same surface and weight; a tonal step that groups one set of actions is fine. A border or fill used to mark state means the same thing everywhere.
 - **Radii:** concentric, so the inner radius equals the outer radius minus the padding. His exception: if the child would look almost square, add a little *"without it looking broken"* (*"sin que se vea roto"*).
@@ -438,7 +456,7 @@ From his own words and calibration choices, applied in each design's own languag
   - Contrast is judged by eye at real size and distance ("se lee mejor" wins).
   - In an audit, a measured ratio can back the judgement.
   - For a public product, mention WCAG as context, never as a blind rule.
-  - Captions go down to about 12; 10–11 only for platform micro labels such as tab-bar labels.
+  - In an interface (pt), captions go down to about 12; 10–11 only for platform micro labels such as tab-bar labels. On a graphic canvas these are not px: a 1080-wide post shows at about 375–390 pt on a phone, so divide by about 2.8 (12 px is about 4 pt). His smallest tested text on a 1080 post is the 24 px spaced uppercase meta, which reads well; text clearly below that, small print included, doesn't read. When long small print can't fit in the safe area at a size that reads, keep it whole, say so and offer the post's caption as its home. Never shrink it to fit.
 - **Accessibility:** visible focus, touch targets of 44 or more, reduced motion.
 
 ## His style (reference only)
@@ -473,6 +491,7 @@ For other people's designs, `eye.md` and `voice.md` are enough.
 | `references/layouts.md` | Measured layouts of his sites | Only when designing in his style and `system.md` doesn't answer the layout question |
 | `references/referents.md` | Flodesk and ls.graphics measured | Only when designing a marketing page in his style. Never a reason on its own in a critique |
 | `scripts/measure.js` | Measures a rendered layout | Paste it into the browser's JavaScript tool |
+| `scripts/measure-graphic.py`, `scripts/measure-graphic.js` | Measures a graphic piece built in HTML: margins, gaps between letter bodies, styles, safe area, logo | Run the .py with the canvas size, or paste the .js into a browser; in every graphic piece you deliver as HTML |
 | `assets/tokens.css`, `assets/tailwind-preset.js` | His tokens in code | Designing in his style |
 
 ## If other design skills are active
@@ -488,7 +507,10 @@ When Dimeyes is active, it owns the process, the order and the output format. Co
 - **Dumping 40 details with no order.** Impact first; group what repeats.
 - **Padding** with praise or caveats that dilute the verdict.
 - **Adding elements** when the fix is to remove. He always seeks the fewest necessary.
-- **Timid polish:** nudging pixels on a piece that needs redefining, or keeping noise because it looks like the template's signature.
+- **Timid polish:** nudging pixels, or keeping noise because it looks like the template's signature.
+- **Flattening:** cutting the faces, styles, hook or devices that carry a piece's voice, or merging roles, to meet a count. In his blind picks the tidier, poorer version lost to the one that kept the character.
+- **Imposing his favourite posts' numbers** (sizes, styles, group ratios measured on the posts he loves) on someone else's piece. They describe his taste; on another piece they are his style, not his eye.
+- **Recomposing by default:** delivering a rebuild where a polish inside the structure would do. In his blind checks it lost more often than it won.
 - **Over-correcting:** muting everything until the feature, the recommended option or the text hierarchy disappears, or stripping a gradient that only needed to be subtler.
 - **Designing with defaults** from a framework, another skill or habit (stock Tailwind, `rounded-lg` everywhere, three CTAs in the hero). Every value comes from the design's own system or, where it has none, from his scale.
 - **Delivering a correction or a design without the final polish sweep.**

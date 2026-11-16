@@ -129,7 +129,7 @@ After a second round repeated the parish's name in one post and made its top wor
 | Where the empty space goes in a tall post | Top block and bottom block, empty middle | What happens on top, how to attend at the bottom |
 | Programme size against 44 data | 48 | *"no queda más pequeño… tampoco… cantoso"* |
 | Hook face | Script | Personality, matches the handwritten feel; the others are *"aburridas y feas"* |
-| Icon opacity (rows at 100/80/64) | All at 64 % | *"no se genera ruido… un montón de tonalidades de blanco"* |
+| Icon opacity (rows at 100/80/64) | All at 64 % | *"así no se genera ruido visual poniendo un montón de tonalidades de blanco"* |
 | Description opacity on a dark photo | 60 % | Doesn't compete with the title or the time |
 | Gap between stacked data rows (40 px text) | 20 | *"un pelín de aire… muy fácil de leer"* |
 | How the date leads | Weight | — |
@@ -213,7 +213,7 @@ He then judged the same twelve unseen pieces himself, blind, comparing the rewri
 
 Lessons:
 - Judges given only his words are not a proxy for his eye; only his own picks count.
-- A redo has to be clearly more elegant and keep the hook, or the polish wins; a close call is shown to him as an alternative (SKILL.md, How deep to go).
+- A redo has to be clearly more elegant and keep the hook, or the polish wins; a close call is shown to him as an alternative (SKILL.md, How he corrects).
 - Spacing inside text blocks gets a concrete minimum (`eye.md` §4).
 
 ## The reference study (16 November 2026)
@@ -261,5 +261,51 @@ Clean sessions corrected twelve unseen pieces (six catalogue templates never use
 Lessons, now in SKILL.md and `eye.md`:
 - Colour is judged as a pair; a palette that works stays in a polish, and a new dark field is near-black or a clean deep tone, never a muddy brown.
 - Practical information is categorised: when, where and the conditions each on its own line, the key datum leading, with no new text styles. One uniform small block fuses.
-- A round price sticker and a bordered circle photo are dated devices.
+- A bordered circle photo is a dated device. A price badge is judged by its execution: his objection was the air inside it, and in the sixth check the version that kept the bike workshop's badge won.
 - When one version has the better header and another the better data, combine them.
+
+## His fourth blind check (16 November 2026)
+
+Twelve more unseen pieces, eight of them commercial posts from outside Cathopic (a restaurant, a hair salon, an estate agent, a clothing shop's story, a gym, a vet, a pottery class and a LinkedIn webinar) and four catalogue templates, corrected by 1.2 and by 1.0.2. The goal set before he saw them was 8 of 12 for 1.2. He picked 1.2 four times and 1.0.2 eight times, and signed one of the two every time. His words: *"sí se acerca más, me faltan pulidos de espacios, pero en general lo veo más robusto"*.
+
+Across the three blind checks against 1.0.2: 4–6–2, 5–5–2 and 4–8–0, so 13 for the rewrite, 19 for 1.0.2 and 4 neither. The rewrite delivered a plain polish in one of 24 pieces; every other time it delivered a partial or full rebuild, while 1.0.2 corrected inside the original structure more often. Its rebuilds won 9 of 23. He prefers the correction that stays closer to the original structure and gets the spacing right, more often than a recomposition made by a clean session.
+
+Rule drawn: the polish is the default delivery (SKILL.md, How he corrects). A recomposition is delivered only when the structure fails, and otherwise offered beside the polish as an alternative.
+
+## His fifth blind check (16 November 2026)
+
+Twelve more unseen pieces (eight commercial: a bookshop, a pharmacy, a driving school, a rural hotel's story, a burger bar, a coworking space, a music school and a law firm's LinkedIn talk; four catalogue templates), corrected by the polish-first skill and by 1.0.2. The polish-first skill polished all twelve inside their structure. He picked it five times, 1.0.2 six times, and neither once (the law firm: *"saturación de información"*). His words: *"se acerca más; me ha gustado que se intente, en la medida de lo posible, conservar el estilo original pero haciéndolo bien, y en los casos que no, que haya mejorado el diseño"*.
+
+Across the four blind checks against 1.0.2: 18 for the rewrite, 25 for 1.0.2 and 5 neither. That gap is within what chance gives on 43 picks, so the rewrite is level with 1.0.2 in his blind picks, not better, while every round he said it comes closer. This round 1.0.2 won several times with the more transformed version, so how much a correction changes does not decide his pick on its own. What he names most is spacing finish (*"me faltan pulidos de espacios"*).
+
+## His sixth blind check (16 November 2026)
+
+Twelve more unseen pieces: six catalogue templates drawn at random and six commercial posts (an optician, a 10K race story, a theatre, a bike workshop, an ice-cream shop, a software webinar on LinkedIn), corrected with the spacing measure and by 1.0.2. He picked the measured version five times and 1.0.2 seven times. On the templates the measured version won 4 to 2; on the commercial posts 1.0.2 won 5 to 1. He would sign 2 of the 12 picks as they are (both 1.0.2's), 9 with retouches. Over the five checks against 1.0.2: 23 to 32, with 5 neither.
+
+Measured on the 96 corrections of the last four checks, the rewrite left fewer text styles than 1.0.2 in 30 of 48 pieces and never more (3.4 against 4.7 on average). In those pieces it won 10 of the 27 he decided. When 1.0.2 kept a third typeface that carried the piece's voice (a script hook, a condensed display face), 1.0.2 won 7 of 9. The commercial losses show the same thing on the render: the rewrite cut the script hook and the price badge of the bike workshop, set the optician's offer as a small subline, turned the theatre's credits and date into one flat body style, and dropped the race's italic display face and its colours. 1.0.2 kept each of those and fixed how it was used.
+
+Rule drawn: respect the piece and make it work (SKILL.md, How he corrects). The voice stays, its faces included, and the counts only find a sprawl: one role set several ways, or styles that mean nothing. Never cut the voice or merge roles to reach a number. The numbers of The reference study describe the posts he loves; they judge and compose, they are never imposed on someone else's piece.
+
+## His seventh blind check (16 November 2026)
+
+Twelve more unseen pieces: six catalogue templates drawn at random and six commercial posts (a bakery, a jazz festival, a nursery school, a winery story, a sports-shop sale, a dental clinic), corrected by the rewritten core (respect the piece, make it work) and by 1.0.2. The rewrite won for the first time: 7 to 5 (templates 4 to 2, commercial posts 3 to 3). He would sign 6 of the 12 picks as they are, 4 of them the rewrite's, against 2 in the sixth check. His words: *"se acerca"*. Over the six checks against 1.0.2: 30 to 37, with 5 neither.
+
+What 1.0.2 still did better, on the render:
+- **Starbursts and seals.** In the bakery and the sports-shop sale the rewrite kept the offer's starburst or scalloped seal, cleaned up; 1.0.2 removed it and set the figure as type, and won both. On the race story of the sixth check, removing the stickers also won. On the bike workshop a calm flat circle was kept and won. A calm badge can carry the offer; an explosion shape cannot.
+- **The data the reader acts on.** In the bakery 1.0.2 set the three sizes and prices as a level of their own, with big figures; the rewrite categorised them but kept them small. His comments on the third check ask for the same (*"categoriza mejor la información"*, *"no aparece todo tan comprimido"*).
+- **Too much text on a post.** In the nursery school 1.0.2 kept only when, where and how to book, with icons, in the calm band above the photo; the rewrite kept all seven lines under the photo. He had already called a law firm's post *"saturación de información"*.
+The two templates 1.0.2 won were near-identical pairs.
+
+## His eighth blind check (16 November 2026)
+
+A confirmation round on twelve more unseen pieces: six catalogue templates drawn at random and six commercial posts (a summer cinema, a dance school story, a craft brewery, a Christmas market, a tax adviser's LinkedIn webinar, a yoga retreat), corrected by the rewritten core with the three rules drawn from the seventh check (starbursts become type, the data the reader acts on reads big, a post is not a flyer) and by 1.0.2. The rewrite won again: 7 to 4, with neither for the Christmas market (templates 4 to 2, commercial posts 3 to 2). He would sign 6 of the 11 picks as they are, 3 for each version. His words: *"se acerca"*.
+
+The rewritten core has now won two checks in a row, 14 to 9 with one neither, where every earlier version lost to 1.0.2. Over the eight checks against 1.0.2: 37 to 41, with 6 neither.
+
+What 1.0.2 won this time: the summer cinema, where it kept a small "ESTRENO" starburst on the marquee and set the five films as one centred list (he would sign it as it is), while the rewrite set the badge as type and the films as a wide table; the dance school story, where 1.0.2 set the title larger (its logo sat in Instagram's covered zone); and two near-identical templates. A small starburst that belongs to a retro concept was not punished here, so the rule stands for the offer's sticker, not for every badge-shaped device.
+
+## His ninth blind check (16 November 2026)
+
+Twenty catalogue templates only, drawn at random from twenty different categories and twenty different layouts, half with a photo, none seen before, corrected by the unchanged rewritten core and by 1.0.2. The rewrite won 11 to 9. He would sign 13 of the 20 picks as they are (7 the rewrite's, 6 1.0.2's) and the other 7 with retouches; he rejected none. His words: *"se acerca"*.
+
+On clean templates both versions now reach his bar most of the time, and the pairs differ in details, so a pick here is close to a coin toss. The rewritten core has won three checks in a row, 25 to 18 with one neither, and 19 to 13 on catalogue templates. Over the nine checks against 1.0.2: 48 to 50, with 6 neither.
