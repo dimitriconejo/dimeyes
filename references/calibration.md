@@ -144,3 +144,122 @@ After a second round repeated the parish's name in one post and made its top wor
 ## The catalogue templates test (13 November 2026)
 
 Five random Cathopic catalogue templates corrected with Dimeyes came back with pixel nudges only (2 to 12 px), all with "with changes", while the outlined ovals, a hairline that separated nothing, a line under every data row and an unchanged composition stayed. His reaction: *"los ajustes que hizo son mínimos… mejora, sí, pero no soluciona todo y no piensa del todo como yo."* The brief had told it to judge the templates "in their own language, not his style". The general rules drawn from this are in SKILL.md: ownership decides the style, not how hard the eye works; what ships in his products reaches his bar; language is not noise; composition first; and the verdict and bar check.
+
+## Logo slot and safe areas (15 November 2026)
+
+While preparing a test on Cathopic templates he pointed out that every template has an invisible slot for the user's logo and that the editor marks the safe areas the social networks require. In his words: *"quiero que el skill sepa colocar el logo en el lugar perfecto, para redes sociales, pueden variar los tamaños de los logos"*, and the safe areas *"afectan a los textos/contenido"*, while an image doesn't have to stay inside them. He stressed it is not one case: *"el skill debe funcionar bien siempre en los diseños gráficos sea cathopic o no"*.
+
+Rules drawn from it (general, in `eye.md` §4 Graphic design): safe areas are a hard limit for text, logo and key content, while images and colour fields that bleed to the edge may cross them (an image sitting inside the canvas as an object keeps them; see the depth test below); the logo slot is part of the composition in any post or template that will carry a logo, placed on a content axis inside the safe area, on a calm ground, in the contrasting version, and fitted to the box by the logo's own shape.
+
+## The depth test (15 November 2026)
+
+He said Dimeyes was too timid: *"hace un pulido muy sutil sin atreverse… hay diseños que simplemente necesitan pulido, pero otros necesitan una redefinición"*. To learn when and how he redoes a piece, he judged twelve real Cathopic catalogue templates. For each one he first said, seeing only the original, how deep he would go. Then he picked, blind, one of three versions Dimeyes had made: a polish, a partial rebuild and a full redo.
+
+| Template | First sight | Picked | His words |
+|---|---|---|---|
+| First Communion, framed oval photo | Rebuild parts | Polish | Three typefaces, *"como mucho se usan dos"*; frame corners with different curves; the rule under the parish name *"solo genera ruido"* |
+| Read with a class, stacked photo cards | Polish | Redo | *"le da protagonismo a la imagen y le quita el efecto stack, que no suma"*; the logo shouldn't sit at the call to action's level, it goes top centre |
+| Lent series, schedule list | Rebuild parts | Polish | Redo the title, no font combination in it; the logo at the foot, not beside the title |
+| Holy hour, arch photo | Polish | Rebuild parts | A word too close to the image, the image too elongated: *"no me genera armonía"* |
+| Rosary, three square photos | Polish | Polish | The photos form a structure, so they keep the safe zone; too many text styles, *"muy cantoso, muy poco elegante"* |
+| Archangels | Rebuild parts | Redo | No font combination in one title; two lines, not three; the redo is right *"aunque me parezca un pelín aburrido"* |
+| Veiled crosses | Redo | Redo | *"bastante feo"*; the redo still had too many text styles |
+| Spirit Week, colour bands | Redo | Rebuild parts | Good concept, badly executed; the bands go to 100 % width, and the colours need a meaning |
+| Mark 10:14 | Polish | Redo | One reference, one size; the whole verse at one size |
+| Before you arrive, A–D list | Polish | Redo | Rules full width, equal gaps; the redo changed the concept *"pero está muy bien conseguido y mejora el original"* |
+| Blessing of fields | Redo | Redo | *"aburrido… poca jerarquía, demasiadas cosas, información mal categorizada"*; a bigger title |
+| I am the resurrection | Polish | Polish | A dark overlay, *"no ese gris que es rancio"*; a touch less leading on the title |
+
+His first impression matched his pick in only four of twelve. Once he saw the versions he picked the redo six times, the partial rebuild twice and the polish four times. His comments on the polishes he picked asked for more than they had done: a third typeface removed, a noise rule removed, the title redone, the logo moved.
+
+His open answers:
+- **What makes him redo:** *"cuando veo mucho ruido sin sentido y me digo a mí mismo, esto hay que rehacerlo y definirlo bien"*.
+- **What can change:** *"primero ordenar bien la información y ahí empiezo a redefinir o quitar cosas… ver qué cosas de texto se pueden sustituir por algún elemento gráfico… intento respetar todo, pero hago todos los cambios que me da la gana, para que una pieza quede bien consistente, preciosa"*.
+- **Where he starts:** *"comienzo a reordenar la información, cambiar tamaños, probar hasta lograr una jerarquía y una composición que me hace sentir belleza y armonía en los ojos… y no cosas planas o insípidas"*.
+
+The general rules drawn from it are in SKILL.md and `eye.md`:
+- How deep to go: compare a polish with a recomposition and keep the better result.
+- His redo process.
+- Whose identity is protected.
+- Noise devices go even when they are the signature.
+- Two typefaces at most, few text styles, one unit one style.
+- The title's leading and line count.
+- One width for a set, and a colour code needs a meaning.
+- Dark scrims.
+- An image bleeds or keeps the safe area.
+- The logo is not a sibling of the content.
+- The photo's protagonism.
+- Life.
+
+## First blind check of the depth rules (15 November 2026)
+
+Clean sessions corrected twelve unseen pieces with the rewritten skill and with the previous one: six catalogue templates, plus posts for a bakery, a jazz club story, a yoga studio, a webinar, an NGO and a bookshop. Two judges per piece, who knew only his answers from the depth test, preferred the rewrite 22 to 2, and they agreed when the order was swapped. The rewrite was bolder and better composed in eleven pieces. It also showed five faults, now turned into general rules in SKILL.md and `eye.md`:
+- **It removed graphics that said something:** a stamp-edged card that was the piece's concept, a podcast waveform, a bookshop's stack of books, the highlight on the one special class. Rule: noise is not the same as a graphic that says something.
+- **It dropped lines without saying so:** a "presents" line, a badge, a kicker. Rule: the content list is a contract.
+- **It weakened the call to action** by turning buttons into plain lines. Rule: the call to action stays the second level.
+- **It left voids in split layouts.** Rule: every column is composed on its own.
+- **It put a story logo in the top interface band.** Rule: the story safe area is 250 at the top.
+
+The one piece the judges gave to the old skill was a clean polish: the new skill had removed the stamp-edged card and left a flat field.
+
+## His blind check of the rewrite (15 November 2026)
+
+He then judged the same twelve unseen pieces himself, blind, comparing the rewritten skill (after the fixes above) with 1.0.2. Two judges with only his words had predicted 23 to 1 for the rewrite. He picked the rewrite 4 times, 1.0.2 six times, and neither twice.
+- **The rewrite won** where it kept the concept and executed it better: the stamp card rebuilt with the logo at the foot (*"le pondría el logo en blanco"*), the office hours with a dark title band, the webinar with the photo on top, and the jazz story.
+- **1.0.2 won** where the rewrite had changed the concept and lost force: the podcast's giant 24 became a small numeral (*"no me convence una imagen más el número 24 en pequeño… no lo veo atractivo"*), a medallion became a sparse outline, the photo turned into a narrow strip, and calm polishes became busier.
+- **Neither, for the bakery and the NGO post:** *"todas las propuestas me parecen bastante feas; no son elegantes ni están bien planteadas"*, *"son muy feos todos"*.
+- **His most repeated note was spacing inside text blocks:** *"ajustaría bastante los espacios de los textos en un mismo bloque"*, *"los espacios fallan un poco, está todo muy unido"*.
+- **What it still lacks, in his words:** *"más creatividad, entender mejor lo que está haciendo, tener buenas jerarquías, composiciones, que transmita elegancia… consistencia, bien definidos los espacios, que el ojo humano vea rápidamente la información importante"*.
+
+Lessons:
+- Judges given only his words are not a proxy for his eye; only his own picks count.
+- A redo has to be clearly more elegant and keep the hook, or the polish wins; a close call is shown to him as an alternative (SKILL.md, How deep to go).
+- Spacing inside text blocks gets a concrete minimum (`eye.md` §4).
+
+## The reference study (16 November 2026)
+
+To teach the skill what he calls elegant, 36 social posts were preselected from collections that designers curate on Are.na (events, products, music, food, editorial pieces) and shown to him on one board. He marked the ones he would sign: 26 signed, 10 rejected. Each post was then measured in pixels, with sizes and distances as a percentage of the canvas width.
+
+His words on the signed ones: *"cuando hablamos de elegancia no es usar tipografías cursivas súper elegantes… hablo de la sensación premium que transmite… una composición muy lógica, se ve una jerarquía visual muy clara, las cosas están puestas bien en su sitio, no todo parece que tiene el mismo tamaño… no son diseños aburridos, son modernos… cómo se juega con la tipografía, los espacios, el movimiento… buenas combinaciones de color"*. On the rejected ones: *"ilustraciones feas o manchas enormes… poca jerarquía visual, poca composición… muy simple, típico color y poco más. Tú puedes poner color y poco más, que eso puede funcionar perfectamente. La cosa es cómo lo pones"*.
+
+| Measure | Signed (median) | Rejected (median) |
+|---|---|---|
+| Typefaces | 1 | 2 |
+| Text styles | 2 | 3.5 |
+| Distinct type sizes | 2 | 3 |
+| Smallest gap between groups | 9.8 % of the width | 5.5 % |
+| Gap between groups ÷ largest gap inside a group | 5.6× | 2.6× |
+| Gap at a change of role ÷ the smaller text's size | about 1× | about 0.4× |
+| Protagonist's area | 46 % | 34 % |
+| Elements | 5 | 6 |
+| Empty ground | 52 % | 50 % |
+| Largest size ÷ smallest | 3.2× | 5.6× |
+
+What did not separate them: the amount of empty ground, the side margins and the scale ratio (two rejected posts had titles 16–20× their small text). A bigger title or more air does not make a piece elegant, and the size-ratio row is not a target: never shrink a hook to bring it down.
+
+Rules drawn (`eye.md` §3.1, §3.4 and §4, What makes a piece elegant to him; SKILL.md, the redo process and the sweep):
+- **One protagonist that clearly wins,** fused with the image when both are big. All 26 signed posts have one leader; when type and image are both large, the type sits on the image, crosses a cut-out or takes the image's width. The rejected posts stack two masses of similar weight (plates against a title, two equal portraits, a table against a title).
+- **Groups, not a chain of bands,** with the small information anchored to the frame.
+- **Two or three sizes, never two neighbours almost alike.** Near sizes in one face (1.03–1.3×) appear in four rejected posts and in no signed one.
+- **Movement, or a reduced static piece.** Signed posts use a median of 2.5 spatial devices; the static ones he signed are reduced (about four or five elements, two sizes, a calm field of 60 % or more).
+- **Type on a photo in one flat colour** when size already separates the levels; contrast from where the text sits.
+- **No neon ground behind the type:** no signed post has a neon, lime or mustard ground behind the type; four rejected ones do. His third blind check (below) narrowed this: a mustard ground with a deep blue title won, so only neon grounds stay as a limit, and colour is judged as a pair (`eye.md` §3.1).
+
+Limits: these are art, culture and design posts more than small-business ones, and most ignore platform safe areas, so the safe-area rules stand unchanged. His earlier calibrations (equal distances inside a compact centred stack, 48 over 44 between separate blocks) stay, now scoped to where he chose them.
+
+## His third blind check (16 November 2026)
+
+Clean sessions corrected twelve unseen pieces (six catalogue templates never used in any test, and posts for a florist, a physiotherapy clinic, a choir's story, a charity market, a language school and a café) with the skill carrying the reference-study rules and with 1.0.2. He picked the new skill 5 times, 1.0.2 five times, and neither twice. His words: *"en esta tanda sí que se acerca más a lo que estoy buscando, veo más coherencia. No estoy diciendo que sean diseños perfectos ni al 100 % de cómo lo haría yo, pero se va acercando"*.
+- **The new skill won** with recompositions that kept the concept and gave it one strong idea: the organ recital's title enlarged and the floating band removed, the Veritas masthead turned along the right edge beside a bleeding photo, the clinic's header band, the charity market on a dark photo, and the florist's title reset without its script.
+- **1.0.2 won on the Camino template** because of the colour pair: *"me convence mucho más cómo funciona el fondo amarillo con el contraste que genera el resto del azul… en la B no me termina de convencer todo azul y que se vea el texto en amarillo"*.
+- **1.0.2 won on the choir story** for the data, not the header: *"categoriza mejor la información que aparece abajo. En la B todo se funde un poco, aunque la cabecera me guste más la de la B… haría la parte de arriba de la B y la parte de abajo de la A, sin llegar a saturar"*.
+- **1.0.2 won on the caregivers' circle** because it *"estructura mejor la información y no aparece todo tan comprimido… más limpio, más claro, menos ruido"*, though he would not sign its composition either.
+- **Neither for the language school:** the old version categorised the information better, but its bordered circle photo *"me parece de los años 2000, es feísimo"*; he liked the new version's photo, but not its round "Solo 290 €" badge.
+- **Neither for the café:** the old version *"sobrecarga arriba"* (badge, title, description and availability stacked), the new one solved that but its brown panel *"es horrible"*; the new title face was better than the original.
+- Two pieces were near ties (the rosaries and the silent weekend).
+
+Lessons, now in SKILL.md and `eye.md`:
+- Colour is judged as a pair; a palette that works stays in a polish, and a new dark field is near-black or a clean deep tone, never a muddy brown.
+- Practical information is categorised: when, where and the conditions each on its own line, the key datum leading, with no new text styles. One uniform small block fuses.
+- A round price sticker and a bordered circle photo are dated devices.
+- When one version has the better header and another the better data, combine them.

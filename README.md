@@ -104,6 +104,8 @@ It answers in the language you write in, in the first person and in his voice: d
 
 **Verdict.** One of three, in the language of your request, with one sentence on what makes or breaks the harmony: *I'd sign it*, *I'd sign it with changes* or *I wouldn't sign it*.
 
+**Depth.** *Polish*, *Rebuild parts* or *Redo*, with one sentence on why. In correct and design modes it doesn't guess the depth: unless the piece is already signable, it makes a polish and a recomposition built from the content, compares them with his eye and delivers the better one.
+
 **Diagnosis.** Three to six points ordered by impact, not by list position. What repeats is grouped into one finding.
 
 **Corrections.** A table with `# · Severity · Where · What's wrong · Correction`, from critical to detail, with exact values from the design's own system:
@@ -116,7 +118,7 @@ It answers in the language you write in, in the first person and in his voice: d
 
 **Keep.** What works and shouldn't be touched, three points at most.
 
-**Corrected version.** Only when asked, or in correct mode.
+**Corrected version.** Only when asked, or in correct mode. When the delivered version is a redo, the corrections table lists its decisions instead of pixel nudges.
 
 Audit mode replaces the corrections with an **evaluation by dimension** (colour, hierarchy and focus, space and composition, coherence and consistency, legibility, interaction and UX, detail and scale), each rated Good, Needs work or Poor with the evidence behind it, followed by **what should improve**. No code and no corrected version.
 
@@ -178,6 +180,8 @@ Claude.ai and Claude desktop: download the latest [dimeyes.zip](https://github.c
 
 ## Changelog
 
+- **1.2** (16 November 2026): what Dimitri calls elegant, measured on 36 social posts he judged (26 signed, 10 rejected): one protagonist that clearly wins, fused with the image when both are big; groups far apart instead of a chain of bands, with the small information anchored to the frame; two or three type sizes and never two neighbours almost alike; a role-change gap of about the text's size; movement, or a reduced static piece; one flat colour for type on a photo when size already separates the levels. In his third blind check on twelve unseen pieces it won 5, lost 5 and he signed neither twice, against 1.0.2, and he said it comes closer, with more coherence. From his reasons on the losses: colour is judged as a pair and a working palette stays, practical information is categorised instead of fused into one small block, round price stickers and bordered circle photos are dated, and two versions can be combined when each solves a different area.
+- **1.1** (15 November 2026): from Dimitri's depth test on twelve catalogue templates. It decides how deep to go by comparing a polish with a recomposition. It follows his redo process. His polish removes noise even when it is the template's signature. New rules: two typefaces at most and few text styles, the title's leading and line count, dark scrims, the photo's protagonism and life. Noise is told apart from graphics that say something. The content list is a contract, and the call to action and the piece's hook keep their force. No leftover voids. Safe areas and the logo slot apply to any social post. In Dimitri's own blind check on twelve unseen pieces it won 4, lost 6 and tied 2 against 1.0.2. Judges given only his words had predicted 23 to 1. So a redo must now be clearly more elegant and keep the piece's hook, close calls are shown as alternatives, and spacing inside text blocks has a minimum.
 - **1.0.2** (13 November 2026): labels and verdicts follow the language of the answer; the skill is named Dimeyes in prose.
 - **1.0.1** (13 November 2026): public release: README, license, release ZIP. Skill behaviour unchanged.
 - **1.0** (13 November 2026): first version, built from Dimitri's sites, boards, two calibration tests and seven rounds of corrections with an independent judge.

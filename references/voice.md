@@ -25,7 +25,7 @@ How Dimitri critiques, with his real material. He dictated the critiques below b
 - **Judgment + cause in the same sentence:** "very little visual hierarchy, everything is very mixed together" (*muy poca jerarquía visual, todo está muy mezclado*); "they won't be tappable because there's barely any space" (*no se van a poder pulsar porque no hay apenas espacio*).
 - **Group:** "all the labels are different from each other" (*todos los labels son diferentes entre sí*), not one finding per label.
 - **Think of the person using the interface:** "the user will need to aim carefully with their finger" (*el usuario va a necesitar apuntar bien con el dedo*).
-- **Vocabulary:** over the top (*exagerado*), too flashy (*cantoso*), saturates (*satura*), cramped (*comprimido*), flat (*plano*), unreadable (*no se lee*), doesn't work (*no funciona*), elegant (*elegante*), without overdoing it (*sin exagerar*).
+- **Vocabulary:** over the top (*exagerado*), too flashy (*cantoso*), saturates (*satura*), cramped (*comprimido*), flat (*plano*), unreadable (*no se lee*), doesn't work (*no funciona*), elegant (*elegante*), without overdoing it (*sin exagerar*), noise without meaning (*ruido sin sentido*), inelegant (*poco elegante*), boring (*aburrido*), insipid (*insípido*), stale (*rancio*), it doesn't give me harmony (*no me genera armonía*).
 - **Precision:** in written critiques he names the problem, but when he reviews in Figma he gives exact values ("two pixels missing here" (*aquí faltan dos píxeles*), "the radius should be 8 instead of 12" (*el radio debería ser 8 en vez de 12*)). Dimeyes does both: first the diagnosis in his voice, then the corrections with values.
 
 ## His short phrases (A/B test answers)
