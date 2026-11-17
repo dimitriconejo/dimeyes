@@ -54,7 +54,7 @@ His calibrating words: "a touch" (*un pelín*), "a bit" (*un poco*). Small adjus
 
 The labels follow the language of the answer (the full English and Spanish sets are in SKILL.md, Response format). In Spanish:
 
-- **Review:** Veredicto · Diagnóstico · Correcciones (columns: # · Gravedad · Dónde · Qué falla · Corrección; severities: Crítico · Importante · Detalle) · Lo que funciona · Versión corregida.
+- **Review:** Veredicto · Profundidad · Diagnóstico · Correcciones (columns: # · Gravedad · Dónde · Qué falla · Corrección; severities: Crítico · Importante · Detalle) · Lo que funciona · Replanteamiento (interfaces) · Versión corregida.
 - **Audit:** Veredicto · Evaluación por dimensión (columns: Dimensión · Estado · Evidencia; states: Bien · Mejorable · Mal) · Qué mejorar · Lo que funciona.
 
 ## Full output example
@@ -64,10 +64,11 @@ Input: the account settings screen above (values measured in its code). The exam
 ---
 
 **Verdict:** I wouldn't sign it. The blue is everywhere and hides what matters; there's no hierarchy.
+**Depth:** Polish. The structure (one form in sections, one footer) works; what fails is how it is executed.
 
 **Diagnosis**
 - **Color.** The blue accent appears seven times: breadcrumb, eyebrow, photo button, help text, toggle, "Guardar y salir" and "Restablecer". On top of that, the PRO badge has a violet-pink gradient that has nothing to do with the rest. Keep the blue for a single action.
-- **Hierarchy.** Breadcrumbs, eyebrow, title, badge and subtitle are five header levels for a settings screen. The breadcrumbs and the eyebrow only repeat the title: two too many.
+- **Hierarchy.** Breadcrumbs, eyebrow, title, badge and subtitle are five header levels for a settings screen. The eyebrow only repeats the title and goes; the breadcrumbs are the way back, so they stay as one quiet line.
 - **Space.** There's more air below the title (28) than above it (2), and the card stacks a border, a shadow, a gray band and dividers to separate things. Group with space; keep one divider between sections, remove the rest.
 - **Consistency.** Each label has its own style (gray uppercase, bold and regular) and each input its own height (36, 38 and 40). There are two save buttons.
 - **Legibility.** The email under the name (#A1A1AA at 13 px) is barely readable.
@@ -78,7 +79,7 @@ Input: the account settings screen above (values measured in its code). The exam
 |---|---|---|---|---|
 | 1 | Critical | Whole screen | Blue accent spread around and gradient on PRO | Blue only on "Guardar"; help text in gray 500; PRO in gray 100 with gray 700 text, no gradient |
 | 2 | Critical | Footer | "Guardar y salir" and "Guardar" compete | A single filled "Guardar" and "Cancelar" in gray; "Restablecer" removed, or as a gray link on the left |
-| 3 | Important | Header | Five title levels | Remove the breadcrumbs and the eyebrow, which repeat the title: title 24/32 semibold, subtitle 16/24 gray 600, 8 between them |
+| 3 | Important | Header | Five title levels | Remove the eyebrow, which repeats the title; breadcrumbs as one quiet line, 14/20 gray 500, 16 above the title; title 24/32 semibold, subtitle 16/24 gray 600, 8 between them |
 | 4 | Important | Labels and inputs | Three label styles and three heights | One label style, 14/20 medium, 8 from the field; all inputs at 40; help text 12/16 gray 500, 4 from the field |
 | 5 | Important | Container | Border + shadow + gray band + dividers | Keep the 1 px border and the 12 radius; remove the shadow and the gray breadcrumb band; sections 32 apart with one 1 px gray 200 divider between them and no other lines |
 | 6 | Important | Avatar row | Two filled buttons with different radii (4 and pill) | "Cambiar foto" as a gray button, height 36 and radius 8 like the inputs and footer buttons; "Eliminar" as a gray link; the real photo instead of the gradient |
@@ -89,3 +90,6 @@ Input: the account settings screen above (values measured in its code). The exam
 **Keep**
 - The two-column layout for first name and last name.
 - The toggle as the notifications control.
+
+**Rethink**
+The structure holds: one form in sections with a single save in the footer is the right shape for this task.

@@ -29,7 +29,7 @@ Dimeyes looks at a design the way Dimitri looks at it and reviews it as hard as 
 
 When the ask is ambiguous, it reviews and offers to correct. It never edits a file you only asked an opinion about.
 
-In correct mode, an editable file in your workspace (HTML, CSS, JSX…) is edited after the corrections are shown, with a list of what changed. For an image, a URL or a Figma frame, the corrections table plus a corrected spec is the correction.
+In correct mode, an editable file in your workspace (HTML, CSS, JSX…) is edited after the corrections are shown, with a list of what changed. For an image, a URL or a Figma frame, the corrections table plus a corrected spec is the correction. In an app or a site whose screens share tokens and components, a fix lands at the source (the token file, the shared component) even when you named one screen, and the answer names the other screens it reaches. A rethink is shown apart and applied only when you pick it.
 
 ## Install
 
@@ -102,13 +102,13 @@ If other design skills are installed, Dimeyes owns the process, the order and th
 
 It answers in the language you write in, in the first person and in his voice: direct, short sentences and concrete values. Hard on the design, never on the person.
 
-**Verdict.** One of three, in the language of your request, with one sentence on what makes or breaks the harmony: *I'd sign it*, *I'd sign it with changes* or *I wouldn't sign it*.
+**Verdict.** One of three, in the language of your request, with one sentence on what makes or breaks the harmony: *I'd sign it*, *I'd sign it with changes* or *I wouldn't sign it*. On a screen or a page the verdict follows what the eye sees: when the corrected version isn't visibly different at real size and nothing about use is wrong, it is *I'd sign it*, with the fixes listed as Details. A problem of use (a small touch target, a missing state) keeps its grade, and the verdict with it.
 
 **Depth.** *Polish*, *Rebuild parts* or *Redo*, with one sentence on why. In correct mode the polish is the default: it respects the piece and makes it work. Its voice stays (structure, hook, colour pair, typefaces, concept graphics) and the execution is fixed (noise, hierarchy, spacing to the pixel, axes, safe area, logo). It recomposes only when the structure fails (the content can't fit the safe area and the logo slot, or a polish can't give it a protagonist); other recompositions are offered as alternatives, never delivered instead.
 
 **Diagnosis.** Three to six points ordered by impact, not by list position. What repeats is grouped into one finding.
 
-**Corrections.** A table with `# · Severity · Where · What's wrong · Correction`, from critical to detail, with exact values from the design's own system:
+**Corrections.** A table with `# · Severity · Where · What's wrong · Correction`, from critical to detail, with exact values from the design's own system. In a project it is grouped by layer (tokens, components, then each screen), from critical to detail inside each:
 
 | Severity | What it covers |
 |---|---|
@@ -117,6 +117,8 @@ It answers in the language you write in, in the first person and in his voice: d
 | Detail | Pixels, radii, alignments, microcopy |
 
 **Keep.** What works and shouldn't be touched, three points at most.
+
+**Rethink.** On a screen or a flow, one better structure offered beside the polish (what changes, why it serves the task better, what it costs), only when it leaves less on screen and gets to the content sooner. Otherwise, one line saying the structure holds. It is never applied to your files until you pick it.
 
 **Corrected version.** Only when asked, or in correct mode. When the delivered version is a redo, the corrections table lists its decisions instead of pixel nudges.
 
@@ -182,6 +184,7 @@ Claude.ai and Claude desktop: download the latest [dimeyes.zip](https://github.c
 
 ## Changelog
 
+- **1.3** (17 November 2026): interfaces, from Dimitri's checks on Cathopic 5 and on public websites. In an app or a site whose screens share tokens and components, it corrects at the source, in order: tokens, shared components, each screen, then every screen a fix reaches, with the corrections grouped by layer and no one-screen patches. A repeat that does another job stays (a field's label, a marker in a corner), every control still reads as what it is, and a full view never gets more on its text lines. Beside the polish it questions the structure: one rethink per screen or flow, only when it leaves less on screen and gets to the content sooner, never applied until you pick it. A screen is graded by what the eye sees: when the corrected version isn't visibly different at real size, the fixes are Details and the verdict is *I'd sign it*, unless a problem of use keeps a higher grade. Graphic pieces are judged and corrected as in 1.2.1. Change by change he accepted 42 of 45 corrections, one more with a nuance. In his blind picks the internal builds behind this release won 4 to 2 on the rethink round (1 of 5 rethinks picked), 2 to 1 with none on 3 on fresh screens, and 5 to 1 once screens were graded by sight, all three near-bar screens included.
 - **1.2.1** (16 November 2026): the skill reads in English again. Every quote of Dimitri's carries its English rendering, with his original Spanish kept word for word in parentheses, and the example answers are in English. The trigger phrases and the Spanish answer labels stay Spanish on purpose. No rule changed.
 - **1.2** (16 November 2026): the correction core, rewritten from nine blind checks against 1.0.2. Dimeyes now respects the piece and makes it work. The voice stays: the structure, the hook, the colour pair, the typefaces (including the face that carries the voice), the concept graphics and every line of content. The execution is fixed without timidity: noise and effects, one clear hierarchy, spacing to the pixel, composition, axes, safe area and logo. Counting typefaces and styles only finds a sprawl, and the numbers measured on the posts he loves describe his taste; they are never imposed on someone else's piece. A calm badge can carry the offer and a starburst cannot; the data the reader acts on reads big; a post is not a flyer, so what overloads it moves to the caption. The polish is the default delivery, and a recomposition comes only when the structure fails. New `scripts/measure-graphic.py` measures a graphic piece's spacing on the render: gaps between letter bodies, rhythm, axes, safe area and logo. In his blind picks the rewritten core won its three checks against 1.0.2, 25 to 18, and of the 25 pieces it won he would sign 14 as they are.
 - **1.1** (15 November 2026): from Dimitri's depth test on twelve catalogue templates. It decides how deep to go by comparing a polish with a recomposition. It follows his redo process. His polish removes noise even when it is the template's signature. New rules: two typefaces at most and few text styles, the title's leading and line count, dark scrims, the photo's protagonism and life. Noise is told apart from graphics that say something. The content list is a contract, and the call to action and the piece's hook keep their force. No leftover voids. Safe areas and the logo slot apply to any social post. In Dimitri's own blind check on twelve unseen pieces it won 4, lost 6 and tied 2 against 1.0.2. Judges given only his words had predicted 23 to 1. So a redo must now be clearly more elegant and keep the piece's hook, close calls are shown as alternatives, and spacing inside text blocks has a minimum.

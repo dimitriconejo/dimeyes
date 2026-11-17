@@ -114,8 +114,9 @@ Look in this order, but **report by impact**: whatever most breaks harmony or th
 - **States:** default, hover, focus, active, selected, disabled, loading, empty and error. All the needed states must exist and look consistent.
 - **Feedback:** every action shows a result. Destructive actions are clear and confirmed in proportion to their risk.
 - **Navigation:** where am I, how do I go back, what is selected. Icons get labels when recognition matters.
+- **Affordance:** in an interface, every control reads as what it is at a glance: a field by its label and its fill or border, a button by its shape and weight, a tab by its row. A cleanup that makes one kind of control look like another is a regression, even when it removes a repeat: a lone field between a title and two buttons, at the buttons' height and shape, reads as a button once its label goes (*"the field would be left alone looking like a button"* (*"el campo quedaria solo pareciendo un boton"*)).
 - **Forms:**
-  - Labels: a label above the field and a persistent label inside it are both fine. A placeholder that vanishes on typing is a finding in forms of more than 2–3 fields.
+  - Labels: a label above the field and a persistent label inside it are both fine. A placeholder that vanishes on typing is a finding in forms of more than 2–3 fields, and so is a missing label on any field that would read as another control without it (Affordance).
   - Errors say how to fix them.
   - Defaults are sensible.
 - **Real content:** test every slot with longer content, such as an amount with one more digit, a long name or a translation. "Those things have to be thought through too" (*esas cosas también hay que pensarlas*). In a list row, the amount keeps its width and never wraps or clips (tabular figures, no shrink); the name truncates first. If one more digit would break the row, flag it.
@@ -170,6 +171,7 @@ Look in this order, but **report by impact**: whatever most breaks harmony or th
 - Status uses words plus colour or shape, never colour alone. A soft-fill pill is his preference; a dot with a label is equally valid if it reads quickly.
 - Tables: aligned numbers (tabular figures), right-aligned amounts, rows that breathe for their type size (he prefers about 56), and hairlines only where they help scanning.
 - Colour is reserved for meaning, never for decoration.
+- A move or a cleanup never adds to the text lines of a view that is already full (a calendar, a table, a dashboard): a cue that sits apart from the text, such as a marker at a cell's edge, stays there unless moving it into the line removes something else from it (*"because it saturates, it's a calendar with many elements already"* (*"porque satura, es un calendario con muchos elementos ya"*)).
 
 ### Graphic design: posters, social posts, print
 Measured in his second calibration test (values on a 1080 canvas; scale them for other sizes).
@@ -268,6 +270,8 @@ From his three written critiques and his calibration choices:
 7. Usability failures: targets that can't be tapped, a flat bottom bar, missing states.
 
 **He also marks down what is correct but flat:** he works toward *"beauty and harmony… and not flat or insipid things"* (*"belleza y armonía… y no cosas planas o insípidas"*).
+
+**In an interface, visible at real size or it is a Detail.** A finding you can only prove with a ruler never makes a piece "with changes" on its own; the verdict follows what the eye sees side by side (SKILL.md, Process §5). A finding about use keeps its grade (§3.6).
 
 **He notices but ranks lower:** 2–4 px misalignments, non-concentric radii, type steps that are too close, icons of different sizes in one group, square-looking buttons, loose heading tracking, microcopy.
 

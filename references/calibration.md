@@ -309,3 +309,45 @@ What 1.0.2 won this time: the summer cinema, where it kept a small "ESTRENO" sta
 Twenty catalogue templates only, drawn at random from twenty different categories and twenty different layouts, half with a photo, none seen before, corrected by the unchanged rewritten core and by 1.0.2. The rewrite won 11 to 9. He would sign 13 of the 20 picks as they are (7 the rewrite's, 6 1.0.2's) and the other 7 with retouches; he rejected none. His words: *"it's getting closer"* (*"se acerca"*).
 
 On clean templates both versions now reach his bar most of the time, and the pairs differ in details, so a pick here is close to a coin toss. The rewritten core has won three checks in a row, 25 to 18 with one neither, and 19 to 13 on catalogue templates. Over the nine checks against 1.0.2: 48 to 50, with 6 neither.
+
+## His tenth check: Cathopic 5 interfaces, change by change (17 November 2026)
+
+The first check on interfaces. Six Cathopic 5 screens (Home with the Assistant, My designs, the liturgical calendar, the Planner, Settings › Plan, the Brand kit) and six shared components (buttons, fields, tabs and chips, an open menu, a form dialog, the sidebar), rendered from the local app. Dimeyes 1.2.2, an internal test build (1.2.1 plus the project rule), corrected each one as at most five independent changes, each rendered alone and with the others, and he accepted or rejected every change.
+
+He accepted 42 of 45, one more with a nuance, and rejected two. Every change about spacing (8), consistency (12, and one more with a nuance), interaction and states (5), hierarchy (5), copy (5), legibility (2) and detail (1) was accepted, and 4 of the 6 noise removals, on screens and components alike, at the token, component and screen layers.
+- Both rejections were "noise" removals justified as a repeat. Hiding a dialog's field label because the title asked the same question: *"the field would be left alone looking like a button"* (*"el campo quedaria solo pareciendo un boton"*). Moving a calendar cell's corner rank icon inline before its word: *"because it saturates, it's a calendar with many elements already"* (*"porque satura, es un calendario con muchos elementos ya"*). A repeat that does another job is not noise, and a cleanup never adds to the text lines of a full view.
+- The nuance: he accepted putting My designs' folders on the designs' grid, but wants six per row: *"better that 6 appear in each row, that way long titles don't look bad"* (*"que aparezcan 6 mejor en cada fila, asi no quedan titulos largos mal"*).
+- His verdict: *"the truth is it polishes very well. It's true it doesn't make big changes or rethink things better, but it does polish very well"* (*"la verdad es que pule muy bien. es cierto que no hace cambios grandes o replantea mejor las cosas pero si pule muy bien"*).
+
+The format asked for small independent changes, so it could not show a rethink: that half of his verdict rests on his words, not on a pick. The polish layer of the eye holds on interfaces.
+
+## His eleventh check: the interface rethink, blind (17 November 2026)
+
+Six Cathopic 5 screens (Home, My designs, the Planner, Settings › Plan, the Brand kit, Settings › Account), corrected in clean sessions by 1.2.2 and by 1.2.3, an internal build that adds the interface rules (repeats that do another job, affordance, full views, and a rethink beside the polish). Each version showed its delivered correction and, when its answer proposed one, its alternative: two to four proposals per screen, shuffled, rendered on the local app.
+
+- The new version proposed a rethink on 5 of the 6 screens and said the structure holds on Home; 1.2.2 offered an alternative only on My designs.
+- His picks: the new version 4, 1.2.2 2. By kind: a polish on 5 screens (new 3, 1.2.2 2) and one rethink, on My designs: Designs and Folders as two tabs, signed with retouches. On it he asked for the search bar to shrink: *"or just show the little magnifier, and when you click it, it expands a bit so you can type"* (*"o que salga simplemente la lupita y que al, haz- que al clicar se expanda un poco. para que puedas escribir"*).
+- The rethinks he passed over: the Planner's posts as thumbnails, Plan's people and credits as two side-by-side cards, the Brand kit's single logo target that hides the dark version until the first upload, and Account's photo action moved into the identity row. They add containers or visual weight, hide an option or only move a function.
+- His verdict: *"well... it's not bad. It's not that it does it perfectly, and I don't notice significant improvements in UX/UI either, but what it does isn't bad"* (*"bueno... no esta mal. no es que lo haga perfecto y tampoco noto mejoras significativas en ux ui, pero tampoco lo que hace es malo"*).
+
+He picked the first proposal (A) on 4 of the 6 screens, so a position effect can't be ruled out in so few picks. The rethink earns its place only when it simplifies; the rule now says so.
+
+## His twelfth check: six fresh Cathopic 5 screens, blind (17 November 2026)
+
+My templates, Pricing, Settings › People, Preferences, Downloads and the Help Center, none seen before, corrected in clean sessions by 1.2.2 and by 1.2.4, an internal build that raises the rethink bar, positions rotated per screen.
+
+- The new version proposed one rethink (People without its summary plate) and said the structure holds on the other five, each with a reason. He did not pick the rethink.
+- His picks: the new version 2 (Downloads with retouches, the Help Center as it is), 1.2.2 1 (People, as it is) and none on three screens. His reason for the three: *"the ones where I said I wouldn't ship any, it's that I didn't see any difference between the screens"* (*"las que he dicho que no lanzaria ninguna es que no he visto ninguna diferencia entre las screens"*).
+- On those three, both versions had graded the screen "with changes", with findings marked Important. They were nudges the eye doesn't see at real size.
+
+Across both interface checks: the new version 6, 1.2.2 3, none 3, and 1 of 6 rethinks picked. On screens already near his bar the polish is invisible, so the verdict must say so: the rule is now to grade by what the eye sees side by side.
+
+## His thirteenth check: the visibility rule, blind (17 November 2026)
+
+Three fresh Cathopic 5 settings screens near his bar (Workspace, Assistant, Privacy and AI) and three public parish and diocese websites with real flaws, corrected in clean sessions by 1.2.4 and by 1.2.5, an internal build that grades interfaces by what the eye sees, positions alternated. 1.2.5 was released as 1.3, with findings about use kept at their grade.
+
+- On the three Cathopic screens the new version said "I'd sign it" with Details only, and 1.2.4 said "with changes" with Important findings. He picked the new version on all three.
+- On the websites the rule never turned a real flaw into a Detail: both versions kept Critical or Important findings, but on the diocese the new version said "with changes" where 1.2.4 said "I wouldn't sign it". He picked the new version on two. On the diocese he picked 1.2.4, which caught four more details (a cut ellipsis, a missing hyphen, an off-palette accessibility button, the date below the title) and moved the carousel arrows to the section's title row instead of the page margins.
+- He skipped the question on his own verdict and gave no reasons. Asked whether it now grades like him: *"more or less"* (*"más o menos"*).
+
+The rule holds where it acts (3 of 3). On the diocese he picked the harsher verdict and the fuller correction without a reason, so the milder verdict can't be ruled out as the cause. To watch: on the websites the new version listed fewer findings in all (23 against 30: 6 against 9, 8 against 8, 9 against 13); the rule decides how loud a finding is, never whether a detail gets listed.

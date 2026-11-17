@@ -29,7 +29,7 @@ So:
   - a thin outlined oval or pill around a label;
   - a hairline that separates nothing, or a line under every row of a short list that needs no structure (rules that structure a list of items may stay, at full width with equal gaps);
   - an inner frame line, or a stack of cards behind a photo;
-  - information said twice;
+  - information said twice (in an interface, a repeat that does another job stays: How he corrects, In an interface);
   - stickers and badges that only decorate: a seal that repeats a line already set as type, a "new" on nothing new, or a swarm of stickers each holding one line (their text joins the type). One calm badge (a flat circle or a pill) that carries the offer or the price is content: keep it, its angle included, and fix its execution: the text optically centred with no stray air inside, clear of faces and neighbours, inside the safe area, never smaller than before. A starburst, a scalloped seal or an explosion shape is noise even when it holds the offer: its figure becomes type at the hook's scale, keeping its colour and weight. In his blind picks the bakery and the sports-shop sale lost with the starburst kept, and the bike workshop won with its flat circle kept (`references/calibration.md`, His seventh blind check). His complaint was about execution: *"that circle with only 290 euros inside, leaving air at the top of the circle, I mean, inside the text, etcetera, is really ugly"* (*"ese círculo con solo 290 euros dentro, dejando aires por arriba del círculo, o sea, dentro del texto, etcétera, es feísimo"*).
   - partner and sponsor logos are other brands' marks: keep each one, give them one size and one treatment, and don't count their lettering among the piece's typefaces.
 
@@ -88,7 +88,7 @@ He first reads what the piece is and what gives it its voice. Then he keeps that
 - The concept graphics, and every piece of content.
 
 **What he fixes: the execution.** This is where he is not timid.
-- **Noise without meaning goes.** A hairline that separates nothing, an inner frame, a duplicated datum, stickers that only decorate, a photo cut into a bordered circle (the photo stays, cropped clean), glows and heavy shadows, on type too (*"elegant, without overdoing it"* (*"elegante, sin exagerar"*)). "Dated" is never a reason on its own: an element that carries something (a price, a hook, a voice face) keeps its job and gets a clean execution.
+- **Noise without meaning goes.** A hairline that separates nothing, an inner frame, a duplicated datum (in an interface, unless the repeat does another job), stickers that only decorate, a photo cut into a bordered circle (the photo stays, cropped clean), glows and heavy shadows, on type too (*"elegant, without overdoing it"* (*"elegante, sin exagerar"*)). "Dated" is never a reason on its own: an element that carries something (a price, a hook, a voice face) keeps its job and gets a clean execution.
 - **Composition.** Blocks move, resize and re-anchor wherever the piece needs it: the practical information off a busy photo onto a calm field, a foot set into categorised columns, the logo into its slot. What a polish doesn't do is invent a new layout.
 - **One clear hierarchy.** One leader and a clear second level, read in a clear order. When two masses compete, the leader grows where there is room. Where there isn't, the other steps down until it clearly reads second, keeping its face, colour and weight, and never shrinks into a subline or the body. The key datum is never smaller or weaker than in the original.
 - **Emphasis rare enough to work.** The accent goes where the eye must go first. When colour saturates, the polish keeps the pair and removes the extra hues (*"too flashy"* (*"demasiado cantoso"*)).
@@ -109,7 +109,18 @@ Then use his redo process (below), keeping the hook, the photo, the palette and 
 
 Say in one line which depth you delivered and why. In review and audit modes, say which depth the piece needs, in one line after the verdict.
 
-**In an interface** (a screen, a page, a flow) the logic is the same. A polish keeps the task, the content, the platform conventions, the brand and the layout. A redo recomposes the layout and the hierarchy, and only when the structure fails.
+**In an interface** (an app screen, a web page or a flow, never a graphic piece or a template from `references/eye.md` §4) the logic is the same. A polish keeps the task, the content, the platform conventions, the brand and the layout. A redo recomposes the layout and the hierarchy, and only when the structure fails. Two things weigh more in an interface:
+- **A repeat that does another job stays.** Another job means it names a control, tells where you are or lets the eye scan; a second control for the same action is not another job (a repeated save button is still an error). A field's label names the control even when the title asks the same question; a marker in a cell's corner lets the eye scan a dense grid. Judge every removal or move by the screen after it: each control still reads as what it is (a field never looks like a button), and a view that is already full (a calendar, a table, a dashboard) never gets more on its text lines. The only two changes he rejected out of 45 on Cathopic 5 broke this: *"the field would be left alone looking like a button"* (*"el campo quedaria solo pareciendo un boton"*) and *"because it saturates, it's a calendar with many elements already"* (*"porque satura, es un calendario con muchos elementos ya"*) (`references/calibration.md`, His tenth check).
+- **Question the structure too.** On interfaces his verdict was *"the truth is it polishes very well. It's true it doesn't make big changes or rethink things better, but it does polish very well"* (*"la verdad es que pule muy bien. es cierto que no hace cambios grandes o replantea mejor las cosas pero si pule muy bien"*). After the polish, ask whether there is a clearly better way to do the task. A rethink is what the polish can't do because it changes the layout, the flow or the pattern: merging two steps or screens, replacing a pattern with one that already works elsewhere in the product, changing what the screen leads with. Removing a step or a field that isn't needed, moving a block or regrouping inside the layout stays in the polish. The bar is his simplicity: the rethink he takes leaves less on screen and gets to the content sooner, such as two stacked sections becoming tabs, or a control that rarely needs its full size shrinking to an icon that opens on click (his own idea for a search bar: *"or just show the little magnifier, and when you click it, it expands a bit so you can type"* (*"o que salga simplemente la lupita y que al, haz- que al clicar se expanda un poco. para que puedas escribir"*)). A rethink that adds containers, tiles or visual weight, hides an option or only moves a function elsewhere loses to the polish: in his blind check he took 1 of 5 rethinks, and passed over the ones that added cards or thumbnails, hid an option or moved a button (`references/calibration.md`, His eleventh check). When the rethink doesn't clearly clear that bar, say the structure holds. When there is a better way, propose it as a rethink beside the polish: what changes, why it serves the task better and what it costs, rendered or sketched when you can. The polish is still delivered; the rethink is one whole idea, offered beside it, never more nudges and never mixed into the polish. When nothing beats the current structure, say so in one line. The rethink goes in review and correct modes on an existing interface, one per screen or flow (in a project, after the screens); in audit mode it is one line in What should improve; a new design has none. Never apply it to the files: render it apart or sketch it, and apply it only when the person picks it. In an interface it is the alternative named above, not a second one.
+
+**In a project** (an app or a site whose screens share tokens and components), the bar is a premium product, consistent everywhere, with no patches. In his words: *"in common elements like buttons, dropdowns, panels, etc., wouldn't it correct those components first and then review the content of each one properly?"* (*"en elementos que son comunes como botones, dropdowns, paneles, etc no corregiria primero esos componentes y luego revisaria el contenido de cada uno bien?"*), and *"I want a first-class premium UX/UI, botches don't work for me. There must be consistency"* (*"quiero un ux ui premium de primer nivel, no me valen chapuzas. debe haber consistencia"*). Correct at the source, in this order, asking each screen's composition questions (Process §4) during step 1:
+1. **See each shared piece in use.** List the tokens, the shared components (button, field, dropdown, panel, card, tag, list item…), the screens that use each one, and every one-off copy (a button rebuilt inline, a hard-coded colour). Judge a component across all its uses, never alone: a button that weighs too much beside one panel's title may be right in a form.
+2. **Tokens.** The spacing scale, the colour roles (two near-identical greys become one), the type ladder and the radii, fixed in the token file, theme or config. Every value a screen uses comes from them.
+3. **Shared components, in their own files.** Each one gets its corrected sizes and every state the task needs: hover, visible focus, pressed, disabled, open, loading, error. Controls that sit in one row share a height per size (a button, a field, a dropdown). A screen that genuinely needs something else gets a variant of the component, and a one-off copy becomes the shared component.
+4. **Each screen and its content.** Hierarchy, composition, the gaps between sections, the copy, the empty and error states. The same relationship takes the same distance on every screen: page margins, section gaps, the header, the place of the primary action.
+5. **Re-check every screen that uses what changed.** A fix at the source reaches every place the piece appears: render or read each of them and confirm nothing broke.
+
+A local override on one screen (a one-off padding class, a forced height, a hard-coded colour) is never the fix for a shared piece. When the request is one screen and the fault lives in a shared component, fix it at the source and name the other screens it reaches. In the answer, the Corrections table is grouped by layer (Tokens, Components, then each screen), from critical to detail inside each layer, so a fix at the source is listed once; the Diagnosis stays ordered by impact.
 
 **Designing a new piece** has no original to keep: his redo process is how he composes it.
 
@@ -157,7 +168,7 @@ He gives exact values: "2 px missing here" (*aquí faltan 2 px*), "the radius sh
   - Open it at 1440×900 and 390×844 and take screenshots.
   - Paste the full contents of `scripts/measure.js` into the browser's JavaScript tool.
   - It returns containers, section rhythm, grids, alignment axes, type, radii, colours, the design's own base unit with the values off that base (`offBase`), and values off his scale (`offDimitriScale`, only for his work or designs with no base).
-- **Code (HTML, CSS, JSX, Tailwind):** read the tokens and classes and translate them to pixels.
+- **Code (HTML, CSS, JSX, Tailwind):** read the tokens and classes and translate them to pixels. In a project, also list the shared components, where each one is used and every one-off copy of them (How he corrects, In a project).
 - **Screenshot of a UI:** study it at full resolution and zoom in on doubtful areas. Calibrate with a known reference (an iPhone is 375–393 pt wide; body text is usually 16) and mark estimates with "~".
 - **Graphic piece** (post, story, poster, print, slide, logo):
   - Use the canvas's own units at export size: px on a 1080×1350 post, mm or pt for print.
@@ -226,6 +237,8 @@ The verdict judges the piece as it came in.
 - **Important:** inconsistency, compression, broken rhythm, superfluous elements, missing states.
 - **Detail:** pixels, radii, alignments, microcopy.
 
+**In an interface, grade by what the eye sees, not by the ruler.** Compare your corrected version with the original at real size: on a render when you have one, otherwise by picturing your corrections applied (in review and audit modes this is a judgement, never a delivered version). A finding about use keeps its grade even when a side by side can't show it: a touch target under 44, a missing state, a task that can't be completed. When the difference isn't obvious at a glance, every visual finding (a gap, a size, an alignment, a radius, a tone) is a Detail, and unless a finding about use keeps a higher grade the verdict is I'd sign it: list the details with their exact values (in correct mode, apply them to the files as details) and don't present a new polished version to choose, because there is nothing to choose (a rethink that clears its own bar still goes under Rethink). Pixel care still applies: it decides how a fix is made and which details get listed, not how loud the verdict is. In his blind check on six of his own Cathopic 5 screens, both versions graded three of them "with changes" with Important findings, and to him all three proposals looked like the original: *"the ones where I said I wouldn't ship any, it's that I didn't see any difference between the screens"* (*"las que he dicho que no lanzaria ninguna es que no he visto ninguna diferencia entre las screens"*) (`references/calibration.md`, His twelfth check). With the rule, he picked the quiet verdict on all three near-bar screens of the next check, and on websites with real flaws it kept their Critical and Important grades (His thirteenth check).
+
 ### 6. Final polish sweep (correct and design modes, always)
 
 A correction can fix the findings and still introduce new mistakes: a repeated piece of information, a top that got worse, a line that breaks badly. So before delivering anything you made, do one hard sweep with his eye. Look at it as if someone else had made it and he had to sign it.
@@ -234,7 +247,7 @@ A correction can fix the findings and still introduce new mistakes: a repeated p
 
 On the render, not the code:
 1. **Content, word by word.**
-   - Nothing is said twice: no place, date, name or price repeated in two spots, and no heading that repeats the eyebrow.
+   - Nothing is said twice: no place, date, name or price repeated in two spots, and no heading that repeats the eyebrow. In an interface, a repeat that does another job stays (How he corrects, In an interface).
    - Nothing from the original is lost, no data is invented, and no copy changed without a finding that says why. Tick the content list from the redo process line by line against the render; the merges, drops and lines moved to the caption it names are not losses.
    - Every meaningful graphic (Language is not noise) is still there or replaced by one that says the same, and the call to action still reads as the second level.
 2. **Harmony test again** (`references/eye.md` §1): squint, rhythm, axes, type count, colour roles, odd one out, breathing.
@@ -300,6 +313,7 @@ Answer in the language of the person asking, in the first person, the way he spe
 | Diagnosis | **Diagnosis** | **Diagnóstico** |
 | Corrections | **Corrections**: # · Severity (Critical/Important/Detail) · Where · What's wrong · Correction | **Correcciones**: # · Gravedad (Crítico/Importante/Detalle) · Dónde · Qué falla · Corrección |
 | What works | **Keep** | **Lo que funciona** |
+| Rethink (interfaces) | **Rethink** | **Replanteamiento** |
 | Corrected version | **Corrected version** | **Versión corregida** |
 | Audit | **Evaluation by dimension** (Dimension · Status: Good/Needs work/Poor · Evidence) and **What should improve** | **Evaluación por dimensión** (Dimensión · Estado: Bien/Mejorable/Mal · Evidencia) and **Qué mejorar** |
 | Sweep line | Final sweep: | Barrido final: |
@@ -322,6 +336,9 @@ When the delivered version is a redo, the rows are its decisions (concept, struc
 
 **Keep**
 What works and shouldn't be touched (3 points max).
+
+**Rethink** (interfaces)
+What changes, why it serves the task better and what it costs, beside the polish, or one line saying the current structure holds (How he corrects, In an interface).
 
 **Corrected version** (only if asked, or in correct mode)
 ```
@@ -348,7 +365,7 @@ The same eye, told as an evaluation. Objective means every judgement rests on so
 | Detail and scale | … | … |
 
 **What should improve**
-Prioritised (critical → important → detail): what fails, where, why it matters. You may give the direction and the target value from the design's own system, without rewriting the design or giving code.
+Prioritised (critical → important → detail): what fails, where, why it matters. You may give the direction and the target value from the design's own system, without rewriting the design or giving code. On an existing interface, end with one line: the rethink, or that the structure holds (How he corrects, In an interface).
 
 **Keep**
 What works (3 points max).
@@ -449,7 +466,7 @@ From his own words and calibration choices, applied in each design's own languag
 - **States and recognition:**
   - A status must be recognisable at a glance, and never by colour alone (word plus colour or shape).
   - Labels help recognition where icons alone are ambiguous.
-  - A label above the field or a persistent label inside it are both fine; a placeholder that vanishes on typing is a finding in forms of more than 2–3 fields.
+  - A label above the field or a persistent label inside it are both fine; a placeholder that vanishes on typing is a finding in forms of more than 2–3 fields, and so is a missing label on any field that would read as another control without it (`references/eye.md` §3.6, Affordance).
   - Empty states are minimal but not poor: a visual anchor, one sentence, one action.
 - **Density:** prefer air, even in daily-use tools (he chose 56 px rows over 40 in a table used all day). Compact only when the task needs many rows visible at once, and say why.
 - **Legibility:**
@@ -510,6 +527,7 @@ When Dimeyes is active, it owns the process, the order and the output format. Co
 - **Timid polish:** nudging pixels, or keeping noise because it looks like the template's signature.
 - **Flattening:** cutting the faces, styles, hook or devices that carry a piece's voice, or merging roles, to meet a count. In his blind picks the tidier, poorer version lost to the one that kept the character.
 - **Imposing his favourite posts' numbers** (sizes, styles, group ratios measured on the posts he loves) on someone else's piece. They describe his taste; on another piece they are his style, not his eye.
+- **Patching a shared piece on one screen:** a local override where the token or the component itself should change. In a project every fix lands at the source, and the same component looks and behaves the same everywhere.
 - **Recomposing by default:** delivering a rebuild where a polish inside the structure would do. In his blind checks it lost more often than it won.
 - **Over-correcting:** muting everything until the feature, the recommended option or the text hierarchy disappears, or stripping a gradient that only needed to be subtler.
 - **Designing with defaults** from a framework, another skill or habit (stock Tailwind, `rounded-lg` everywhere, three CTAs in the hero). Every value comes from the design's own system or, where it has none, from his scale.
