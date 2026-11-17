@@ -128,14 +128,19 @@ Anything it corrects or designs goes through a final polish sweep on the render 
 
 ## Benchmark
 
-Measured on v1.0 over 14 cases and 85 checks.
+Measured on v1.3 over 23 cases and 146 checks, each case run with and without the skill in a clean session.
 
 | Run | Checks passed | Score |
 |---|---|---|
-| With Dimeyes | 79 / 85 | 92.9 % |
-| Without the skill | 56 / 85 | 65.8 % |
+| With Dimeyes | 137 / 146 | 93.8 % |
+| Without the skill | 104 / 146 | 71.2 % |
 
-The skill runs used a copy of the skill without the verbatim critiques of the test screens. The test cases are kept in a separate private repository so the skill stays lean. Version 1.0.1 doesn't change the skill's behaviour.
+- **The 14 cases of the 1.0 benchmark:** 80 / 85 with Dimeyes (94.1 %, 92.9 % on v1.0) and 61 / 85 without (71.8 %).
+- **Nine cases new in 1.3:** two near-finished Cathopic 5 screens, two live parish and diocese sites, a project whose screens share tokens and components, a dialog, a settings screen that repeats a list, and two catalogue templates: 57 / 61 with Dimeyes (93.4 %) and 43 / 61 without (70.5 %).
+
+Each run was graded blind by two independent graders. They agreed on 286 of the 292 checks, and a third grader settled the other 6. The checks were fixed before the runs. The skill runs used a copy of the skill without the verbatim critiques of the test screens and without his thirteenth check, which names the new screens. The test cases are kept in a separate private repository so the skill stays lean.
+
+Judged by Dimitri himself, blind: he accepted 42 of 45 interface corrections change by change, and in three A/B rounds on 18 screens he picked the 1.3 rules 11 times, the build before them 4, and neither 3.
 
 ## Repository structure
 
