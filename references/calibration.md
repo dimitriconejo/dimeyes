@@ -351,3 +351,40 @@ Three fresh Cathopic 5 settings screens near his bar (Workspace, Assistant, Priv
 - He skipped the question on his own verdict and gave no reasons. Asked whether it now grades like him: *"more or less"* (*"más o menos"*).
 
 The rule holds where it acts (3 of 3). On the diocese he picked the harsher verdict and the fuller correction without a reason, so the milder verdict can't be ruled out as the cause. To watch: on the websites the new version listed fewer findings in all (23 against 30: 6 against 9, 8 against 8, 9 against 13); the rule decides how loud a finding is, never whether a detail gets listed.
+
+## His fourteenth check: thirty catalogue templates, two approaches, blind (18 November 2026)
+
+Thirty Cathopic Signature templates (ten chosen and twenty drawn at random), each corrected in another session by Dimeyes alone and by Dimeyes with Impeccable, rendered from their native layers with the logo slot drawn on top. He picked blind between the two, positions balanced.
+
+- His picks: Dimeyes alone 11, with Impeccable 9, neither 10. The combination added nothing on graphic pieces.
+- **Neither, ten times,** in his words *"very bland"* (*"muy sosas"*), *"not very creative and bad solutions"* (*"poco creativo y malas soluciones"*), *"terrible redesign, pointless"* (*"malisimo rediseño en ambos casos, sin sentido"*), *"bad use of the spaces and barely any hierarchy"* (*"mal uso de los espacio y apenas hay jeraquia"*). Most of the ten were stripped of their frames, rules and ornaments and reflowed to free the logo slot.
+- **Lines and frames.** Both approaches removed the frames or rules of seven pieces. He took neither on five and asked for the line back on three: the double frame of a creed, kept but stopping a few pixels short of the logo at the bottom; the outline around an arched image (*"I like the line around the original image in this case"* (*"la linea alrededor de la imagen original me gusta en este caso"*)); a top rule that answers the bottom one and gives the layout its symmetry.
+- **Depth.** The partial rebuilds won 4 of 20 and drew 11 "neither". The polishes did better: Dimeyes alone won 10 of its 25 polishes.
+- **Grouping by meaning.** Four of his comments on the pieces he picked ask for the line that completes the title to sit closer to it and farther from the next one (*"to create visual hierarchy"* (*"para crear jerarquia visual"*)); one asks for a title to sit at the same distance from the image above and the subtitle below.
+- **The logo slot.** Twice he asked for the slot's height to match the two lines facing it across the foot; once he rejected a slot squeezed into a card when it could sit outside it; once he asked for the image to run down to the slot's lower edge.
+- **Display tracking.** Twice he asked for tighter tracking on a display serif that spreads its letters.
+- **Space.** Three comments on wasted or deserted space, one with his own fix: a small wheat ear in an empty corner of a Eucharistic prayer.
+
+Rules drawn (SKILL.md, Language is not noise and How he corrects; `eye.md` §3.7 and §4): lines and frames are judged by their job; a slot collision is not a structural failure on its own; a partial rebuild that only reflows is poorer; the line that completes the title joins its group; the slot aligns with the block it faces; freed space is used.
+
+## His fifteenth check: twenty templates, 1.3 against the round-fourteen rules, blind (18 November 2026)
+
+The ten templates he had rejected in the fourteenth check and ten never tested, corrected from the original in clean sessions by 1.3 and by the build with the fourteenth check's rules, on the template's native layers, rendered with the catalogue's own renderer and checked for execution. Positions balanced.
+
+- His picks: 1.3 8, the new build 5, tie 4, neither 1, two unanswered. On the ten he had rejected: 1.3 5, the new build 3, tie 1, neither 1, against ten "neither" a round earlier. That gain belongs to both versions, so it comes from correcting the native layers carefully, not from the new rules. Asked whether it has improved: *"yes, I see an improvement"* (*"si veo una mejora"*).
+- **Lines, over-kept.** The new build kept every line; 1.3 removed most. He picked the arch outlines kept (two of two) and a quote's rule kept, and picked the versions without an oval around a quote, a divider between two figures and the second line of a double frame. On the saint's profile he picked the new build but asked for the divider between the photo and the text to go.
+- **Growth.** Where 1.3 won it had grown what matters: a hero figure, the event data, a photo bled to the canvas edge. On the worship night he asked for exactly that: *"it put the tape, but it could have increased the size of a relevant text instead"* (*"ha puesto la cinta pero podia haber inrementado el tamaño de un texto relevante instead"*).
+- **Still neither:** the missionary visit, whose wide side band he finds flat (*"I don't understand the right strip being so big, it all looks flat and ugly"* (*"no entiendo la franja derecha tan grande, queda como todo plano y feo"*)): a structure a polish can't save.
+
+Rules drawn (SKILL.md, Lines and frames; `eye.md` §4, Space freed is space used): a line earns its place when it draws a shape, carries ornament or anchors type, and goes when it only encloses or divides what the space already sets apart; freed space goes first to the protagonist or the key data.
+
+## His sixteenth check: twenty templates, 1.3 against the round-fifteen rules, blind (18 November 2026)
+
+Eight templates that 1.3 had won in the fifteenth check and twelve never tested, corrected again from the original in clean sessions by 1.3 and by the build with the fifteenth check's rules (lines judged by their job, freed space to the protagonist first). Native layers, the catalogue's renderer, execution checked, positions balanced.
+
+- His picks: the new build 12, 1.3 4, tie 1, neither 3. On the twelve never tested: the new build 6, 1.3 3, tie 1, neither 2. On the eight that 1.3 had won: the new build 6, 1.3 1, neither 1. The new build won 6 of 10 in each position, so the result is not a position habit. Asked whether it has improved: *"improvement"* (*"mejora"*).
+- **Size decided most pairs.** Where the new build's title or hero figure grew, it won 6 of 8. Every pair 1.3 won had a measurable cause in the new build: a title kept at the original size while 1.3 grew it (ten minutes in the church), a photo grown less than 1.3's (lector training), a smaller photo and the data crammed under the band with the field empty below (worship night), and the text pushed down its shape leaving the top empty (Easter egg hunt).
+- **Voids decided the rest.** The three "neither" and the tie share one fault neither version fixed: a field with its group sitting high and the rest empty (the parish mission's panel, the livestream's left column) or a piece left as it was. Both versions kept voids the original already had.
+- **Lines: the rule is right, the runs vary.** On the Mass request he chose neither and wrote *"the design from the previous round was better"* (*"era mejor el diseño de la ronda anterior"*): that one kept the outer frame and one rule under the title, with no dividers between the data. This round 1.3 removed the frame and the new build kept it but added dividers between every row. Each run broke the rule a different way.
+
+Rules drawn (SKILL.md, Self-review: No leftover voids, Room left, protagonist grown): measure the space above and below the group in every field instead of squinting, and a void the original had counts; when the protagonist's field has room, it ends bigger than in the original.
