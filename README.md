@@ -128,19 +128,19 @@ Anything it corrects or designs goes through a final polish sweep on the render 
 
 ## Benchmark
 
-Measured on v1.3 over 23 cases and 146 checks, each case run with and without the skill in a clean session.
+Measured on v1.4 over 23 cases and 146 checks, each case run with and without the skill in a clean session.
 
 | Run | Checks passed | Score |
 |---|---|---|
-| With Dimeyes | 137 / 146 | 93.8 % |
-| Without the skill | 104 / 146 | 71.2 % |
+| With Dimeyes | 139 / 146 | 95.2 % |
+| Without the skill | 110 / 146 | 75.3 % |
 
-- **The 14 cases of the 1.0 benchmark:** 80 / 85 with Dimeyes (94.1 %, 92.9 % on v1.0) and 61 / 85 without (71.8 %).
-- **Nine cases new in 1.3:** two near-finished Cathopic 5 screens, two live parish and diocese sites, a project whose screens share tokens and components, a dialog, a settings screen that repeats a list, and two catalogue templates: 57 / 61 with Dimeyes (93.4 %) and 43 / 61 without (70.5 %).
+- **The 14 cases of the 1.0 benchmark:** 81 / 85 with Dimeyes (95.3 %; 94.1 % on v1.3, 92.9 % on v1.0) and 64 / 85 without (75.3 %).
+- **The nine cases added in 1.3:** two near-finished Cathopic 5 screens, two live parish and diocese sites, a project whose screens share tokens and components, a dialog, a settings screen that repeats a list, and two catalogue templates: 58 / 61 with Dimeyes (95.1 %; 93.4 % on v1.3) and 46 / 61 without (75.4 %).
 
-Each run was graded blind by two independent graders. They agreed on 286 of the 292 checks, and a third grader settled the other 6. The checks were fixed before the runs. The skill runs used a copy of the skill without the verbatim critiques of the test screens and without his thirteenth check, which names the new screens. The test cases are kept in a separate private repository so the skill stays lean.
+The cases and checks are the same as for v1.3, fixed before its runs. Each run was graded blind by two independent graders. They agreed on 286 of the 292 checks, and a third grader settled the other 6. The skill runs used a copy of the skill without the verbatim critiques of the test screens and without his thirteenth check, which names the new screens. Runs vary from one session to the next (the baseline moved by 6 checks between the v1.3 and v1.4 runs with nothing changed on its side), so compare each version with its own baseline. The test cases are kept in a separate private repository so the skill stays lean.
 
-Judged by Dimitri himself, blind: he accepted 42 of 45 interface corrections change by change, and in three A/B rounds on 18 screens he picked the 1.3 rules 11 times, the build before them 4, and neither 3.
+Judged by Dimitri himself, blind. On catalogue templates, the change 1.4 brings and no benchmark case covers: in the last of three A/B rounds on 52 Cathopic templates he picked the build 1.4 grew from 12 times, 1.3 4 times, a tie once and neither 3 times (6 to 3 on the twelve templates never tested). On interfaces, for 1.3: he accepted 42 of 45 corrections change by change, and in three A/B rounds on 18 screens he picked the 1.3 rules 11 times, the build before them 4, and neither 3.
 
 ## Repository structure
 
