@@ -1,14 +1,13 @@
 /* ==========================================================================
    Dimeyes tokens: Dimitri Conejo Sanz's design system as CSS custom properties.
-   Source: the CANON. Cathopic production (cathopic.com, compiled Tailwind config
-   and measured pages) and Christicons (christicons.com :root).
-   Mater Coeli and Paulable are weak sources; no value here comes from them.
+   The values come from production CSS, a compiled Tailwind configuration and
+   measurements of the rendered pages.
    Mirrors references/system.md §4 (Tokens); keep the three files in sync.
    Goal: harmony. A few scale values repeated, one type voice, one accent.
 
    Usage: @import "tokens.css"; then var(--space-24), var(--text-base) ...
-   The :root block is the product register (Cathopic).
-   [data-register="quiet"] switches to the quiet register (Christicons).
+   The :root block is the product register.
+   [data-register="quiet"] switches to the quiet register.
    ========================================================================== */
 
 :root {
@@ -18,7 +17,7 @@
      10 is his: use it when 8 is too tight and 12 too loose (button icon gap,
      chip gap with icon, hit-area insets). Not a deviation.
      6 and 36 are tolerated (mosaic gaps, separators, 36 px controls).
-     Avoid 28 and 14 as spacing (Cathopic's unvalidated 7.5 and 3.5 keys).
+     The spacing scale omits 14 and 28 px (keys 3.5 and 7.5).
      44 and 52 are control heights, not spacing (see Control heights). */
   --space-0: 0px;
   --space-2: 2px;
@@ -46,9 +45,9 @@
   --space-176: 176px;
   --space-192: 192px;   /* photo hero py, light footer pt */
   --space-208: 208px;
-  --space-240: 240px;   /* Flodesk landing section rhythm */
+  --space-240: 240px;   /* generous spacing between landing page sections */
 
-  /* Section rhythm (Cathopic): md 72 -> 80, lg 72 -> 112 at >=768, xl 144 -> 160 */
+  /* Product section rhythm: md 72 -> 80, lg 72 -> 112 at >=768, xl 144 -> 160 */
   --section-md: var(--space-80);
   --section-lg: var(--space-112);
   --section-xl: var(--space-160);
@@ -57,7 +56,7 @@
   --container-max: 1440px;
   --container-gutter: var(--space-64);        /* desktop */
   --container-gutter-mobile: var(--space-16);
-  --content-max: 1000px;                      /* Christicons content width */
+  --content-max: 1000px;                      /* content width in the quiet register */
   --prose-max: 600px;                         /* ledes and section intros (550-600) */
 
   /* Control heights: fixed-height pills */
@@ -67,7 +66,7 @@
   --control-lg: 56px;   /* 60 at >=640: section CTAs, pricing */
 
   /* ---------- Type ----------------------------------------------------------
-     Size keys are his Cathopic keys (md = 20, lg = 24, not Tailwind's).
+     The custom type scale maps md to 20px and lg to 24px.
      Product register leading: 1.55 for text up to 18, 1.15 for headings,
      1.0 for the hero display.
      Type also uses 14 and 18 (and 10 for micro labels). Round 11, 13, 15,
@@ -105,7 +104,7 @@
   --font-features-heading: "calt", "cv01", "liga", "ss03", "cv11";
 
   --font-sans: "Inter", "Inter var", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-brand: "Basier Square", "Inter", ui-sans-serif, system-ui, sans-serif; /* option (Christicons) */
+  --font-brand: "Basier Square", "Inter", ui-sans-serif, system-ui, sans-serif; /* quiet register */
   --font-mono: "Basier Square Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --font-display: "Instrument Serif", "Instrument Serif Fallback", Georgia, serif; /* weight 400 only; -1px at 64, -0.5px at 48; leading 1.0-1.25 (portfolio) */
   --font-serif: "Source Serif 4", Georgia, serif; /* reading serif of the Tiempos / Source Serif type (app boards) */
@@ -123,7 +122,7 @@
   --radius-md: 8px;      /* menu items in dropdowns, hover plates, small tiles */
   --radius-10: 10px;     /* menu-item, semi-rounded buttons on mobile */
   --radius-lg: 12px;     /* inputs, dropdowns, semi-rounded buttons, image tiles */
-  --radius-2xl: 16px;    /* cards, accordion items, Christicons controls */
+  --radius-2xl: 16px;    /* cards, accordion items, quiet-register controls */
   --radius-3xl: 20px;    /* feature cards, side panels */
   --radius-4xl: 24px;    /* collection and pricing cards, dialogs */
   --radius-5xl: 32px;    /* large dark bands */
@@ -145,7 +144,7 @@
 
   /* Focus. His inputs use an inset 2 px ink ring (clearly visible).
      Production buttons use a 3 px teal at 10%, which is too faint: use the
-     2 px ink ring at offset 2 below instead (Christicons tiles). */
+     2 px ink ring at offset 2 below instead. */
   --focus-ring-inset: inset 0 0 0 2px var(--gray-900);
   --focus-ring: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--gray-900);
 
@@ -159,16 +158,16 @@
         placeholder and counts beside 16 px labels, 200 hairlines,
         100 surfaces. Small text (<=14) stays at 600 or darker.
      3. Semantic ramps consistent with the brand, each with a pale 50
-        background and a dark text step (Cathopic badges: success and
+        background and a dark text step (badge text: success and
         danger 500, info 600, warning 800).
      4. Colour budget: the brand hue goes on the single primary action of
         each block and on eyebrows, nowhere else. Ink is the second voice.
         Hierarchy comes from tone (900/600/500), not from new hues.
         An emoji is colour too: one meaningful emoji is fine and counts in
         the budget; decorative or repeated ones are colour noise.
-     Example below: Cathopic (cool, teal). */
+     The example below pairs teal with cool neutrals. */
 
-  /* Neutrals, teal-tinted (Cathopic) */
+  /* Teal-tinted neutrals */
   --gray-50: #FBFDFD;
   --gray-100: #F4F7F7;
   --gray-200: #E3E8E8;
@@ -183,7 +182,7 @@
   --gray-900: #141819;   /* ink */
   --gray-950: #0B0E0F;
 
-  /* Brand, teal (Cathopic) */
+  /* Brand teal */
   --primary-50: #E6F7F7;
   --primary-100: #CDF0F1;
   --primary-200: #A3E1E5;
@@ -194,7 +193,7 @@
   --primary-700: #005A67;  /* pressed, split-button divider */
   --primary-900: #003D47;  /* production has no 800 */
 
-  /* Semantic (Cathopic) */
+  /* Semantic colours */
   --success-50: #E9FAED;
   --success-500: #088E4D;  /* status-pill text on success-50 */
   --success-600: #00783E;  /* savings-pill text; 5.2:1 on success-50 */
@@ -224,7 +223,7 @@
   --color-accent-hover: var(--primary-600);
   --color-scrim: rgb(20 24 25 / 0.6);
 
-  /* Christicons example (warm, not active). Same recipe, warm neutrals,
+  /* Warm palette example. Same recipe, warm neutrals,
      a muted teal used only for overlines and the credit hover.
      Its primary button is ink (gray-800), not the accent.
   --gray-100: #F6F5F2;
@@ -260,7 +259,7 @@
   --press-scale: 0.97;
 }
 
-/* Quiet register (Christicons): Basier Square, weights 400/500, tracking 0,
+/* Quiet register: Basier Square, weights 400/500, tracking 0,
    leading 1.45 body / 1.2 titles. Same spacing scale. */
 [data-register="quiet"] {
   --font-sans: var(--font-brand);

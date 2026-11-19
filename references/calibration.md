@@ -58,7 +58,7 @@ His 18 A/B decisions from a test with near-identical design pairs, his three wri
   - Widths: golden ratio and Tailwind conventions as a reference.
   - 6 is a regular step of the scale, not an exception. 36 is tolerated. 10 was added later: his for small-component distances where 8 is tight and 12 loose, never for section, card or layout gaps, and never flagged (see "Later decisions").
 - **Instant rejection:** bad structure, lack of composition and hierarchy, poor use of space and sizes, misplaced colors, focus where it shouldn't be.
-- **References:** Apple, Linear, Mobbin.
+- **References for finish:** consumer hardware and software, an issue tracker, and a library of real interface patterns.
 - **Color:** a full system.
   - Brand color first, chosen from the project's context.
   - From the brand color he derives 9 shades (100–900).
@@ -76,7 +76,7 @@ His 18 A/B decisions from a test with near-identical design pairs, his three wri
 - **Emojis** (12 November 2026): see "What he didn't mention". A single meaningful emoji is acceptable and counts against the colour budget.
 - **Eyebrows** (small uppercase labels above headings): a valid device. Don't penalize them.
 - **Contrast:** judged by eye. Flag text when it's genuinely hard to read.
-- **Holydemia** is old work. It isn't a reference for his current judgment.
+- **Evidence of current taste:** he excluded his earlier learning platform because it reflects an older stage of his work.
 
 ## His review of Dimeyes' corrections (12 November 2026)
 
@@ -96,17 +96,17 @@ He reviewed four corrections made with Dimeyes. His verdict: they "improve quite
 - **Advent post.**
   - He likes it, but almost every text was white: *"there's hardly any colour hierarchy. Or transparency hierarchy, I sometimes like to play with transparency."* (*"apenas hay jerarquía de color. O de transparencia, me gusta a veces jugar con transparencia."*)
   - The date, place and entry lines were "very monotonous and very cramped". He'd separate them a bit more and make them more visual, with icons: *"I like to use icons when needed… they can look really good and add something."* (*"me gusta tirar de iconos cuando hace falta… pueden quedar muy bien y sumar."*)
-- **Pixelito.** It "is still Pixelito" and Dimeyes improved it. The style isn't his taste, "but that's a matter of taste". Respecting another brand's language was right.
+- **Children’s coding academy.** He found the site recognisable after the correction and thought the design had improved. Its style differs from his personal taste, “but that's a matter of taste”. Retaining the client’s visual language was the right decision.
 - **General.** He usually applies negative letter-spacing to headings, following web and app conventions: *"suelo aplicar interletrado negativo en los headings."*
 
 The rules from this review live in `eye.md` (§3.1, §3.2, §3.4, §3.6, §3.7, §4, §5, §6) and in SKILL.md's principles.
 
 ## Source tiers (his words, 12 November 2026)
 
-- **Canon:** Cathopic, the production site ("my own, created by me, is Cathopic, what's in production now" (*"los míos creados por mí es Cathopic, lo que hay en producción ahora"*)), plus the beta pricing screenshot; Christicons; and Flodesk, a referent, as the closest expression of "my way of seeing it and thinking about it" (*"mi forma de verlo y de pensarlo"*).
-- **Secondary:** the Catholic network's app boards and website, his portfolio and the dimconex identity.
-- **Weak:** Mater Coeli ("a nice project, but I think it's dated" (*"un proyecto bonito, pero creo que está anticuado"*)) and Paulable ("it was made with AI, I had little room to judge dimensions" (*"se hizo con IA, tuve poco margen para valorar dimensiones"*)). Don't derive rules from them; their deviations are not his.
-- **Excluded:** Holydemia (old) and Mailgami (a collaboration).
+- **Primary references:** he identified the production stock-media library as his own design and included its beta pricing screen and his icon library. Among outside references, he chose an email-design platform as the closest expression of “my way of seeing it and thinking about it” (*“mi forma de verlo y de pensarlo”*).
+- **Secondary references:** a media network’s app boards and website, his own portfolio and the media identity he designed.
+- **Weak references:** a devotional site (“a nice project, but I think it's dated” (*“un proyecto bonito, pero creo que está anticuado”*)) and a publishing site (“it was made with AI, I had little room to judge dimensions” (*“se hizo con IA, tuve poco margen para valorar dimensiones”*)). Neither source establishes a rule about his current design choices.
+- **Excluded:** an earlier learning platform and a product he co-designed. The first reflects older work, and the second cannot establish whose decision a particular detail was.
 
 ## The final polish sweep (his words, 12 November 2026)
 
@@ -145,17 +145,17 @@ After a second round repeated the parish's name in one post and made its top wor
 
 ## The catalogue templates test (13 November 2026)
 
-Five random Cathopic catalogue templates corrected with Dimeyes came back with pixel nudges only (2 to 12 px), all with "with changes", while the outlined ovals, a hairline that separated nothing, a line under every data row and an unchanged composition stayed. His reaction: *"the adjustments it made are minimal… it improves, yes, but it doesn't solve everything and it doesn't fully think like me."* (*"los ajustes que hizo son mínimos… mejora, sí, pero no soluciona todo y no piensa del todo como yo."*) The brief had told it to judge the templates "in their own language, not his style". The general rules drawn from this are in SKILL.md: ownership decides the style, not how hard the eye works; what ships in his products reaches his bar; language is not noise; composition first; and the verdict and bar check.
+Five templates sampled at random from his catalogue and corrected with Dimeyes came back with pixel nudges only (2 to 12 px), all with "with changes", while the outlined ovals, a hairline that separated nothing, a line under every data row and an unchanged composition stayed. His reaction: *"the adjustments it made are minimal… it improves, yes, but it doesn't solve everything and it doesn't fully think like me."* (*"los ajustes que hizo son mínimos… mejora, sí, pero no soluciona todo y no piensa del todo como yo."*) The brief had told it to judge the templates "in their own language, not his style". The general rules drawn from this are in SKILL.md: ownership decides the style, not how hard the eye works; what ships in his products reaches his bar; language is not noise; composition first; and the verdict and bar check.
 
 ## Logo slot and safe areas (15 November 2026)
 
-While preparing a test on Cathopic templates he pointed out that every template has an invisible slot for the user's logo and that the editor marks the safe areas the social networks require. In his words: *"I want the skill to know how to place the logo in the perfect spot, for social networks, the logo sizes can vary"* (*"quiero que el skill sepa colocar el logo en el lugar perfecto, para redes sociales, pueden variar los tamaños de los logos"*), and the safe areas *"affect the texts/content"* (*"afectan a los textos/contenido"*), while an image doesn't have to stay inside them. He stressed it is not one case: *"the skill must always work well on graphic designs, whether Cathopic or not"* (*"el skill debe funcionar bien siempre en los diseños gráficos sea cathopic o no"*).
+While preparing a test on catalogue templates he pointed out that every template has an invisible slot for the user's logo and that the editor marks the safe areas the social networks require. In his words: *"I want the skill to know how to place the logo in the perfect spot, for social networks, the logo sizes can vary"* (*"quiero que el skill sepa colocar el logo en el lugar perfecto, para redes sociales, pueden variar los tamaños de los logos"*), and the safe areas *"affect the texts/content"* (*"afectan a los textos/contenido"*), while an image doesn't have to stay inside them. He wanted the skill to handle graphic design well across projects, including work outside this catalogue.
 
 Rules drawn from it (general, in `eye.md` §4 Graphic design): safe areas are a hard limit for text, logo and key content, while images and colour fields that bleed to the edge may cross them (an image sitting inside the canvas as an object keeps them; see the depth test below); the logo slot is part of the composition in any post or template that will carry a logo, placed on a content axis inside the safe area, on a calm ground, in the contrasting version, and fitted to the box by the logo's own shape.
 
 ## The depth test (15 November 2026)
 
-He said Dimeyes was too timid: *"it does a very subtle polish without daring… some designs simply need polish, but others need a redefinition"* (*"hace un pulido muy sutil sin atreverse… hay diseños que simplemente necesitan pulido, pero otros necesitan una redefinición"*). To learn when and how he redoes a piece, he judged twelve real Cathopic catalogue templates. For each one he first said, seeing only the original, how deep he would go. Then he picked, blind, one of three versions Dimeyes had made: a polish, a partial rebuild and a full redo.
+He said Dimeyes was too timid: *"it does a very subtle polish without daring… some designs simply need polish, but others need a redefinition"* (*"hace un pulido muy sutil sin atreverse… hay diseños que simplemente necesitan pulido, pero otros necesitan una redefinición"*). To learn when and how he redoes a piece, he judged twelve real templates from his catalogue. For each one he first said, seeing only the original, how deep he would go. Then he picked, blind, one of three versions Dimeyes had made: a polish, a partial rebuild and a full redo.
 
 | Template | First sight | Picked | His words |
 |---|---|---|---|
@@ -220,7 +220,7 @@ Lessons:
 
 ## The reference study (16 November 2026)
 
-To teach the skill what he calls elegant, 36 social posts were preselected from collections that designers curate on Are.na (events, products, music, food, editorial pieces) and shown to him on one board. He marked the ones he would sign: 26 signed, 10 rejected. Each post was then measured in pixels, with sizes and distances as a percentage of the canvas width.
+To teach the skill what he calls elegant, 36 social posts were preselected from collections curated by designers (events, products, music, food, editorial pieces) and shown to him on one board. He marked the ones he would sign: 26 signed, 10 rejected. Each post was then measured in pixels, with sizes and distances as a percentage of the canvas width.
 
 His words on the signed ones: *"when we talk about elegance it isn't using super elegant script typefaces… I mean the premium feeling it conveys… a very logical composition, you see a very clear visual hierarchy, things are well placed where they belong, not everything seems to be the same size… they're not boring designs, they're modern… how you play with the typography, the spaces, the movement… good colour combinations"* (*"cuando hablamos de elegancia no es usar tipografías cursivas súper elegantes… hablo de la sensación premium que transmite… una composición muy lógica, se ve una jerarquía visual muy clara, las cosas están puestas bien en su sitio, no todo parece que tiene el mismo tamaño… no son diseños aburridos, son modernos… cómo se juega con la tipografía, los espacios, el movimiento… buenas combinaciones de color"*). On the rejected ones: *"ugly illustrations or huge blobs… little visual hierarchy, little composition… very simple, typical colour and little else. You can put colour and little else, that can work perfectly well. The thing is how you put it"* (*"ilustraciones feas o manchas enormes… poca jerarquía visual, poca composición… muy simple, típico color y poco más. Tú puedes poner color y poco más, que eso puede funcionar perfectamente. La cosa es cómo lo pones"*).
 
@@ -252,8 +252,8 @@ Limits: these are art, culture and design posts more than small-business ones, a
 ## His third blind check (16 November 2026)
 
 Clean sessions corrected twelve unseen pieces (six catalogue templates never used in any test, and posts for a florist, a physiotherapy clinic, a choir's story, a charity market, a language school and a café) with the skill carrying the reference-study rules and with 1.0.2. He picked the new skill 5 times, 1.0.2 five times, and neither twice. His words: *"in this batch it does come closer to what I'm looking for, I see more coherence. I'm not saying they're perfect designs or 100 % how I'd do it, but it's getting closer"* (*"en esta tanda sí que se acerca más a lo que estoy buscando, veo más coherencia. No estoy diciendo que sean diseños perfectos ni al 100 % de cómo lo haría yo, pero se va acercando"*).
-- **The new skill won** with recompositions that kept the concept and gave it one strong idea: the organ recital's title enlarged and the floating band removed, the Veritas masthead turned along the right edge beside a bleeding photo, the clinic's header band, the charity market on a dark photo, and the florist's title reset without its script.
-- **1.0.2 won on the Camino template** because of the colour pair: *"I'm much more convinced by how the yellow background works with the contrast the rest of the blue creates… in B I'm not fully convinced by everything blue with the text showing in yellow"* (*"me convence mucho más cómo funciona el fondo amarillo con el contraste que genera el resto del azul… en la B no me termina de convencer todo azul y que se vea el texto en amarillo"*).
+- **The new skill won** with recompositions that kept the concept and gave it one strong idea: the organ recital's title enlarged and the floating band removed, an editorial masthead turned along the right edge beside a bleeding photo, the clinic's header band, the charity market on a dark photo, and the florist's title reset without its script.
+- **1.0.2 won on a pilgrimage template** because of the colour pair: *"I'm much more convinced by how the yellow background works with the contrast the rest of the blue creates… in B I'm not fully convinced by everything blue with the text showing in yellow"* (*"me convence mucho más cómo funciona el fondo amarillo con el contraste que genera el resto del azul… en la B no me termina de convencer todo azul y que se vea el texto en amarillo"*).
 - **1.0.2 won on the choir story** for the data, not the header: *"it categorises the information below better. In B everything blends together a bit, though I like B's header more… I'd do the top part from B and the bottom part from A, without saturating it"* (*"categoriza mejor la información que aparece abajo. En la B todo se funde un poco, aunque la cabecera me guste más la de la B… haría la parte de arriba de la B y la parte de abajo de la A, sin llegar a saturar"*).
 - **1.0.2 won on the caregivers' circle** because it *"structures the information better and not everything looks so compressed… cleaner, clearer, less noise"* (*"estructura mejor la información y no aparece todo tan comprimido… más limpio, más claro, menos ruido"*), though he would not sign its composition either.
 - **Neither for the language school:** the old version categorised the information better, but its bordered circle photo *"looks like something from the 2000s to me, it's hideous"* (*"me parece de los años 2000, es feísimo"*); he liked the new version's photo, but not its round "Solo 290 €" badge.
@@ -268,7 +268,7 @@ Lessons, now in SKILL.md and `eye.md`:
 
 ## His fourth blind check (16 November 2026)
 
-Twelve more unseen pieces, eight of them commercial posts from outside Cathopic (a restaurant, a hair salon, an estate agent, a clothing shop's story, a gym, a vet, a pottery class and a LinkedIn webinar) and four catalogue templates, corrected by 1.2 and by 1.0.2. The goal set before he saw them was 8 of 12 for 1.2. He picked 1.2 four times and 1.0.2 eight times, and signed one of the two every time. His words: *"it does come closer, I'm missing spacing polish, but overall I see it as more robust"* (*"sí se acerca más, me faltan pulidos de espacios, pero en general lo veo más robusto"*).
+Twelve more unseen pieces, eight of them commercial posts from outside his catalogue (a restaurant, a hair salon, an estate agent, a clothing shop's story, a gym, a vet, a pottery class and a LinkedIn webinar) and four catalogue templates, corrected by 1.2 and by 1.0.2. The goal set before he saw them was 8 of 12 for 1.2. He picked 1.2 four times and 1.0.2 eight times, and signed one of the two every time. His words: *"it does come closer, I'm missing spacing polish, but overall I see it as more robust"* (*"sí se acerca más, me faltan pulidos de espacios, pero en general lo veo más robusto"*).
 
 Across the three blind checks against 1.0.2: 4–6–2, 5–5–2 and 4–8–0, so 13 for the rewrite, 19 for 1.0.2 and 4 neither. The rewrite delivered a plain polish in one of 24 pieces; every other time it delivered a partial or full rebuild, while 1.0.2 corrected inside the original structure more often. Its rebuilds won 9 of 23. He prefers the correction that stays closer to the original structure and gets the spacing right, more often than a recomposition made by a clean session.
 
@@ -312,9 +312,9 @@ Twenty catalogue templates only, drawn at random from twenty different categorie
 
 On clean templates both versions now reach his bar most of the time, and the pairs differ in details, so a pick here is close to a coin toss. The rewritten core has won three checks in a row, 25 to 18 with one neither, and 19 to 13 on catalogue templates. Over the nine checks against 1.0.2: 48 to 50, with 6 neither.
 
-## His tenth check: Cathopic 5 interfaces, change by change (17 November 2026)
+## His tenth check: design-app interfaces, change by change (17 November 2026)
 
-The first check on interfaces. Six Cathopic 5 screens (Home with the Assistant, My designs, the liturgical calendar, the Planner, Settings › Plan, the Brand kit) and six shared components (buttons, fields, tabs and chips, an open menu, a form dialog, the sidebar), rendered from the local app. Dimeyes 1.2.2, an internal test build (1.2.1 plus the project rule), corrected each one as at most five independent changes, each rendered alone and with the others, and he accepted or rejected every change.
+The first check on interfaces. Six screens from his design app (Home with the Assistant, My designs, the liturgical calendar, the Planner, Settings › Plan, the Brand kit) and six shared components (buttons, fields, tabs and chips, an open menu, a form dialog, the sidebar), rendered from the local app. Dimeyes 1.2.2, an internal test build (1.2.1 plus the project rule), corrected each one as at most five independent changes, each rendered alone and with the others, and he accepted or rejected every change.
 
 He accepted 42 of 45, one more with a nuance, and rejected two. Every change about spacing (8), consistency (12, and one more with a nuance), interaction and states (5), hierarchy (5), copy (5), legibility (2) and detail (1) was accepted, and 4 of the 6 noise removals, on screens and components alike, at the token, component and screen layers.
 - Both rejections were "noise" removals justified as a repeat. Hiding a dialog's field label because the title asked the same question: *"the field would be left alone looking like a button"* (*"el campo quedaria solo pareciendo un boton"*). Moving a calendar cell's corner rank icon inline before its word: *"because it saturates, it's a calendar with many elements already"* (*"porque satura, es un calendario con muchos elementos ya"*). A repeat that does another job is not noise, and a cleanup never adds to the text lines of a full view.
@@ -325,7 +325,7 @@ The format asked for small independent changes, so it could not show a rethink: 
 
 ## His eleventh check: the interface rethink, blind (17 November 2026)
 
-Six Cathopic 5 screens (Home, My designs, the Planner, Settings › Plan, the Brand kit, Settings › Account), corrected in clean sessions by 1.2.2 and by 1.2.3, an internal build that adds the interface rules (repeats that do another job, affordance, full views, and a rethink beside the polish). Each version showed its delivered correction and, when its answer proposed one, its alternative: two to four proposals per screen, shuffled, rendered on the local app.
+Six screens from the same design app (Home, My designs, the Planner, Settings › Plan, the Brand kit, Settings › Account), corrected in clean sessions by 1.2.2 and by 1.2.3, an internal build that adds the interface rules (repeats that do another job, affordance, full views, and a rethink beside the polish). Each version showed its delivered correction and, when its answer proposed one, its alternative: two to four proposals per screen, shuffled, rendered on the local app.
 
 - The new version proposed a rethink on 5 of the 6 screens and said the structure holds on Home; 1.2.2 offered an alternative only on My designs.
 - His picks: the new version 4, 1.2.2 2. By kind: a polish on 5 screens (new 3, 1.2.2 2) and one rethink, on My designs: Designs and Folders as two tabs, signed with retouches. On it he asked for the search bar to shrink: *"or just show the little magnifier, and when you click it, it expands a bit so you can type"* (*"o que salga simplemente la lupita y que al, haz- que al clicar se expanda un poco. para que puedas escribir"*).
@@ -334,7 +334,7 @@ Six Cathopic 5 screens (Home, My designs, the Planner, Settings › Plan, the Br
 
 He picked the first proposal (A) on 4 of the 6 screens, so a position effect can't be ruled out in so few picks. The rethink earns its place only when it simplifies; the rule now says so.
 
-## His twelfth check: six fresh Cathopic 5 screens, blind (17 November 2026)
+## His twelfth check: six fresh design-app screens, blind (17 November 2026)
 
 My templates, Pricing, Settings › People, Preferences, Downloads and the Help Center, none seen before, corrected in clean sessions by 1.2.2 and by 1.2.4, an internal build that raises the rethink bar, positions rotated per screen.
 
@@ -346,9 +346,9 @@ Across both interface checks: the new version 6, 1.2.2 3, none 3, and 1 of 6 ret
 
 ## His thirteenth check: the visibility rule, blind (17 November 2026)
 
-Three fresh Cathopic 5 settings screens near his bar (Workspace, Assistant, Privacy and AI) and three public parish and diocese websites with real flaws, corrected in clean sessions by 1.2.4 and by 1.2.5, an internal build that grades interfaces by what the eye sees, positions alternated. 1.2.5 was released as 1.3, with findings about use kept at their grade.
+Three settings screens from the design app were already near his bar (Workspace, Assistant, Privacy and AI). The same test included three public parish and diocese websites with real flaws. Each was corrected in clean sessions by 1.2.4 and by 1.2.5, an internal build that grades interfaces by what the eye sees. The versions alternated positions for judging. 1.2.5 was released as 1.3, with findings about use kept at their grade.
 
-- On the three Cathopic screens the new version said "I'd sign it" with Details only, and 1.2.4 said "with changes" with Important findings. He picked the new version on all three.
+- On the three settings screens the new version said "I'd sign it" with Details only, and 1.2.4 said "with changes" with Important findings. He picked the new version on all three.
 - On the websites the rule never turned a real flaw into a Detail: both versions kept Critical or Important findings, but on the diocese the new version said "with changes" where 1.2.4 said "I wouldn't sign it". He picked the new version on two. On the diocese he picked 1.2.4, which caught four more details (a cut ellipsis, a missing hyphen, an off-palette accessibility button, the date below the title) and moved the carousel arrows to the section's title row instead of the page margins.
 - He skipped the question on his own verdict and gave no reasons. Asked whether it now grades like him: *"more or less"* (*"más o menos"*).
 
@@ -356,7 +356,7 @@ The rule holds where it acts (3 of 3). On the diocese he picked the harsher verd
 
 ## His fourteenth check: thirty catalogue templates, two approaches, blind (18 November 2026)
 
-Thirty Cathopic Signature templates (ten chosen and twenty drawn at random), each corrected in another session by Dimeyes alone and by Dimeyes with Impeccable, rendered from their native layers with the logo slot drawn on top. He picked blind between the two, positions balanced.
+Thirty templates from the same catalogue (ten chosen and twenty drawn at random), each corrected in another session by Dimeyes alone and by Dimeyes with Impeccable, rendered from their native layers with the logo slot drawn on top. He picked blind between the two, positions balanced.
 
 - His picks: Dimeyes alone 11, with Impeccable 9, neither 10. The combination added nothing on graphic pieces.
 - **Neither, ten times,** in his words *"very bland"* (*"muy sosas"*), *"not very creative and bad solutions"* (*"poco creativo y malas soluciones"*), *"terrible redesign, pointless"* (*"malisimo rediseño en ambos casos, sin sentido"*), *"bad use of the spaces and barely any hierarchy"* (*"mal uso de los espacio y apenas hay jeraquia"*). Most of the ten were stripped of their frames, rules and ornaments and reflowed to free the logo slot.
@@ -399,11 +399,11 @@ He reviewed each piece on its own and gave a signing verdict before seeing alter
 - **Sunday Mass livestream.** Predicted: keep the initial vertical position of the data because its top aligns with the photo. He chose that position, explaining that the higher option crowded the title band and the lower one crowded the logo. He would still rebuild the piece. He liked the top photo and the light title band, wanted to open up the title lettering towards the safe-area edges, and questioned what the second photo contributed. His own reason for rejecting the layout reaches beyond the unused space identified in the earlier render review.
 - **Workshop sessions.** This was a new, fictional interface. Predicted: A for its availability labels. He chose B, which he read as showing a hover state that explained the inset at both ends of the row. All three versions were static. Looking at the initial screen alone, he objected to the dates and the right-hand ends sitting inside the section axes and to an illustration that told him nothing about the workshop. He would rethink the screen, including B. He then compared the initial screen with a working correction: at rest the dates aligned with the section title and the arrows reached the opposite edge. On hover or focus, the background extended around the stationary contents. Asked specifically about the two edges, he considered them resolved. His last verdict on the whole screen was still to rethink it.
 
-## What he expects of Cathopic 5 catalogue work (18 November 2026)
+## What he expects of catalogue work (18 November 2026)
 
 His publication standard is a template he would design himself. He explicitly includes changing several pieces together or rethinking the design: *“muchas veces hay que editar o cambiar varias piezas o incluso el diseño.”* Read his feedback about one relationship at that scope. After he accepted the two edge alignments in the workshop screen, his wider objection to its composition still stood. When a catalogue piece is tidy yet the image, type and information still tell the wrong story, work on that organising idea and judge the resulting template as a whole.
 
-## Publication decision on two Cathopic 5 templates (18 November 2026)
+## Publication decision on two catalogue templates (18 November 2026)
 
 He compared two versions of each template blind, with the catalogue original available. Both runs used the same editable content. The B label referred to a different skill version in each pair.
 
@@ -421,7 +421,7 @@ He saw the original square catalogue preview of “All Saints party: come as you
 | What would he touch first? | Give the event details a recognisable block at the foot and make them read before the description. | He wanted a little more space between the paragraph and the data line, then clearer hierarchy within the data so they feel less compressed. He did not request a reversal of reading order. |
 | Would he publish it as shown? | No. Recompose the foot first. | He later made his verdict explicit: *“yo no sacaría tal cual la plantilla porque habría que aplicar los ajustes que te he comentado.”* He tied that verdict to the text adjustments already identified before seeing the logo. |
 
-He also pointed out that every Cathopic 5 template must accommodate the customer’s branding. This was an existing production requirement that the blind presentation failed to make visible. In subsequent catalogue tests, show the brand applied so he can judge the actual relationship between the signature and the content.
+He also pointed out that every template in that catalogue must accommodate the customer’s branding. This was an existing production requirement that the blind presentation failed to make visible. In subsequent catalogue tests, show the brand applied so he can judge the actual relationship between the signature and the content.
 
 With a sample horizontal mark in the actual slot, he asked to recompose the whole lower area, including the long paragraph, while preserving the overall composition. The two views elicited different scopes: first he saw a crowded data line, then he saw how the paragraph, data and signature needed to work together. Credit the prediction for the publication verdict and the location of the problem. His reason for keeping the title treatment and the full effect of branding required his feedback.
 

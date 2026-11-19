@@ -1,13 +1,12 @@
 /**
- * Dimeyes Tailwind preset (v3): Dimitri Conejo Sanz's system, from the Cathopic
- * production config and Christicons. Values mirror tokens.css; keep them in sync.
+ * Dimeyes preset for Tailwind v3. Its values mirror tokens.css.
  *
  *   // tailwind.config.js
  *   module.exports = { presets: [require('./tailwind-preset.js')], content: [...] }
  *
  * Spacing is REPLACED, not extended: every p-/m-/gap-/w- class lands on his scale.
- * Keys are his Cathopic remap, so p-3 = 8px and p-4 = 12px (not Tailwind's 12/16).
- * Left out on purpose: Cathopic's 3.5 = 14 and 7.5 = 28 (off his scale).
+ * The custom scale maps p-3 to 8px and p-4 to 12px.
+ * It omits keys 3.5 (14px) and 7.5 (28px), which fall outside the spacing scale.
  * 10 is his value; write it as he does, as the arbitrary gap-[10px] / px-[10px].
  */
 
@@ -50,7 +49,7 @@ module.exports = {
       1: '2px',
       1.5: '6px', // tolerated; note 1.5 (6) > 2 (4) in this remap
       2: '4px',
-      2.5: '6px', // Cathopic maps 2.5 to 6 as well (an ordering quirk)
+      2.5: '6px', // 1.5 and 2.5 both map to 6px
       3: '8px',
       4: '12px',
       5: '16px',
@@ -95,7 +94,7 @@ module.exports = {
 
     fontFamily: {
       sans: ['Inter', '"Inter var"', 'ui-sans-serif', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
-      brand: ['"Basier Square"', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'], // option (Christicons)
+      brand: ['"Basier Square"', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'], // quiet register
       mono: ['"Basier Square Mono"', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
       display: ['"Instrument Serif"', '"Instrument Serif Fallback"', 'Georgia', 'serif'], // weight 400 only
       serif: ['"Source Serif 4"', 'Georgia', 'serif'], // reading serif of the Tiempos / Source Serif type (app boards)

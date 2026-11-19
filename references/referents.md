@@ -2,29 +2,29 @@
 
 > **Scope: his taste, not a template.** This file documents sites he admires. Use it to set the finish bar when designing for him or "like him". Never use it to push another design toward his look: other designs are judged in their own language with `eye.md` (see "Two layers" in SKILL.md).
 
-Sites Dimitri explicitly admires. They set the finish level he aims for and the influences he absorbs. They are **not** his signature: when designing, his own system (`system.md`, `profile.md`, `layouts.md`) decides; a referent only raises the bar or settles a choice his system leaves open. When critiquing, "this is how Flodesk does it" is never a reason on its own; tie every point to his rules.
+Sites Dimitri explicitly admires. They set the finish level he aims for and the influences he absorbs. They are **not** his signature: when designing, his own system (`system.md`, `profile.md`, `layouts.md`) decides; a referent only raises the bar or settles a choice his system leaves open. When critiquing, tie each recommendation to its effect on the design under review.
 
-He also named **Apple**, **Linear** and **Mobbin** as references (not measured here).
+He also named a consumer technology company, a project-management tool and an interface-pattern library as references (not measured here).
 
 ## What the two measured referents share (and he shares with them)
-- Neutral UI, colour in the content: warm or pure off-white grounds, near-black ink (never #000 in Flodesk), muted text by tone or opacity; the accent appears almost nowhere.
+- Neutral UI, colour in the content: warm or pure off-white grounds, near-black ink (never #000 in the email-design platform), muted text by tone or opacity; the accent appears almost nowhere.
 - Separation by tone instead of lines: light surfaces with radius 16–24; almost no borders or shadows.
 - One button spec, pill-shaped, black primary; at most two actions per group.
-- A disciplined rhythm built from a few repeated values (Flodesk: 240 between sections, 48 heading→content, 16 → 32 cadence; ls.graphics: one 12 unit everywhere).
+- A disciplined rhythm built from a few repeated values (email-design platform: 240 between sections, 48 heading→content, 16 → 32 cadence; mockup catalogue: one 12 unit everywhere).
 - Elements cut to the essentials; imagery carries personality.
 
 ## Two typographic registers
-- **Flodesk: wide scale.** Single grotesk at weight 500, display sizes up to 160 with line-height 1.0 and −2% tracking. Use when the surface persuades (landing, marketing).
-- **ls.graphics: compressed scale.** 9 / 12 / 16 / 24 only, weights 400/500; hierarchy from space, position and black vs grey. Use for dense catalogues, tools and product UI.
+- **Email-design platform: wide scale.** Single grotesk at weight 500, display sizes up to 160 with line-height 1.0 and −2% tracking. Use when the surface persuades (landing, marketing).
+- **Mockup catalogue: compressed scale.** 9 / 12 / 16 / 24 only, weights 400/500; hierarchy from space, position and black vs grey. Use for dense catalogues, tools and product UI.
 
 ---
 
-# Flodesk: measured layout and visual audit (2026-11-12)
+# Email-design platform: measured layout and visual audit (2026-11-12)
 Referent Dimitri loves. Measured home, pricing, /templates/email and /checkout at 1440×900 and 390×844.
 
 ## Shared system (home, pricing, checkout)
 - Colours: page bg #F8F8F5; surface #F0F0EB (table rows, stat cards, demo panels, footer panel); toggle track/dividers #E1E1DB; ink #111110 (never #000); muted text = ink at 65% opacity; on dark: text #F0F0EB, muted at 60%, dark cards #F0F0EB at 5%. Accent blue #4081F4 only twice (pricing: "One flat rate.", "(2 months free)"); pale blue #DDEBFF "Most popular" band; promo bar #A7C9FD. Pure white only on pricing cards. All saturated colour comes from content (email card fills #FDEDA9, #576F54, #410D26, #DFD8AC, #A6BFF1).
-- Type: one family "Flodesk Sans". Weight 500 for all headings, nav, buttons; 400 body. Scale 12/16, 14/20, 16/20, 24/24, 32/32, 48/48, 64/64, 80/80, 160/160. Display sizes line-height 1.0, tracking −0.02em. Body tight 16/20 (CEO letter 16/28).
+- Type: one proprietary grotesk. Weight 500 for all headings, nav, buttons; 400 body. Scale 12/16, 14/20, 16/20, 24/24, 32/32, 48/48, 64/64, 80/80, 160/160. Display sizes line-height 1.0, tracking −0.02em. Body tight 16/20 (CEO letter 16/28).
 - Radii: 16 (most), 24 (large panels, bento, pricing cards), 12 (mobile cards, video), 100 (pills), 8 (icon buttons).
 - Shadows: none on home. Only pricing cards: rgba(0,0,0,.1) 4px 4px 25px. Borders: almost none (1px outline button).
 - Motion: entrance fade, auto-scrolling template marquees, autoplay demo videos, 0.2s opacity/background transitions.
@@ -60,7 +60,7 @@ Referent Dimitri loves. Measured home, pricing, /templates/email and /checkout a
 ## Templates page = older system (ignore as reference)
 - Warm brown ink #241A17, serif JJannon in FAQ, off-scale values throughout, square tiles with hairline borders. /checkout returns to the main system.
 
-## What makes Flodesk distinctive
+## What makes the email-design platform distinctive
 1. One voice: single grotesk, single weight 500 for headings and controls, lh 1.0, −2% tracking. Hierarchy only by size steps (16 → 24 → 48 → 64 → 80 → 160) and space.
 2. Neutral UI, colourful content: warm off-white + near-black ink + three neutral tints; muted text by opacity, not a separate grey. Colour lives in the imagery; UI accent appears twice.
 3. One big rhythm repeated: 240 between sections on desktop (~27% of a 900 viewport), 160 on mobile; heading→content almost always 48.
@@ -79,8 +79,8 @@ Referent Dimitri loves. Measured home, pricing, /templates/email and /checkout a
 
 ---
 
-# ls.graphics: measured layout analysis (Nov 2026)
-Referent Dimitri admires. Measured home, product page (/assets/nothing-phone-4a-pro-015) and catalog (/mockups) at 1440 and 390. A Black Friday promo was live (368px display hero + fixed black toast); the permanent hero is the second plate.
+# Mockup catalogue: measured layout analysis (Nov 2026)
+Referent Dimitri admires. Measured home, a device-mockup product page and catalog (/mockups) at 1440 and 390. A Black Friday promo was live (368px display hero + fixed black toast); the permanent hero is the second plate.
 
 ## Global system
 - Font: Inter only; weights 400 and 500 only.
@@ -118,7 +118,7 @@ Referent Dimitri admires. Measured home, product page (/assets/nothing-phone-4a-
 - Content: H1 "Featured Mockups" 24/32 left; opposite, top-aligned far right, a 12/20 #858585 intro, right-aligned, exactly one column wide (342). Sticky white toolbar (top 58, padding 12, 56 tall): "All" dropdown pill left, centred segmented "Assets / Products", ringed "Open in Editor" right. 3-column card grid, rows every 281.
 - Mobile: sidebar gone, intro left-aligned full width, sticky toolbar, cards 1 column 366×288.
 
-## What makes ls.graphics distinctive
+## What makes the mockup catalogue distinctive
 1. One 12px unit runs the layout: page margin, gutter, gap between plates, header-to-plate, heading→CTA gaps. Reads as continuous tiles.
 2. Plates instead of sections: #F9F9F9 r24 rectangles inset 12. Separation by one very light grey tone, never rules or shadows. Hero plates and side panels sized to the viewport.
 3. Very compressed type: 9 / 12 / 16 / 24, weights 400/500; largest regular heading 24. Hierarchy from space, position and black vs #707070, not size.
