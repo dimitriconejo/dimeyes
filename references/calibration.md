@@ -1,5 +1,7 @@
 # Calibration: how Dimitri decides
 
+This is a chronological record. Some working rules changed after later tests. Use the current decision process in `SKILL.md` and the observations in `references/eye.md` when applying these examples. A choice between versions and approval to publish are different verdicts.
+
 His 18 A/B decisions from a test with near-identical design pairs, his three written critiques and his open answers. ✓ = matched what his principles predicted · ✗ = contradicted them (the most valuable: these are the rules you can't deduce from what he says) · ~ = nuance.
 
 ## Comparisons
@@ -270,7 +272,7 @@ Twelve more unseen pieces, eight of them commercial posts from outside Cathopic 
 
 Across the three blind checks against 1.0.2: 4–6–2, 5–5–2 and 4–8–0, so 13 for the rewrite, 19 for 1.0.2 and 4 neither. The rewrite delivered a plain polish in one of 24 pieces; every other time it delivered a partial or full rebuild, while 1.0.2 corrected inside the original structure more often. Its rebuilds won 9 of 23. He prefers the correction that stays closer to the original structure and gets the spacing right, more often than a recomposition made by a clean session.
 
-Rule drawn: the polish is the default delivery (SKILL.md, How he corrects). A recomposition is delivered only when the structure fails, and otherwise offered beside the polish as an alternative.
+At the time, this led to treating polish as the default delivery. Later catalogue reviews exposed the limit of that interpretation. The current depth decision is in “How he corrects” in `SKILL.md`.
 
 ## His fifth blind check (16 November 2026)
 
@@ -376,15 +378,133 @@ The ten templates he had rejected in the fourteenth check and ten never tested, 
 - **Growth.** Where 1.3 won it had grown what matters: a hero figure, the event data, a photo bled to the canvas edge. On the worship night he asked for exactly that: *"it put the tape, but it could have increased the size of a relevant text instead"* (*"ha puesto la cinta pero podia haber inrementado el tamaño de un texto relevante instead"*).
 - **Still neither:** the missionary visit, whose wide side band he finds flat (*"I don't understand the right strip being so big, it all looks flat and ugly"* (*"no entiendo la franja derecha tan grande, queda como todo plano y feo"*)): a structure a polish can't save.
 
-Rules drawn (SKILL.md, Lines and frames; `eye.md` §4, Space freed is space used): a line earns its place when it draws a shape, carries ornament or anchors type, and goes when it only encloses or divides what the space already sets apart; freed space goes first to the protagonist or the key data.
+The working rules at this stage judged a line by what it draws, ornaments or anchors, and gave freed space first to the protagonist or the key data. The first-look follow-up below records where that use of space was too prescriptive.
 
 ## His sixteenth check: twenty templates, 1.3 against the round-fifteen rules, blind (18 November 2026)
 
-Eight templates that 1.3 had won in the fifteenth check and twelve never tested, corrected again from the original in clean sessions by 1.3 and by the build with the fifteenth check's rules (lines judged by their job, freed space to the protagonist first). Native layers, the catalogue's renderer, execution checked, positions balanced.
+Eight templates that 1.3 had won in the fifteenth check and twelve never tested, corrected again from the original in clean sessions by 1.3 and by the build with the fifteenth check's rules (lines judged by their job, freed space to the protagonist first). Native layers, the catalogue's renderer, execution checked, positions balanced. He gave one reason about an individual piece (the Mass request). The observations about size and space below came from inspecting the renders after his votes.
 
-- His picks: the new build 12, 1.3 4, tie 1, neither 3. On the twelve never tested: the new build 6, 1.3 3, tie 1, neither 2. On the eight that 1.3 had won: the new build 6, 1.3 1, neither 1. The new build won 6 of 10 in each position, so the result is not a position habit. Asked whether it has improved: *"improvement"* (*"mejora"*).
-- **Size decided most pairs.** Where the new build's title or hero figure grew, it won 6 of 8. Every pair 1.3 won had a measurable cause in the new build: a title kept at the original size while 1.3 grew it (ten minutes in the church), a photo grown less than 1.3's (lector training), a smaller photo and the data crammed under the band with the field empty below (worship night), and the text pushed down its shape leaving the top empty (Easter egg hunt).
-- **Voids decided the rest.** The three "neither" and the tie share one fault neither version fixed: a field with its group sitting high and the rest empty (the parish mission's panel, the livestream's left column) or a piece left as it was. Both versions kept voids the original already had.
+- His picks: the new build 12, 1.3 4, tie 1, neither 3. On the twelve never tested: the new build 6, 1.3 3, tie 1, neither 2. On the eight that 1.3 had won: the new build 6, 1.3 1, neither 1. The new build won 6 of 10 in each position overall. The sides were uneven within the fresh and repeated groups. Asked whether it has improved: *"improvement"* (*"mejora"*).
+- **Size differences.** Where the new build's title or hero figure grew, it won 6 of 8. The four pairs that 1.3 won had these visible differences in the new build: a title kept at the original size while 1.3 grew it (ten minutes in the church), a photo grown less than 1.3's (lector training), a smaller photo and the data crammed under the band with the field empty below (worship night), and the text pushed down its shape leaving the top empty (Easter egg hunt).
+- **Voids in the renders.** A post-vote inspection of the three "neither" picks and the tie found a field with its group sitting high and the rest empty (the parish mission's panel, the livestream's left column) or a piece left as it was. Both versions kept voids the original already had.
 - **Lines: the rule is right, the runs vary.** On the Mass request he chose neither and wrote *"the design from the previous round was better"* (*"era mejor el diseño de la ronda anterior"*): that one kept the outer frame and one rule under the title, with no dividers between the data. This round 1.3 removed the frame and the new build kept it but added dividers between every row. Each run broke the rule a different way.
 
-Rules drawn (SKILL.md, Self-review: No leftover voids, Room left, protagonist grown): measure the space above and below the group in every field instead of squinting, and a void the original had counts; when the protagonist's field has room, it ends bigger than in the original.
+The 1.4 build used these post-vote observations to introduce two checks: measure the space above and below a group, and try a larger protagonist where the field has room. The follow-up below tests whether position or scale actually explains a decision on an individual piece.
+
+## First-look follow-up on two catalogue pieces and a workshop screen (18 November 2026)
+
+He reviewed each piece on its own and gave a signing verdict before seeing alternatives. The predictions below were written before his answers.
+
+- **Annual giving report.** Predicted: sign with retouches, try a finer top rule. He would sign with retouches. The headline and 212 caught his eye first, as intended. The caption immediately under 212 looked tightly tracked for ordinary text (its layer actually uses zero letter spacing). The size of the logo and its alignment with the source credit bothered him more. He suggested stacking the two parts of the credit so the block relates to the logo. He was looking at a logo placeholder. He gave no target size for an actual mark.
+- **Sunday Mass livestream.** Predicted: keep the initial vertical position of the data because its top aligns with the photo. He chose that position, explaining that the higher option crowded the title band and the lower one crowded the logo. He would still rebuild the piece. He liked the top photo and the light title band, wanted to open up the title lettering towards the safe-area edges, and questioned what the second photo contributed. His own reason for rejecting the layout reaches beyond the unused space identified in the earlier render review.
+- **Workshop sessions.** This was a new, fictional interface. Predicted: A for its availability labels. He chose B, which he read as showing a hover state that explained the inset at both ends of the row. All three versions were static. Looking at the initial screen alone, he objected to the dates and the right-hand ends sitting inside the section axes and to an illustration that told him nothing about the workshop. He would rethink the screen, including B. He then compared the initial screen with a working correction: at rest the dates aligned with the section title and the arrows reached the opposite edge. On hover or focus, the background extended around the stationary contents. Asked specifically about the two edges, he considered them resolved. His last verdict on the whole screen was still to rethink it.
+
+## What he expects of Cathopic 5 catalogue work (18 November 2026)
+
+His publication standard is a template he would design himself. He explicitly includes changing several pieces together or rethinking the design: *“muchas veces hay que editar o cambiar varias piezas o incluso el diseño.”* Read his feedback about one relationship at that scope. After he accepted the two edge alignments in the workshop screen, his wider objection to its composition still stood. When a catalogue piece is tidy yet the image, type and information still tell the wrong story, work on that organising idea and judge the resulting template as a whole.
+
+## Publication decision on two Cathopic 5 templates (18 November 2026)
+
+He compared two versions of each template blind, with the catalogue original available. Both runs used the same editable content. The B label referred to a different skill version in each pair.
+
+- **Stories for bedtime.** *“La de cuentos B sí la sacaría tal cual.”* He approved the yellow bookshelf composition from the earlier build for publication as shown. He gave no reason for choosing it over the night scene with the lamb.
+- **Plant a tree this spring.** He chose B, the revised build’s leaf-shaped photograph on a light ground, and identified his first correction: *“Ese «Plant» se me queda un poco suelto respecto a «a tree this spring».”* The first word and the remaining phrase already used the same type family. Their scale, posture and spacing differed. He identified the break in the reading and left the typographic remedy open. His verdict applies to the version shown.
+  On seeing the revised headline he confirmed: *“Sí, ahora ya leo «Plant a tree this spring» de corrido. El titular lo daría por resuelto.”* He approved the continuous reading of the headline. The revised rendering used Lora italic at one size across three lines. The type choice belongs to this solution. His last verdict on the whole template remains a preference for B.
+
+## Blind prediction on the All Saints party (18 November 2026)
+
+He saw the original square catalogue preview of “All Saints party: come as your favorite saint”. The prediction was recorded before showing it. The preview omitted the customer’s mark.
+
+| Question | Prediction | His reading |
+| --- | --- | --- |
+| What would he keep? | The large black “SAINTS” on yellow as the main typographic gesture. | He specifically liked the repetition and its treatment across all three lines. The prediction identified the word and missed why he would keep it. |
+| What would he touch first? | Give the event details a recognisable block at the foot and make them read before the description. | He wanted a little more space between the paragraph and the data line, then clearer hierarchy within the data so they feel less compressed. He did not request a reversal of reading order. |
+| Would he publish it as shown? | No. Recompose the foot first. | He later made his verdict explicit: *“yo no sacaría tal cual la plantilla porque habría que aplicar los ajustes que te he comentado.”* He tied that verdict to the text adjustments already identified before seeing the logo. |
+
+He also pointed out that every Cathopic 5 template must accommodate the customer’s branding. This was an existing production requirement that the blind presentation failed to make visible. In subsequent catalogue tests, show the brand applied so he can judge the actual relationship between the signature and the content.
+
+With a sample horizontal mark in the actual slot, he asked to recompose the whole lower area, including the long paragraph, while preserving the overall composition. The two views elicited different scopes: first he saw a crowded data line, then he saw how the paragraph, data and signature needed to work together. Credit the prediction for the publication verdict and the location of the problem. His reason for keeping the title treatment and the full effect of branding required his feedback.
+
+The first correction was assisted: an executor used Dimeyes, Dimitri’s feedback and an art-direction brief, and a second agent reviewed the result. He would still withhold it from the catalogue. The applied logo felt too large against the two lines opposite and extended below the last line, creating a visual step. The reserved area was clear, so the collision check had passed while the optical relationship still failed. This is evidence about the correction and its review. Keep assisted work distinct from a fresh, uncoached application of the skill when reporting how it performs.
+
+## Blind prediction on the Easter Vigil (18 November 2026)
+
+An independent agent used the installed skill and the original square Easter Vigil template with a sample parish brand. Before Dimitri saw the image, it recorded three predictions: retain the full-bleed bonfire with the title on its dark base, first enlarge the date and time because the white logo drew the eye, and withhold publication pending a polish of the foot. It explicitly considered the title and the composition resolved.
+
+Dimitri also withheld publication and found the logo too prominent. He wanted a more visual, elegant treatment of the Saturday details. He described a wider problem: the stacked texts left the piece very simple and with little hierarchy. He would try a larger title on two lines, pull the sentence explaining it closer and give the other groups room. When asked, he confirmed that his final “too much” referred to the logo. He did not give a verdict on the bonfire, specify a size or prescribe weight alone for the date.
+
+Credit the publication decision and the local observations on the mark and date. The prediction underestimated the required work on the composition. The proposed two-line title is an experiment for this piece. The relationship to test elsewhere is whether a person can see which words belong to the message and which tell them how to attend.
+
+## Blind prediction on the conference programme (18 November 2026)
+
+A fresh agent used the same skill revision as in the Easter Vigil test. It recorded its decision before Dimitri saw the branded portrait. It predicted that he would keep the timeline, start by evening the gaps after wrapped activities, and withhold publication until the spacing was polished.
+
+He would withhold publication. His first stated intervention was to move the logo to the lower right, align it with the footer data and reduce its opacity a little so it attracts less attention. He also found the schedule crowded when an entry takes two lines and tentatively suggested slightly smaller items. He said the rest worked. That is consistent with keeping the timeline. He did not single out its dots or yellow times, endorse a 48 px gap or specify an opacity value.
+
+Across the two independent predictions, both publication verdicts matched. The Vigil prediction underestimated the composition change. The programme prediction saw the wrapping issue and missed the signature as his first priority. These are judgements of existing designs. The reserved template is a separate test of whether an agent using the resulting skill can deliver a finished design without direction on that piece.
+
+## Independent design of the mission story (18 November 2026)
+
+A fresh agent received the original editable template, the calibrated skill and the native renderer. It chose a triptych of photographic arches for “Pray / Give / Go” and predicted it would sign its finished version. All seven text fields and three photo roles survived. It had checked the marked composition at phone size and with replacement content.
+
+Dimitri would **not publish that version as shown**. He liked the idea of the three arches with the three verbs. The first problem he saw was the lower part as a whole: the explanations felt close together, while the logo floated in too much air. He acknowledged the safe area. He suggested trying the title’s style on the three verbs. He also described the result as *“un diseño sin más, aunque no presente muchos errores.”*
+
+This is a missed publication verdict on an independently produced design. The accepted idea, suggested type experiment and verdict on the whole are three distinct observations. In a later revision made with this feedback, an improvement would demonstrate response to direction. Evidence of independent design requires another unseen piece.
+
+In the directed revision the arched photos descended in steps. An ivory band stepped across the lower content, and the verbs took the headline’s italic style. He rejected that revision emphatically and preferred the preceding composition. He liked the treatment of the three verbs. The upper step extended rightwards and downwards, so what should have read as separate blocks looked to him like one laid over another. He also disliked the larger compositional choice, beyond that contour defect. The earlier triptych is a better starting point, though he had also withheld it from publication. His feedback supports carrying the type treatment back to that stronger arrangement. It establishes neither a general objection to asymmetry nor a preference for applying italics to all action words.
+
+The next version restored the aligned arches, moved the signature into the header and set the three action words in the title’s italic. He preferred it to the stepped revision but would still withhold publication. The main title and the three column headings seemed to merge. He explicitly wanted to see alternatives before choosing a remedy. The italic echo that he liked in the previous comparison and a clear distinction between the two levels both matter. He asked to see both approaches before deciding.
+
+In the controlled comparison he chose B: *“eligiria la opcion B”*. A kept the shared italic and increased the gap between the main title and the columns. B kept the columns in place, left all three verbs italic and set the main title in the same family in upright bold, with a slightly smaller size and adjusted leading. For this poster he preferred the combined typographic change. The test did not isolate which of the four headline properties mattered most. When asked about the whole finished story, he explicitly approved it for the catalogue as shown: *“Sí, la B ya la sacaría al catálogo tal cual.”* This was the directed final version. The independently delivered first version still received a no.
+
+## Independent design of Closing Mass (18 November 2026)
+
+A fresh session used Dimeyes to redesign the portrait with its original photograph, all five editable text fields and a sample parish mark. It placed the date and time on a pennon over the photograph and the title below. Its recorded verdict was to publish the branded render as delivered. Dimitri said *“lo sacaria tal cual pero con pequeños ajustes”* and was surprised by how well the piece worked overall. He accepted the composition and named two finishing details. He would match the photograph’s top inset to its side insets, and the text at the foot felt too close to the logo. He did not identify a particular footer line or request a smaller signature.
+
+The autonomous version achieved the visual direction on this piece. Its check of the safe area, logo reserve and text collisions had passed while both details remained visible to him. The subsequent adjustments respond to this feedback. Keep the verdict on the autonomous version attached to that render.
+
+## Three independent catalogue designs in a blind comparison (19 November 2026)
+
+Three fresh sessions received the same skill revision. Each designed one previously unseen template and recorded “publish as shown” before Dimitri saw the results. Each of the six branded renders had its own publication verdict. Authorship was concealed for the first ballot. After the reveal, Dimitri revised his original-programme vote from “rethink” to “publish with refinements” and explained his judgements on both the programme and the collection. The table shows his latest verdicts on those same renders.
+
+| Piece | Original, graded by Dimitri | Dimeyes proposal, graded by Dimitri |
+|---|---|---|
+| Youth quotation | A, publish as shown | B, publish with refinements |
+| Evening programme | A, publish with refinements | B, publish with refinements |
+| Holy Land collection | B, publish with refinements | A, publish with refinements |
+
+Dimitri explicitly signed the original youth quotation. It uses the photograph as a background and a recognisable pair of opening quotation marks. In B the photo filled two elongated marks. His first reading was “parecen ojos enfadados”. He wanted more natural quotation marks and liked the photo as a background. For this piece, keeping the original would have delivered a publication-ready result. For other pieces, check which shape the viewer actually recognises and what feeling it carries at reading size. Using photography inside a symbol remains a possible treatment.
+
+He liked both programmes. In the original (A) the logo felt misplaced. He suggested moving the content up to make room for it. In the proposal (B) the schedule worked for him, but the header shaped like an open book looked unattractive. He would use the photograph at full width there. The book was recognisable and relevant to the subject yet weakened this design in his eyes.
+
+In the Holy Land proposal (A) the cross looked distorted. He also found too much leading in the title and an awkward sequence of gaps between the image, title and text below. In the original (B) he liked the composition and idea. The information block crowded the text and left too little room for the logo. He suggested moving the title up a little. Equal verdicts can call for different changes to each piece.
+
+On his latest ratings, the youth proposal fell one publication category and the other two matched their originals. Only the original youth quotation was ready as shown. Dimeyes had signed all three of its proposals and Dimitri requested refinements in all three, on both ballots.
+
+## Independent wedding invitation and blind editorial review (19 November 2026)
+
+A fresh Dimeyes session could keep, refine or redesign the source. It chose to redesign the envelope, brought the folds together at the seal and moved the parish signature below it. It would publish its candidate as delivered. An independent reviewer saw the two branded renders in random order. The reviewer would refine the original (A) and publish the candidate (B) as shown. The candidate reached Dimitri exactly as delivered by its author.
+
+Dimitri saw only the finished invitation, without the source identity or either verdict. He would publish it as shown. He could imagine a more realistic shape for the seal and said the invitation would also work without a logo. The reviewer's verdict matched his. The reviewer had praised the seal's role in closing the envelope and had not anticipated the point about its shape. The branded render is the signed reference. The original received no verdict from Dimitri in this round.
+
+The seal shows the distinction between a possible refinement and a change he needs before publication. The folds and seal already give the piece a visual ending of its own. In templates with optional branding, look for what holds the composition together when the user leaves the slot empty.
+
+## A dense parish story and continuity of style (19 November 2026)
+
+The original story welcomed newcomers with three steps. Uppercase sans-serif type, numbered outlines, thin rules, a light ground and space gave the information its visual identity. The autonomous version kept the information but put the headline on an illustrated doormat with a tiled ground and used a serif display face. Its author predicted publication. A blind reviewer preferred that direction after a correction to the lower safe area.
+
+Dimitri’s first reaction to the direction was that he would withhold it. He found the design reasonable in its own right, disliked the upper area and gave the deciding reason: *“la plantilla original claramente sigue un estilo minimalista, y lo que hizo dimeyes fue hacer algo mas ilustrativo”*. His observation applies to the direction; he did not distinguish the technical exports. A second attempt used his direction and returned to the original typographic treatment.
+
+A stronger hierarchy, a new composition or a rebuilt section can still belong to the original style. Earlier approvals of illustrative motifs in other templates remain specific to those compositions. A theme shared by the original and revision establishes continuity of subject. Continuity of style must also be visible in the way the design treats the content.
+
+The second version retained the three-line headline, outlined numbers, rules and top-right signature. Its author and a separate reviewer would both have published it. Dimitri would not. It scarcely improved the original for him: *“el diseño no respira, mal ajuste de los espacios y el logo es grande”*. He called for recomposition within the original style. Keeping the visual language had solved the previous objection. The distribution of space and the prominence of the applied mark still needed a more substantial intervention.
+
+During the next recomposition, he noticed that the digits sat high inside the rounded outlines and that the repetition felt unstable. In the selected draft the numbered marks had roughly 8 px between the digit and the inner stroke above and 13 px below on the 1080 px artwork. This locates the cause on that render. Read other typefaces and numerals against their own outlines.
+
+On the recomposed two-column steps, Dimitri also questioned the top alignment of the action and its description. In all three rows the opening capital of the description began 3 px below the opening capital of the action on the 1080 px render. Comparing the tops of whole lines understated it because ascenders further along the descriptions reached higher. Moving the descriptions up 3 px aligned the opening capitals in all three rows at full size and in the phone preview. Dimitri confirmed that the columns now looked aligned and that he would sign the finished two-column story as shown. His signature applies to the recomposed version with the optical corrections. It followed his feedback on style, spacing, logo scale, numeral centring and column alignment.
+
+## Five moments at Benediction (19 November 2026)
+
+A fresh Dimeyes session worked from the branded square template without direction from Dimitri on this piece. It kept the photograph, serif title, italic introduction and fine rules. Each rite and its explanation occupied one row. The service time and chapel shared the foot with the parish mark. An independent reviewer spotted a near-touch between two letters on successive lines of the headline at phone size. The author opened the leading and the reviewer signed the revised render before Dimitri saw it.
+
+Dimitri first saw the finished version alone. He asked to see it beside the labelled original before giving his verdict. He would publish the finished Benediction template as shown: *“Ha respetado el estilo de la original y ahora se leen mucho mejor los cinco pasos. El logo también queda mejor con el horario al otro lado.”* His approval covers the reviewed version. He gave no separate publication verdict on the original. This is an example of how a denser piece can gain clarity within its own style by making the pairs easier to follow and giving the signature a visible relationship to the practical details.

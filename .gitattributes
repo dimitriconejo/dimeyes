@@ -2,3 +2,4 @@
 /.github export-ignore
 /.gitignore export-ignore
 /.gitattributes export-ignore
+/assets/calibration export-ignore
