@@ -21,7 +21,7 @@ How Dimitri critiques, with his real material. He dictated the critiques below b
 
 ## What they teach
 
-- **Always start with color.** In all three, the first sentence is about color.
+- **On a saturated interface, he starts with colour.** In all three of these interface critiques the first sentence is about colour. On graphic pieces his first words are usually about composition, space and hierarchy (*"bad composition"* (*"mala composicion"*), *"everything compressed"* (*"todo comprimido"*), *"no hierarchy"* (*"sin jerarquia"*)), then the signature.
 - **Judgment + cause in the same sentence:** "very little visual hierarchy, everything is very mixed together" (*muy poca jerarquía visual, todo está muy mezclado*); "they won't be tappable because there's barely any space" (*no se van a poder pulsar porque no hay apenas espacio*).
 - **Group:** "all the labels are different from each other" (*todos los labels son diferentes entre sí*), not one finding per label.
 - **Think of the person using the interface:** "the user will need to aim carefully with their finger" (*el usuario va a necesitar apuntar bien con el dedo*).
@@ -50,12 +50,25 @@ How Dimitri critiques, with his real material. He dictated the critiques below b
 
 His calibrating words: "a touch" (*un pelín*), "a bit" (*un poco*). Small adjustments are named as small; keep that proportion in the corrections.
 
+## His notes on graphic pieces
+
+From his votes on catalogue templates. One line names the relationship, where it fails and often the remedy; when the composition works he says so first, and when it doesn't he rejects the whole thing without a fix.
+
+- *"perfect, but the title doesn't have the same distance between the image and 'Friday'"* (*"perfecto pero el titulo no tiene misma distancia entre la imagen y friday"*)
+- *"the logo isn't aligned at the very bottom with the last phrase, by the bottom"* (*"el logo no esta alineado abajo del todo con la ultima frase por el bottom"*)
+- *"I see everything compressed at the bottom, instead of having taken a bit of height from the image to gain more space"* (*"veo abajo todo comprimido, en vez de haber restado un poco de altura a la imagen para ganar mas espacio"*)
+- *"in the data part there are many different text styles"* (*"en la parte de datos hay muchos estilos de textos diferentes"*)
+- *"remove the icon, it looks tiny and ridiculous"* (*"quitar el icono, se ve enano y ridiculo"*)
+- *"the design is fine, the gradient at the top fails me, you can see the cut and I want something smooth"* (*"bien el diseño, me falla el gradiente de arriba, se nota el corte y queiro algo smooth"*)
+- *"bad composition, zero creativity"* (*"mala composicion, cero creatividad"*)
+- *"I only asked to move the logo to the other side"* (*"solo pedi cambiar de lado el logo"*)
+
 ## Output labels in Spanish
 
 The labels follow the language of the answer (the full English and Spanish sets are in SKILL.md, Response format). In Spanish:
 
-- **Review:** Veredicto · Profundidad · Diagnóstico · Correcciones (columns: # · Gravedad · Dónde · Qué falla · Corrección; severities: Crítico · Importante · Detalle) · Lo que funciona · Replanteamiento (interfaces) · Versión corregida.
-- **Audit:** Veredicto · Evaluación por dimensión (columns: Dimensión · Estado · Evidencia; states: Bien · Mejorable · Mal) · Qué mejorar · Lo que funciona.
+- **Review:** Veredicto · Profundidad · Diagnóstico · Correcciones (columns: # · Gravedad · Dónde · Qué falla · Corrección; severities: Crítico · Importante · Detalle) · Lo que funciona · Replanteamiento (interfaces) · Versión corregida · Revisión final. Depth values: Conservar · Ajuste pedido · Pulir · Recomponer · Rediseñar.
+- **Audit:** Veredicto · Profundidad · Evaluación por dimensión (columns: Dimensión · Estado · Evidencia; states: Bien · Mejorable · Mal) · Qué mejorar · Lo que funciona.
 
 ## Full output example
 
@@ -93,3 +106,5 @@ Input: the account settings screen above (values measured in its code). The exam
 
 **Rethink**
 The structure holds: one form in sections with a single save in the footer is the right shape for this task.
+
+**Final check:** the screen at 1440 and 390, then the header, the labels and the footer at 100 %.

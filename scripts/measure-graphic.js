@@ -3,7 +3,7 @@
 // (set window.DIMEYES_OPTS = {width, height, safe: [top, right, bottom, left]} first if the viewport isn't the canvas).
 // The last expression is the report (JSON). It measures every rendered text line between the bodies of the
 // letters (cap height or x-height down to the baseline), the gaps between neighbouring lines, the text styles,
-// the alignment axes, the safe area and the logo, and flags what breaks references/eye.md §4.
+// the alignment axes, the safe area and the logo, and flags what breaks references/graphic.md §12.
 // Not counted as typography: icon-font ligatures, symbol-only text (❦ ♪ ✔ 👉), the logo's own wordmark, and (for the
 // typefaces, styles and sizes) text drawn on a depicted object such as a book cover.
 // Limits: text drawn inside <svg> and CSS ::before/::after content are not measured; rotated or skewed text is only
@@ -18,7 +18,7 @@
   const css = e => getComputedStyle(e);
   const TOL = 2; // px a measured edge may miss a threshold by before it counts: below what the eye sees
 
-  // Platform safe areas in px on the canvas (top, right, bottom, left), eye.md §4. Other sizes scale from the nearest shape.
+  // Platform safe areas in px on the canvas (top, right, bottom, left), graphic.md §10. Other sizes scale from the nearest shape.
   const PRESETS = [
     { w: 1080, h: 1080, s: [80, 80, 80, 80], name: 'feed square' },
     { w: 1080, h: 1350, s: [96, 80, 120, 80], name: 'feed portrait' },
@@ -392,7 +392,7 @@
   for (const k of keys) { const p = k.split('|'), w = p.splice(2, 1)[0], base = p.join('|'); if (!byBase.has(base)) byBase.set(base, new Set()); byBase.get(base).add(w); }
   const styleCount = byBase.size, weightSteps = [...byBase.values()].reduce((n, s) => n + s.size - 1, 0);
   const styleTxt = `${styleCount} text styles${weightSteps ? ` (+${weightSteps} weight step${weightSteps > 1 ? 's' : ''})` : ''}`;
-  // Counts are information, not faults: the voice of a piece can need a third face (SKILL.md, How he corrects).
+  // Counts are information, not faults: the voice of a piece can need a third face (graphic.md §4).
   if (families.length > 2 || styleCount > 4) flag('INFO', 'styles', `${families.length} typefaces, ${styleTxt}: check that each one owns a role and no role is set two ways; never cut the face that carries the voice to lower this.`);
   if (sizes.length) {
     const topTexts = new Set(own.filter(l => l.size === sizes[0]).map(l => find(l.el)));

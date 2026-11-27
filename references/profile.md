@@ -2,7 +2,7 @@
 
 Reference for the Dimeyes skill: his signature, his words, his calibration choices and how he solves each component.
 
-> **Scope: his style, not a template.** This file documents how Dimitri's own work looks and is built. Use it to design for him, for his own products or "like him", and to recognise his signature when reviewing his own work. A Catholic or parish subject is not his product. Never use it to push another design toward his look: other designs are judged in their own language with `eye.md` (see "Two layers" in SKILL.md). When a design has no system, fill the gap with his eye, not his look: his spacing scale, a short type ladder, concentric radii and colour roles built from the design's own palette, type and shapes; say which values were added.
+> **Scope: his style, not a template.** This file documents how Dimitri's own work looks and is built. Use it to design for him, for his own products or "like him", and to recognise his signature when reviewing his own work. It covers interfaces and websites only: never a graphic piece or a template. Ownership decides the bar, never the subject (SKILL.md, His eye and his style). Never use it to push another design toward his look: other designs are judged in their own language with `eye.md`. When a design has no system, fill the gap with his eye, not his look: his spacing scale, a short type ladder, concentric radii and colour roles built from the design's own palette, type and shapes; say which values were added.
 
 **Contents:** Source weighting · Stated principles · In his own words · Calibration: surprising decisions · Critique priorities · Signature (numbered rules with evidence) · Components · Typography · Color · Space and rhythm · Imagery · Microcopy · Exceptions and tensions · Evolution · Flaws seen live · Open questions. Find the section with grep (`^## `) instead of reading the whole file when you only need one part.
 
@@ -114,9 +114,9 @@ We got 11 of 13 predictions right. These answers contradict what we expected fro
 
 ## Critique priorities
 
-Drawn from his three written critiques (Settings, Pricing and Finance). It goes from big to small and always repeats this order:
+Drawn from his three written critiques of saturated screens (Settings, Pricing and Finance), which go from big to small in this order. On graphic pieces his first words are usually about composition and space (`voice.md`):
 
-1. **Color.** Always first: overused accent, too many colors, color "overdone and misused" (*exagerado y mal usado*), overdone gradients and shadows (the PRO badge gradient, "flashy" (*cantoso*); the purple in Finance), amounts in different colors that make reading harder, and emojis that add colour without a job (one meaningful emoji is fine).
+1. **Color.** First on those saturated screens: overused accent, too many colors, color "overdone and misused" (*exagerado y mal usado*), overdone gradients and shadows (the PRO badge gradient, "flashy" (*cantoso*); the purple in Finance), amounts in different colors that make reading harder, and emojis that add colour without a job (one meaningful emoji is fine).
 2. **Hierarchy.** "Little hierarchy, everything mixed together" (*poca jerarquía, todo mezclado*), poor composition, focus where it shouldn't be.
 3. **Compressed space.** Cramped information and sections that can't be told apart: "in a vertical sweep the spaces don't exist" (*en un barrido vertical los espacios no existen*).
 4. **Component inconsistency.** Each card with a different structure, fields of different heights, labels that differ from one another, too many buttons, repeated save buttons.

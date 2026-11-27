@@ -3,7 +3,7 @@
 
 Renders the page in headless Chrome at the canvas size, runs measure-graphic.js once the fonts
 and images have loaded, and prints the report: text margins, the gaps between line bodies, text styles,
-alignment axes, the safe area and the logo, with FAIL / WARN / INFO flags from references/eye.md §4.
+alignment axes, the safe area and the logo, with FAIL / WARN / INFO flags from references/graphic.md §12.
 
 usage: python3 measure-graphic.py corrected.html --size 1080x1350 [--safe 96,80,120,80] [--json report.json]
 

@@ -1,6 +1,6 @@
 # Referents
 
-> **Scope: his taste, not a template.** This file documents sites he admires. Use it to set the finish bar when designing for him or "like him". Never use it to push another design toward his look: other designs are judged in their own language with `eye.md` (see "Two layers" in SKILL.md).
+> **Scope: his taste, not a template.** This file documents sites he admires, for interfaces and websites only. Use it to set the finish bar when designing for him or "like him". Never use it to push another design toward his look: other designs are judged in their own language with `eye.md`.
 
 Sites Dimitri explicitly admires. They set the finish level he aims for and the influences he absorbs. They are **not** his signature: when designing, his own system (`system.md`, `profile.md`, `layouts.md`) decides; a referent only raises the bar or settles a choice his system leaves open. When critiquing, tie each recommendation to its effect on the design under review.
 

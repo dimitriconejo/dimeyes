@@ -16,16 +16,16 @@ Dimeyes looks at a design the way Dimitri looks at it and reviews it as hard as 
 
 **Any design, in its own language.** Web, app, UX flow, dashboard, graphic piece, template or logo. It first reads the design's own system (spacing base, type scale, palette, radii, components, tone) and judges against that system and against his eye. A design built on a base of 4 or 8 is corrected to its own values, not re-scaled to his. Consistently bad is still bad.
 
-**It measures when it can.** On a website it renders at 1440×900 and 390×844 and runs `scripts/measure.js` in the browser. On a graphic piece built in HTML it runs `scripts/measure-graphic.py`, which measures the gaps between letter bodies, the margins, the rhythm between blocks, the safe area and the logo, and fixes what it flags. On a screenshot it calibrates against known references and marks estimates with "~". With a Figma server connected, it takes exact values from Figma. Without a browser tool, it audits the CSS values directly and says the render was not checked.
+**It measures when it can.** On a website it renders at 1440×900 and 390×844 and runs `scripts/measure.js` in the browser. On a graphic piece built in HTML it runs `scripts/measure-graphic.py`, which measures the gaps between letter bodies, the margins, the rhythm between blocks, the safe area and the logo; each flag is checked on the render before anything changes, and a clean report never passes a piece. On a screenshot it calibrates against known references and marks estimates with "~". With a Figma server connected, it takes exact values from Figma. Without a browser tool, it audits the CSS values directly and says the render was not checked.
 
 ## Modes
 
 | Mode | What it does | Ask in English | Spanish it also understands | Touches files? |
 |---|---|---|---|---|
 | **Review** | Verdict, diagnosis and corrections with exact values | "Review this", "What would you change?", "Is this OK?", `/dimeyes` | "pásale el ojo", "revísalo", "critica", "¿qué le cambiarías?", "¿está bien?", "¿lo firmarías?", "dame feedback" | No |
-| **Correct** | Reviews, then applies the corrections and runs a final polish sweep | "Correct it", "Polish it", "Fix it" | "corrígelo", "púlelo", "arréglalo", "mejóralo", "aplícalo" | Editable files only |
+| **Correct** | Reviews, then applies the corrections, finishes them to the pixel and judges the render with fresh eyes beside the original | "Correct it", "Polish it", "Fix it" | "corrígelo", "púlelo", "arréglalo", "mejóralo", "aplícalo" | Editable files only |
 | **Audit** | Objective evaluation by dimension and a prioritised list of improvements | "Just audit it", "Only your opinion, don't change anything", `/dimeyes audit` | "solo audita", "solo tu opinión", "sin tocar nada", "qué habría que mejorar" | Never |
-| **Design** | Designs or redesigns with his process, then self-reviews with his eye | "Design…", "Redesign…", "Design it the way Dimitri would", `/dimeyes design …` | "diseña", "crea", "maqueta", "hazme", "rediseña", "diseña como yo" | Yes |
+| **Design** | Designs or redesigns with his process, then judges the render with fresh eyes | "Design…", "Redesign…", "Design it the way Dimitri would", `/dimeyes design …` | "diseña", "crea", "maqueta", "hazme", "rediseña", "diseña como yo" | Yes |
 
 When the ask is ambiguous, it reviews and offers to correct. It never edits a file you only asked an opinion about.
 
@@ -102,9 +102,9 @@ If other design skills are installed, Dimeyes owns the process, the order and th
 
 It answers in the language you write in, in the first person and in his voice: direct, short sentences and concrete values. Hard on the design, never on the person.
 
-**Verdict.** One of three, in the language of your request, with one sentence on what makes or breaks the harmony: *I'd sign it*, *I'd sign it with changes* or *I wouldn't sign it*. On a screen or a page the verdict follows what the eye sees: when the corrected version isn't visibly different at real size and nothing about use is wrong, it is *I'd sign it*, with the fixes listed as Details. A problem of use (a small touch target, a missing state) keeps its grade, and the verdict with it.
+**Verdict.** One of three, in the language of your request, with one sentence on what makes or breaks the harmony: *I'd sign it*, *I'd sign it with changes* or *I wouldn't sign it*. *I'd sign it* means he would publish that exact render today; when in doubt, the harsher grade. An independent reader gives the verdict when one is available; otherwise the answer says the verdict is the author's. On a screen or a page (never on a graphic piece) the verdict follows what the eye sees: when the corrected version isn't visibly different at real size and nothing about use is wrong, it is *I'd sign it*, with the fixes listed as Details. A problem of use (a small touch target, a missing state) keeps its grade, and the verdict with it.
 
-**Depth.** *Polish*, *Rebuild parts* or *Redo*, with one sentence explaining the choice. Dimeyes looks at what the audience should see, understand or do, recognises what gives the piece its character, and changes what prevents that reading. Several elements may need to move together. For a catalogue template with a weak premise, it compares compositions using the real content and keeps the original visual language through the rebuild. A new visual direction belongs to a brief that asks for one. It delivers the stronger composition in editable layers when available.
+**Depth.** *Keep*, *Fix as asked*, *Polish*, *Recompose* or *Redesign*, chosen from the grade of the original, with one sentence explaining the choice. A near-copy of a weak original fails, and so does a drift away from its style. Dimeyes looks at what the audience should see, understand or do, recognises what gives the piece its character, and changes what prevents that reading. Several elements may need to move together. For a catalogue template with a weak premise, it compares compositions using the real content and keeps the original visual language through the rebuild. A new visual direction belongs to a brief that asks for one. It delivers the stronger composition in editable layers when available.
 
 **Diagnosis.** Three to six points ordered by impact, not by list position. What repeats is grouped into one finding.
 
@@ -124,11 +124,11 @@ It answers in the language you write in, in the first person and in his voice: d
 
 Audit mode replaces the corrections with an **evaluation by dimension** (colour, hierarchy and focus, space and composition, coherence and consistency, legibility, interaction and UX, detail and scale), each rated Good, Needs work or Poor with the evidence behind it, followed by **what should improve**. No code and no corrected version.
 
-Anything it corrects or designs goes through a final polish sweep on the render before delivery: content word by word, the harmony test again, hierarchy, consistency, detail, and a check that no area got worse than the original.
+Anything it corrects or designs is judged on the render before delivery, at the size of use and beside the original: graphic pieces pass fifteen gates (better and the same family, protagonist, reading order, type, space, centring, rows, line breaks, edges, images and gradients, devices, signature, formats, robustness, scope).
 
 ## Benchmark
 
-The latest benchmark measures **Dimeyes v1.4**. Each of the 23 cases ran with and without the skill in a clean session, for 146 checks per condition. The v1.5 release records [Dimitri’s decisions on catalogue templates](references/calibration.md#five-moments-at-benediction-19-november-2026). Its formal benchmark has not been run.
+The latest benchmark measures **Dimeyes v1.4**. Each of the 23 cases ran with and without the skill in a clean session, for 146 checks per condition. The v1.5 release records [Dimitri’s decisions on catalogue templates](references/calibration.md#five-moments-at-benediction-19-november-2026). Its formal benchmark has not been run, nor has 1.6's; 1.6 was checked with Dimitri's blind picks (see the changelog).
 
 | Run | Checks passed | Score |
 |---|---|---|
@@ -146,11 +146,13 @@ Judged by Dimitri himself, blind. On catalogue templates, the change 1.4 brings 
 
 ```text
 dimeyes/
-├── SKILL.md                  Process, modes, response format and the principles that travel to any style
+├── SKILL.md                  The method, modes, depth, verdict, response format and the principles that travel to any style
 ├── references/
-│   ├── eye.md                Checks by dimension and medium, the harmony test, severity calibration
+│   ├── graphic.md            His graphic hand: composition, space, type, images, signature, formats, templates, the gates
+│   ├── interface.md          Interfaces and projects: correcting at the source, the rethink, grading by sight
+│   ├── eye.md                The harmony test and the checks by dimension, severity calibration
 │   ├── voice.md              His real critiques, a complete example, the Spanish labels
-│   ├── calibration.md        His A/B decisions with reasons, critique priorities, source tiers
+│   ├── calibration.md        Evidence log: his tests, picks and words, by date (searched, never read whole)
 │   ├── system.md             How he builds: tokens, layout recipes, component specs, screen patterns
 │   ├── profile.md            His signature, with evidence
 │   ├── layouts.md            Measured layouts of his sites
@@ -158,13 +160,14 @@ dimeyes/
 ├── scripts/
 │   ├── measure.js            Measures a rendered layout in the browser
 │   ├── measure-graphic.js    Measures a graphic piece's spacing, rhythm and safe area
-│   └── measure-graphic.py    Runs it in headless Chrome at the canvas size
+│   ├── measure-graphic.py    Runs it in headless Chrome at the canvas size
+│   └── measure-ink-field.py  Clearances and centring from visible ink rectangles
 └── assets/
     ├── tokens.css            His tokens in CSS
     └── tailwind-preset.js    His tokens as a Tailwind preset
 ```
 
-Use `eye.md` and `voice.md` when reviewing someone else's design. The calibration notes record what Dimitri approved, what he asked to change and the reasons he gave. Use `system.md`, `profile.md`, `layouts.md`, `referents.md` and the token assets for Dimitri's own style.
+Read `graphic.md` for any graphic piece, and `eye.md` with `interface.md` for interfaces; `voice.md` before the first critique. The calibration notes record what Dimitri approved, what he asked to change and the reasons he gave. Use `system.md`, `profile.md`, `layouts.md`, `referents.md` and the token assets for Dimitri's own style.
 
 ## Updating
 
@@ -189,6 +192,7 @@ Claude.ai and Claude desktop: download the latest [dimeyes.zip](https://github.c
 
 ## Changelog
 
+- **1.6** (27 November 2026) — From Dimitri's 271 comments on about 300 catalogue templates redesigned in three formats, and from how those rounds were produced. SKILL.md is cut from 64 KB to a method an agent can read whole, opening with eight steps: look at the render, grade the original as hard as he would, write what keeps it recognisable and every defect, choose the depth from what breaks, compose, finish to the pixel, let a reader who didn't make it judge the renders beside the original, deliver. A new composition must beat a polish of the original's own; a near-copy (a named defect still showing) and a drift away from the piece's style are named failures; a concrete request changes only that; *I'd sign it* means publish this exact render; measurement locates and the eye judges; a batch never shrinks the method. New `references/graphic.md` holds his graphic hand and fifteen gates: equal space around an element between two neighbours, close inside and far between groups, the image yields first when space is short, type by role, smooth gradients, concentric curves, a signature aligned with the last line it faces and the same size in every format, each format composed on its own, templates that work with other texts. His spacing scale applies to the distances set in his products. Interface rules move to `references/interface.md`. In his blind check on four unseen templates, each redesigned by a clean session with 1.5.1 and with 1.6, the two tied 2–2, and he would publish all four of his picks as they are.
 - **1.5.1** (19 November 2026) — Design examples are identified by what they illustrate. The preset, CSS values and catalogue decisions are preserved. The published benchmark covers v1.4.
 - **1.5** (19 November 2026) — Dimeyes can recompose a dense template while preserving the typography, imagery and rhythm that give the original its character. It checks how headings, rows and branding align at reading size. Dimitri approved the five-step Benediction template after comparing it with the original, specifically for its style, clearer steps and the way the service time balances the parish logo. The published benchmark remains v1.4.
 - **1.4** (18 November 2026): catalogue templates, from Dimitri's blind rounds on 52 catalogue templates. Lines and frames are judged by their job: an outline that draws the image's shape, a frame with ornaments, the rule a quote stands on or a rule that gives the layout its symmetry stays and gets a clean execution, while a divider between parts the space already separates, an outline around text or the second line of a double frame goes. Stripping a piece's frames and reflowing the rest is no longer a correction: it leaves it bland. The space a correction frees goes first to what matters: when its field has room, the title, the hero figure or the photo ends bigger than in the original. Voids are measured, not eyeballed: in every panel, card or column the space above and below the group is compared, and a void the original already had gets fixed too. The logo slot aligns with the block it faces and uses free space outside the box before anything is squeezed; a line that completes the title joins its group; wide display faces get tighter tracking. In his last blind round the build this release grew from beat 1.3 by 12 to 4, with 1 tie and 3 neither, and by 6 to 3 on the twelve templates never tested.

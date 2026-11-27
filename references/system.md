@@ -1,6 +1,6 @@
 # Dimitri's design system: the playbook
 
-> **Scope: his style, not a template.** This file documents how Dimitri's own work looks and is built. Use it to design for him, for his own products or "like him", and to recognise his signature when reviewing his own work. A Catholic or parish subject is not his product. When a design has no system (a consistent 4- or 8-pt base already is one), fill the gap with his eye, never this file's look: his spacing scale, a short type ladder, the concentric-radius rule and colour roles built from the design's own palette, typefaces and shapes. Say which values you added. Never use it to push another design toward his look: other designs are judged in their own language with `eye.md` (see "Two layers" in SKILL.md).
+> **Scope: his style, not a template.** This file documents how Dimitri's own work looks and is built. Use it to design for him, for his own products or "like him", and to recognise his signature when reviewing his own work. It covers interfaces and websites only: never a graphic piece or a template. Ownership decides the bar, never the subject (SKILL.md, His eye and his style). When a design has no system (a consistent 4- or 8-pt base already is one), fill the gap with his eye, never this file's look: his spacing scale, a short type ladder, the concentric-radius rule and colour roles built from the design's own palette, typefaces and shapes. Say which values you added. Never use it to push another design toward his look: other designs are judged in their own language with `eye.md`.
 
 Read this before designing for Dimitri, for his products, or "like Dimitri". The result must be indistinguishable from something he designed and would sign.
 
@@ -21,7 +21,7 @@ Decide in this order, and settle each step before moving on.
    - *Quiet tool or catalogue* → the icon library system: monochrome, ink primary, radius 16 on controls, weights 400/500 at tracking 0, the product straight after a short hero.
    - *Persuasive landing or marketing page* → the stock-media library components on the email-design platform scale: display 64–160 at line height 1.0, 240 between sections, one pill per block.
    - *iOS app* → the app-board patterns (sheets, tab bar, §7 app screens) on the same tokens.
-   - If the project already has a brand or system, keep it and stop reading this file. Apply only SKILL.md "Designing → For an existing brand, client or style" and self-review with audit mode (`eye.md`). §2 and §3 describe his own work and never apply to someone else's brand.
+   - If the project already has a brand or system, keep it and stop reading this file. Design with SKILL.md's method and `interface.md` §5, and judge with `eye.md` (`eye.md`). §2 and §3 describe his own work and never apply to someone else's brand.
 2. **Structure and focus.** Take the section order from §7. One focal point per screen, one filled primary per block.
 3. **Colour system.** Follow the §4.5 recipe, and fix the accent budget before drawing any screen.
 4. **Type.** §4.2: one family (plus a serif only for what is read or felt) and a ladder with clear jumps.
