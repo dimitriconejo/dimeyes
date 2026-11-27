@@ -80,6 +80,15 @@ Any agent that supports the `SKILL.md` standard can load the folder as it is. Cl
 
 Skills on Claude.ai and Claude desktop need code execution turned on.
 
+## Make it govern your design work
+
+Once installed, Dimeyes says it governs every design decision and verdict. An agent still decides when to load a skill, and the instructions it reads in every session load above any skill, so add these two lines there (`CLAUDE.md`, `AGENTS.md` or your agent's equivalent) and remove any line there that names another design skill as the main guide:
+
+```markdown
+- Dimeyes governs every design, redesign, review, correction and design verdict: load it before touching a design, in every session and every sub-agent that designs or judges one. Other design skills serve only technical checks it doesn't cover.
+- When you coordinate other agents on design work, brief each one as Dimeyes says (Many pieces and other agents) and never lay out, grade, decide or sign a design yourself or with a script.
+```
+
 ## Usage
 
 It triggers on its own when you ask for a review, a correction or a design. You can also call it by name: `/dimeyes` in Claude Code, `$dimeyes` in Codex. It works on screenshots, mockups, Figma files, websites, UI code, templates and graphic pieces.
@@ -96,7 +105,7 @@ Diseña como yo una pantalla de ajustes.
 
 A narrow question about one value or one component gets a short answer, under about 100 words: the answer, the reason and the exception if there is one. A whole screen, page or piece gets the full review.
 
-If other design skills are installed, Dimeyes owns the process, the order and the output format while it is active, and consults them only for technical checks it doesn't cover, such as accessibility specifics, performance or motion code.
+If other design skills are installed, Dimeyes owns the process, the order, the verdict and the output format, and consults them only for technical checks it doesn't cover, such as accessibility specifics, performance or motion code.
 
 ## What you get back
 
@@ -192,6 +201,7 @@ Claude.ai and Claude desktop: download the latest [dimeyes.zip](https://github.c
 
 ## Changelog
 
+- **1.6.1** (27 November 2026) — Dimeyes governs every design once installed, named or not: only the person's own words, as they said them, override it; it outranks other design guidance, a coordinator's brief, recipes, scripts, scores, validators and deadlines, and keeps a client's identity and the product's real constraints as inputs. Agents show they read it whole by writing its section titles. A coordinator gives each designer and the independent reader a fixed brief, sends a piece back only with a reader's findings or a failed production check, never lays out, decides or signs a design, and stops at named signs of bypass (code that lays out many pieces, contact sheets, scripts or scores that judge). The description names batches, scripts and coordinated agents and is back under 1,024 characters; the README shows the two lines for an agent's instructions. In a dry run, a coordinator given a request for 90 templates in one hour followed the brief, read the skill whole, set aside the conflicting rules and told the owner what the method could deliver in that time.
 - **1.6** (27 November 2026) — From Dimitri's 271 comments on about 300 catalogue templates redesigned in three formats, and from how those rounds were produced. SKILL.md is cut from 64 KB to a method an agent can read whole, opening with eight steps: look at the render, grade the original as hard as he would, write what keeps it recognisable and every defect, choose the depth from what breaks, compose, finish to the pixel, let a reader who didn't make it judge the renders beside the original, deliver. A new composition must beat a polish of the original's own; a near-copy (a named defect still showing) and a drift away from the piece's style are named failures; a concrete request changes only that; *I'd sign it* means publish this exact render; measurement locates and the eye judges; a batch never shrinks the method. New `references/graphic.md` holds his graphic hand and fifteen gates: equal space around an element between two neighbours, close inside and far between groups, the image yields first when space is short, type by role, smooth gradients, concentric curves, a signature aligned with the last line it faces and the same size in every format, each format composed on its own, templates that work with other texts. His spacing scale applies to the distances set in his products. Interface rules move to `references/interface.md`. In his blind check on four unseen templates, each redesigned by a clean session with 1.5.1 and with 1.6, the two tied 2–2, and he would publish all four of his picks as they are.
 - **1.5.1** (19 November 2026) — Design examples are identified by what they illustrate. The preset, CSS values and catalogue decisions are preserved. The published benchmark covers v1.4.
 - **1.5** (19 November 2026) — Dimeyes can recompose a dense template while preserving the typography, imagery and rhythm that give the original its character. It checks how headings, rows and branding align at reading size. Dimitri approved the five-step Benediction template after comparing it with the original, specifically for its style, clearer steps and the way the service time balances the parish logo. The published benchmark remains v1.4.
