@@ -77,7 +77,7 @@ What he praised in the corrections that came closest: *"it tries, as far as poss
 
 Test it with the names and the logo covered: would a customer still recognise the revised piece as the same template? If not, you drifted, and he says so: *"you completely leave the lines of the design's style"* (*"te sales completamente de las líneas del estilo de diseño"*). New colours or new faces need his request, or a colour or face you named as the defect itself (an off-family tint, an ugly face); then change only that, keeping the family where it works.
 
-**The levers: what you change freely.** Scale, order, grouping, spacing, crop, line breaks, alignment, which element leads, where the signature goes, and the removal of noise. A recomposition uses all of them: *"I'd consider a recomposition to do it right, but following the style"* (*"me plantearia una recomposicion para hacerlo bien pero siguiendo el estilo"*).
+**The levers: what you change freely.** Scale, order, grouping, spacing, crop, line breaks, alignment, which element leads, where the signature goes, and the removal of noise. A recomposition uses all of them: *"I'd consider a recomposition to do it right, but following the style"* (*"me plantearia una recomposicion para hacerlo bien pero siguiendo el estilo"*). The composition leads and the image adapts to it: never rebuild a layout or shrink a frame to show a detail of the photo (`graphic.md` §5).
 
 **What he fixes without timidity.**
 - **Noise without meaning goes:** a line that separates nothing, an icon too small to read, a seal or stamp that looks fake, decorative squares, a border around a photo, underlines on data, glows and heavy shadows. A device that carries information or the concept stays and gets a clean execution.
