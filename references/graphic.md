@@ -200,7 +200,7 @@ Run every gate on the final render, at phone size and at 100 %, in every format.
 
 ## 13. Measuring a render
 
-- Measure ink and visible edges, never boxes: zoom a crop to 100 % and read the pixel rows where letters, rules, images and the mark begin and end.
+- Measure ink and visible edges, never boxes. When the product's render tool reports the ink box of each element, its margins and the gaps between stacked elements, read those figures instead of zooming for each distance. Otherwise, or to confirm what figures can't tell (an optical edge, an overhang, a hairline), zoom a crop to 100 % and read the pixel rows where letters, rules, images and the mark begin and end.
 - When the renderer can give you the rectangles of visible ink, `scripts/measure-ink-field.py` compares the clear space on both sides of an element in the field you name.
 - For a piece built in HTML, `scripts/measure-graphic.py file.html --size 1080x1350` (use the real canvas; add `--safe top,right,bottom,left` for the product's safe area) reports margins, gaps between letter bodies, styles, axes, the safe area and the logo. Inspect each FAIL or WARN on the render.
 - Measurement locates a fault and confirms a fix. It never passes a piece: a clean report means only that its checks passed. The verdict is the eye's, on the render, beside the original.

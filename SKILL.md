@@ -36,7 +36,15 @@ Anyone you hand a piece or a verdict to reads these files whole themselves. A su
 
 Review and audit run steps 1–4 on the piece as it is and answer as in step 8, with the corrections as exact values and no files edited. Correct and design run all eight.
 
-**Looking** means opening that piece's own render at its size of use and at 100 %. A contact sheet, a grid of thumbnails or a dump of coordinates is not looking. A piece you did not look at is a piece you did not design. Code may write down a decision or a verdict; it never takes either.
+**Looking** means opening that piece's own render at its size of use and at 100 %. A contact sheet of many pieces, a grid of thumbnails or a dump of coordinates is not looking. A piece you did not look at is a piece you did not design. Code may write down a decision or a verdict; it never takes either.
+
+**Look where it decides.** The quality is in the looking and the judgement, never in the number of reads, so spend them where they decide:
+- Render every format and candidate of a piece in one call and look at them first at the size of use, side by side: one image of one piece's formats or candidates, each at phone width, is looking at the size of use.
+- At 100 %, open crops of the areas you are checking, and each whole render once, when the piece is finished and before the reader sees it.
+- Take distances, edges and safe-area margins from a tool that measures the render's ink rather than from repeated zooms; confirm on a crop what figures can't tell (an optical edge, an overhang, a hairline). The eye still decides.
+- Fix in one round every named defect that doesn't interact with the others, then render. A render per nudge spends the reading on nothing.
+- Send independent reads and renders together in one step, never one per step.
+- Keep notes to the DNA, the defect list and each decision with its reason. Don't re-read a file your context still holds whole.
 
 ## His eye and his style
 
@@ -148,7 +156,9 @@ The method does not shrink with the count or the deadline: one piece at a time, 
 
 No layout, recipe, target number, depth, example from another piece or rule written for another feature goes in the brief.
 
-**Briefing the reader.** Another agent gives the verdict as in step 7. Give it this skill's path with the same reading line, and the renders of the original and the result, unlabelled, in random order, in every format; nothing else: no notes, rubric, score or expected answer. Only pieces it signs reach the person or ship as finished; the rest go back once with its findings, then get a final reading (skipped when the findings were only small adjustments, as in step 7), and if still not signed are shown with their grade and what remains.
+Say who arranges the reading of step 7. When you do, the designer delivers its files, renders and answer and stops: it never starts or waits on a reader itself. A fix round goes to a fresh designer with the delivered files, the first designer's notes and the reader's findings in its words, not to a long context kept open. Give designers and readers only the tools the work needs (read, write, a shell): every tool an agent carries is read again on every step.
+
+**Briefing the reader.** Another agent gives the verdict as in step 7. Give it this skill's path with the same reading line, and the renders of the original and the result, unlabelled, in random order, in every format, prepared so it can look at once: per format, both at phone width side by side in one image, and each whole render for its 100 % look. Nothing else: no notes, rubric, score or expected answer. Its report is short: per format, what breaks in each and which one, if either, he would publish today. Only pieces it signs reach the person or ship as finished; the rest go back once with its findings, then get a final reading (skipped when the findings were only small adjustments, as in step 7), and if still not signed are shown with their grade and what remains.
 
 **What pieces share.** Only the product's real constraints (above) and, in a coordinated series, its grid, margins, type and signature (a catalogue is not a series: `graphic.md` §11). On an interface, the tokens and shared components are one piece, corrected first (`interface.md` §4). Never compose several pieces with one layout function, recipe table, shared position template or set of constants; never sort pieces into types to share a solution; never copy a composition value from one piece to another. When another template's original has this original's layout and the person approved its revision, you may start from that revision as a hypothesis and judge every value on this piece's renders; two templates must not read as one.
 
@@ -158,7 +168,7 @@ No layout, recipe, target number, depth, example from another piece or rule writ
 
 **Stop signs.** If you catch yourself doing any of these, stop and go back to the method:
 - writing code that loops over pieces to place or size their elements;
-- judging from a contact sheet, a grid of thumbnails or a list of coordinates;
+- judging from a contact sheet of many pieces, a grid of thumbnails or a list of coordinates;
 - writing a piece's rationale after its code ran;
 - letting a script, a validator or a score judge a design: failing a piece for keeping the original or for moving the brand slot, or passing it on a score;
 - working from part of this skill, from a summary of it, or from a context that was compacted since you read it;
